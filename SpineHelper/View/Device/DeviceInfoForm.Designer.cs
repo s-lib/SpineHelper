@@ -61,15 +61,19 @@
             this.labelName = new System.Windows.Forms.Label();
             this.labelVersion = new System.Windows.Forms.Label();
             this.groupBoxConfiguration = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.labelLanguageFactory = new System.Windows.Forms.Label();
+            this.labelLanguageVal = new System.Windows.Forms.Label();
+            this.labelLanguage = new System.Windows.Forms.Label();
+            this.labelVolumeFactory = new System.Windows.Forms.Label();
+            this.labelVolumeVal = new System.Windows.Forms.Label();
+            this.labelVolume = new System.Windows.Forms.Label();
             this.labelSpThFactoryVal = new System.Windows.Forms.Label();
             this.labelSpThCurrentVal = new System.Windows.Forms.Label();
-            this.labelSpThFactory = new System.Windows.Forms.Label();
-            this.labelSpThCurrent = new System.Windows.Forms.Label();
             this.labelThreshold = new System.Windows.Forms.Label();
             this.labelAmpFactoryVal = new System.Windows.Forms.Label();
             this.labelAmpCurrentVal = new System.Windows.Forms.Label();
-            this.labelAmpFactory = new System.Windows.Forms.Label();
-            this.labelAmpCurrent = new System.Windows.Forms.Label();
             this.labelAmplifier = new System.Windows.Forms.Label();
             this.tensionUC = new SpineHelper.View.Device.TensionUC();
             this.groupBoxGeneral.SuspendLayout();
@@ -266,18 +270,62 @@
             // groupBoxConfiguration
             // 
             resources.ApplyResources(this.groupBoxConfiguration, "groupBoxConfiguration");
+            this.groupBoxConfiguration.Controls.Add(this.label2);
+            this.groupBoxConfiguration.Controls.Add(this.label1);
+            this.groupBoxConfiguration.Controls.Add(this.labelLanguageFactory);
+            this.groupBoxConfiguration.Controls.Add(this.labelLanguageVal);
+            this.groupBoxConfiguration.Controls.Add(this.labelLanguage);
+            this.groupBoxConfiguration.Controls.Add(this.labelVolumeFactory);
+            this.groupBoxConfiguration.Controls.Add(this.labelVolumeVal);
+            this.groupBoxConfiguration.Controls.Add(this.labelVolume);
             this.groupBoxConfiguration.Controls.Add(this.labelSpThFactoryVal);
             this.groupBoxConfiguration.Controls.Add(this.labelSpThCurrentVal);
-            this.groupBoxConfiguration.Controls.Add(this.labelSpThFactory);
-            this.groupBoxConfiguration.Controls.Add(this.labelSpThCurrent);
             this.groupBoxConfiguration.Controls.Add(this.labelThreshold);
             this.groupBoxConfiguration.Controls.Add(this.labelAmpFactoryVal);
             this.groupBoxConfiguration.Controls.Add(this.labelAmpCurrentVal);
-            this.groupBoxConfiguration.Controls.Add(this.labelAmpFactory);
-            this.groupBoxConfiguration.Controls.Add(this.labelAmpCurrent);
             this.groupBoxConfiguration.Controls.Add(this.labelAmplifier);
             this.groupBoxConfiguration.Name = "groupBoxConfiguration";
             this.groupBoxConfiguration.TabStop = false;
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // labelLanguageFactory
+            // 
+            resources.ApplyResources(this.labelLanguageFactory, "labelLanguageFactory");
+            this.labelLanguageFactory.Name = "labelLanguageFactory";
+            // 
+            // labelLanguageVal
+            // 
+            resources.ApplyResources(this.labelLanguageVal, "labelLanguageVal");
+            this.labelLanguageVal.Name = "labelLanguageVal";
+            // 
+            // labelLanguage
+            // 
+            resources.ApplyResources(this.labelLanguage, "labelLanguage");
+            this.labelLanguage.Name = "labelLanguage";
+            // 
+            // labelVolumeFactory
+            // 
+            resources.ApplyResources(this.labelVolumeFactory, "labelVolumeFactory");
+            this.labelVolumeFactory.Name = "labelVolumeFactory";
+            // 
+            // labelVolumeVal
+            // 
+            resources.ApplyResources(this.labelVolumeVal, "labelVolumeVal");
+            this.labelVolumeVal.Name = "labelVolumeVal";
+            // 
+            // labelVolume
+            // 
+            resources.ApplyResources(this.labelVolume, "labelVolume");
+            this.labelVolume.Name = "labelVolume";
             // 
             // labelSpThFactoryVal
             // 
@@ -288,16 +336,6 @@
             // 
             resources.ApplyResources(this.labelSpThCurrentVal, "labelSpThCurrentVal");
             this.labelSpThCurrentVal.Name = "labelSpThCurrentVal";
-            // 
-            // labelSpThFactory
-            // 
-            resources.ApplyResources(this.labelSpThFactory, "labelSpThFactory");
-            this.labelSpThFactory.Name = "labelSpThFactory";
-            // 
-            // labelSpThCurrent
-            // 
-            resources.ApplyResources(this.labelSpThCurrent, "labelSpThCurrent");
-            this.labelSpThCurrent.Name = "labelSpThCurrent";
             // 
             // labelThreshold
             // 
@@ -313,16 +351,6 @@
             // 
             resources.ApplyResources(this.labelAmpCurrentVal, "labelAmpCurrentVal");
             this.labelAmpCurrentVal.Name = "labelAmpCurrentVal";
-            // 
-            // labelAmpFactory
-            // 
-            resources.ApplyResources(this.labelAmpFactory, "labelAmpFactory");
-            this.labelAmpFactory.Name = "labelAmpFactory";
-            // 
-            // labelAmpCurrent
-            // 
-            resources.ApplyResources(this.labelAmpCurrent, "labelAmpCurrent");
-            this.labelAmpCurrent.Name = "labelAmpCurrent";
             // 
             // labelAmplifier
             // 
@@ -387,16 +415,20 @@
         private System.Windows.Forms.GroupBox groupBoxConfiguration;
         private System.Windows.Forms.Label labelAmpFactoryVal;
         private System.Windows.Forms.Label labelAmpCurrentVal;
-        private System.Windows.Forms.Label labelAmpFactory;
-        private System.Windows.Forms.Label labelAmpCurrent;
         private System.Windows.Forms.Label labelAmplifier;
         private System.Windows.Forms.Label labelSpThFactoryVal;
         private System.Windows.Forms.Label labelSpThCurrentVal;
-        private System.Windows.Forms.Label labelSpThFactory;
-        private System.Windows.Forms.Label labelSpThCurrent;
         private System.Windows.Forms.Label labelThreshold;
         private System.Windows.Forms.Label labelUSBChipVal;
         private System.Windows.Forms.Label labelUSBChip;
         private TensionUC tensionUC;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelLanguageFactory;
+        private System.Windows.Forms.Label labelLanguageVal;
+        private System.Windows.Forms.Label labelLanguage;
+        private System.Windows.Forms.Label labelVolumeFactory;
+        private System.Windows.Forms.Label labelVolumeVal;
+        private System.Windows.Forms.Label labelVolume;
     }
 }

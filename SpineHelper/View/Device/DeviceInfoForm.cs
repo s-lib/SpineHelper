@@ -28,7 +28,7 @@ namespace SpineHelper.View.Device
 
         private void InitLabels()
         {
-            labelVersion.Text = labelVersion.Text + Spinetester.instance.Model.Version;
+            labelVersion.Text = labelVersion.Text + Spinetester.instance.Model.VersionString;
             // Hardware
             labelSerialVal.Text = Spinetester.instance.Model.SerialString;
             labelFirmwareVal.Text = Spinetester.instance.Model.FirmwareString;
@@ -53,6 +53,16 @@ namespace SpineHelper.View.Device
             // Spine threashold
             labelSpThCurrentVal.Text = Spinetester.instance.Settings.SpineDifference.ToString();
             labelSpThFactoryVal.Text = Spinetester.instance.Factory.SpineDifference.ToString();
+
+            // Speaker volume
+            labelVolumeVal.Text = Spinetester.instance.Settings.SpeakerVolume.ToString();
+            labelVolumeFactory.Text = Spinetester.instance.Factory.SpeakerVolume.ToString();
+
+            // Language
+            labelLanguageVal.Text = DeviceSettings.GetLanguageName(Spinetester.instance.Settings.Language);
+            labelLanguageFactory.Text = DeviceSettings.GetLanguageName(0);
+
+
 
             if (Spinetester.instance.Model.Firmware < 1.1)
             {

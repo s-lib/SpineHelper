@@ -171,23 +171,23 @@
   <data name="labelVersion.Text" xml:space="preserve">
     <value>Model </value>
   </data>
-  <data name="labelSpThFactory.Text" xml:space="preserve">
-    <value>Fabrycznie:</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Fabr.:</value>
   </data>
-  <data name="labelSpThCurrent.Text" xml:space="preserve">
-    <value>Aktualnie:</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Aktual.:</value>
+  </data>
+  <data name="labelLanguage.Text" xml:space="preserve">
+    <value>Język:</value>
+  </data>
+  <data name="labelVolume.Text" xml:space="preserve">
+    <value>Głośność:</value>
   </data>
   <data name="labelThreshold.Text" xml:space="preserve">
-    <value>Próg w teście spinu:</value>
-  </data>
-  <data name="labelAmpFactory.Text" xml:space="preserve">
-    <value>Fabrycznie:</value>
-  </data>
-  <data name="labelAmpCurrent.Text" xml:space="preserve">
-    <value>Aktualnie:</value>
+    <value>Próg spinu:</value>
   </data>
   <data name="labelAmplifier.Text" xml:space="preserve">
-    <value>Częst. odśw. wzmacniaczy:</value>
+    <value>Częst. wzmacn.:</value>
   </data>
   <data name="groupBoxConfiguration.Text" xml:space="preserve">
     <value>Ustawienia</value>
