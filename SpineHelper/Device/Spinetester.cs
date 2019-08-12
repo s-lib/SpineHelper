@@ -117,10 +117,6 @@ namespace SpineHelper.Device
                     this.state = DeviceState.SpineTestDone;
                     CurrentArrow.Spine.Set(values);
                     break;
-                case DeviceCodes.CODE_SPINE_CALIBRATION:
-                    this.state = DeviceState.SpineCalibration;
-                    TensionSaved.GetData(values);
-                    break;
                 case DeviceCodes.CODE_STRAIGHTNESS:
                     this.state = DeviceState.StraightnessTestDone;
                     CurrentArrow.Straightness.Set(values);

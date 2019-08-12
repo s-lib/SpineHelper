@@ -488,4 +488,7 @@ You can also manually enter the calibration value without doing the tests, but t
   <data name="ManualLink" xml:space="preserve">
     <value>http://daedalus.pl/spinehelper/SpineHelper_Manual_PL.pdf</value>
   </data>
+  <data name="LanguageUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
 </root>

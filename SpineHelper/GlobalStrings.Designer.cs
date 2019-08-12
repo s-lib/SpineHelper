@@ -682,6 +682,15 @@ namespace SpineHelper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Unknown.
+        /// </summary>
+        internal static string LanguageUnknown {
+            get {
+                return ResourceManager.GetString("LanguageUnknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to http://daedalus.pl/spinehelper/SpineHelper_Manual_PL.pdf.
         /// </summary>
         internal static string ManualLink {
