@@ -99,7 +99,6 @@ namespace SpineHelper
                 var selectedPort = availablePorts.First((p) => p.index == portIndex);
                 port.PortName = selectedPort.name;
                 port.Open();
-                port.Write(DeviceCodes.DEVICE_CODE_GET_SCALE);
                 SetConnectionState(DeviceState.ConnectionAttempt);
                 USBName = selectedPort.fullName;
             }
