@@ -117,164 +117,614 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="groupBoxAmp.Text" xml:space="preserve">
-    <value>Amplifier Update Frequency</value>
-  </data>
-  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="numericSpine.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="labelSpThCurrent.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelSpThCurrentVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;labelSpThFactoryVal.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelAmpCurrentVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="labelSpThFactory.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="numericAmp.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="labelAmpFactoryVal.Text" xml:space="preserve">
-    <value>----</value>
-  </data>
-  <data name="labelAmpFactoryVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="labelAmpFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
-  </data>
-  <data name="labelSpThFactory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 50</value>
-  </data>
-  <data name="labelAmpFactory.Text" xml:space="preserve">
-    <value>Factory def.:</value>
-  </data>
-  <data name="&gt;&gt;labelSpThCurrentVal.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelAmpCurrent.Parent" xml:space="preserve">
-    <value>groupBoxAmp</value>
-  </data>
-  <data name="labelSpThCurrent.Text" xml:space="preserve">
-    <value>Current:</value>
-  </data>
-  <data name="labelSpThCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="buttonClose.ToolTip" xml:space="preserve">
-    <value />
+  <data name="buttonApplySpine.Text" xml:space="preserve">
+    <value>Apply to the Device</value>
   </data>
   <data name="&gt;&gt;labelSpThCurrent.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="labelAmpFactoryVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="labelVolumeFactory.Text" xml:space="preserve">
+    <value>Factory def.:</value>
+  </data>
+  <data name="buttonApplyVolume.Text" xml:space="preserve">
+    <value>Apply to the Device</value>
+  </data>
+  <data name="numericSpine.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelVolumeFactoryVal.Name" xml:space="preserve">
+    <value>labelVolumeFactoryVal</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelAmpFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelLanguageFactoryVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;labelAmpCurrentVal.Name" xml:space="preserve">
+    <value>labelAmpCurrentVal</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAmpCurrentVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelLanguageCurrent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelSpThCurrentVal.Name" xml:space="preserve">
+    <value>labelSpThCurrentVal</value>
+  </data>
+  <data name="&gt;&gt;trackBarVolume.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="groupBoxAmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 110</value>
+  </data>
+  <data name="labelLanguageFactoryVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="buttonClose.Text" xml:space="preserve">
-    <value>Close</value>
+  <data name="labelSpThFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="labelAmpFactoryVal.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
+  <data name="labelLanguageFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
-  <data name="numericSpine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>286, 34</value>
+  <data name="labelAmpCurrentVal.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Other Settings</value>
+  <data name="labelAmpFactory.Text" xml:space="preserve">
+    <value>Factory def.:</value>
   </data>
-  <data name="&gt;&gt;labelSpThFactory.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;labelAmpFactory.Parent" xml:space="preserve">
+    <value>groupBoxAmp</value>
   </data>
-  <data name="buttonApplySpine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="numericAmp.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="labelAmpCurrentVal.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
+  <data name="groupBoxAmp.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;buttonApplySpine.Name" xml:space="preserve">
+    <value>buttonApplySpine</value>
+  </data>
+  <data name="buttonClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;labelSpThCurrentVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelVolumeCurrent.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
   </data>
   <data name="&gt;&gt;numericSpine.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>7</value>
   </data>
-  <data name="labelSpThCurrentVal.TabIndex" type="System.Int32, mscorlib">
-    <value>54</value>
+  <data name="groupBoxVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelSpThCurrent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="buttonApplyLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 25</value>
   </data>
   <data name="&gt;&gt;labelAmpCurrentVal.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="labelAmpCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="labelVolumeCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
     <value>106, 25</value>
+  </data>
+  <data name="trackBarVolume.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxVolume.Text" xml:space="preserve">
+    <value>Speaker Volume</value>
+  </data>
+  <data name="labelVolumeFactoryVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelVolumeFactoryVal.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
   </data>
   <data name="&gt;&gt;labelSpThCurrent.Parent" xml:space="preserve">
     <value>groupBoxSpineDiff</value>
   </data>
-  <data name="&gt;&gt;labelAmpCurrent.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="buttonApplySpine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 62</value>
   </data>
-  <data name="numericAmp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>286, 132</value>
+  <data name="&gt;&gt;labelAmpFactoryVal.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="labelSpThFactoryVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="groupBoxSpineDiff.Text" xml:space="preserve">
+    <value>Spine Test Threshold</value>
   </data>
-  <data name="buttonApplyAmp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 25</value>
+  <data name="groupBoxSpineDiff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 80</value>
   </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonApplyAmp.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="labelSpThFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
-  </data>
-  <data name="labelAmpFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;labelAmpFactoryVal.Name" xml:space="preserve">
-    <value>labelAmpFactoryVal</value>
+  <data name="&gt;&gt;numericSpine.Name" xml:space="preserve">
+    <value>numericSpine</value>
   </data>
   <data name="buttonApplySpine.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Other Settings</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericSpine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 29</value>
+  </data>
+  <data name="labelLanguageCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 25</value>
+  </data>
+  <data name="buttonApplyAmp.Text" xml:space="preserve">
+    <value>Apply to the Device</value>
+  </data>
+  <data name="groupBoxVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 213</value>
+  </data>
+  <data name="buttonApplyAmp.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;labelAmpFactoryVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelVolumeCurrent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;groupBoxVolume.Name" xml:space="preserve">
+    <value>groupBoxVolume</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyAmp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelAmpFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSpineDiff.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;numericSpine.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelAmpCurrentVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelSpThCurrentVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>488, 470</value>
+  </data>
+  <data name="labelAmpCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="buttonApplyAmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 25</value>
+  </data>
+  <data name="labelLanguageFactoryVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyVolume.Name" xml:space="preserve">
+    <value>buttonApplyVolume</value>
+  </data>
+  <data name="groupBoxAmp.Text" xml:space="preserve">
+    <value>Amplifier Update Frequency</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeFactory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelLanguageFactory.Text" xml:space="preserve">
+    <value>Factory def.:</value>
+  </data>
+  <data name="groupBoxSpineDiff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="labelLanguageCurrentVal.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactoryVal.Name" xml:space="preserve">
+    <value>labelLanguageFactoryVal</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactory.Name" xml:space="preserve">
+    <value>labelLanguageFactory</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonApplyAmp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguage.Name" xml:space="preserve">
+    <value>comboBoxLanguage</value>
+  </data>
+  <data name="numericAmp.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeCurrent.Parent" xml:space="preserve">
+    <value>groupBoxVolume</value>
+  </data>
+  <data name="&gt;&gt;labelSpThFactoryVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericSpine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="&gt;&gt;numericAmp.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelLanguageFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;labelAmpFactory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 241</value>
+  </data>
+  <data name="groupBoxLanguage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelLanguageCurrent.Name" xml:space="preserve">
+    <value>labelLanguageCurrent</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeFactoryVal.Parent" xml:space="preserve">
+    <value>groupBoxVolume</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactoryVal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactory.Parent" xml:space="preserve">
+    <value>groupBoxLanguage</value>
+  </data>
+  <data name="&gt;&gt;buttonApplySpine.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeCurrentVal.Parent" xml:space="preserve">
+    <value>groupBoxVolume</value>
+  </data>
+  <data name="&gt;&gt;labelAmpFactory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelSpThCurrent.Text" xml:space="preserve">
+    <value>Current:</value>
+  </data>
+  <data name="buttonApplyVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelVolumeFactoryVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericVolume.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="numericVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelVolumeCurrentVal.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="labelLanguageFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 50</value>
+  </data>
+  <data name="labelLanguageCurrent.Text" xml:space="preserve">
+    <value>Current:</value>
+  </data>
+  <data name="labelLanguageCurrentVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="labelVolumeCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageCurrent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelSpThCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="labelSpThFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="labelSpThCurrent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;buttonApplyAmp.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;groupBoxLanguage.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="labelAmpFactoryVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="labelSpThFactoryVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="labelSpThCurrent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="groupBoxSpineDiff.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;labelVolumeCurrentVal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 433</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyVolume.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelSpThFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="comboBoxLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 24</value>
+  </data>
+  <data name="labelLanguageFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="labelSpThFactoryVal.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="labelAmpFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="labelVolumeFactoryVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="&gt;&gt;numericAmp.Name" xml:space="preserve">
+    <value>numericAmp</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeCurrent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyVolume.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelAmpFactoryVal.Text" xml:space="preserve">
+    <value>----</value>
   </data>
   <data name="&gt;&gt;labelSpThCurrentVal.Parent" xml:space="preserve">
     <value>groupBoxSpineDiff</value>
+  </data>
+  <data name="&gt;&gt;numericSpine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelAmpFactoryVal.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="labelLanguageCurrent.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="labelSpThCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;labelAmpCurrent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeFactory.Parent" xml:space="preserve">
+    <value>groupBoxVolume</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSpineDiff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonApplyVolume.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAmpFactoryVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBoxAmp.Name" xml:space="preserve">
+    <value>groupBoxAmp</value>
+  </data>
+  <data name="groupBoxVolume.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBoxVolume.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelAmpFactory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonClose.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSpThFactory.Text" xml:space="preserve">
+    <value>Factory def.:</value>
+  </data>
+  <data name="labelVolumeFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelVolumeFactory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 25</value>
+  </data>
+  <data name="labelLanguageCurrent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSpThCurrentVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="buttonApplySpine.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="groupBoxAmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 80</value>
+  </data>
+  <data name="labelSpThFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactoryVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelAmpCurrentVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelSpThFactory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelSpThCurrent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericVolume.Name" xml:space="preserve">
+    <value>numericVolume</value>
+  </data>
+  <data name="labelAmpCurrentVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 328</value>
+  </data>
+  <data name="labelVolumeCurrentVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;groupBoxAmp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLanguage.Name" xml:space="preserve">
+    <value>groupBoxLanguage</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeFactory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonApplyLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonApplySpine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 25</value>
+  </data>
+  <data name="labelVolumeCurrentVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="&gt;&gt;labelSpThFactory.Parent" xml:space="preserve">
+    <value>groupBoxSpineDiff</value>
+  </data>
+  <data name="&gt;&gt;numericAmp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSpThFactoryVal.Name" xml:space="preserve">
+    <value>labelSpThFactoryVal</value>
+  </data>
+  <data name="labelAmpFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numericVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelVolumeCurrentVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageCurrentVal.Parent" xml:space="preserve">
+    <value>groupBoxLanguage</value>
+  </data>
+  <data name="&gt;&gt;trackBarVolume.Name" xml:space="preserve">
+    <value>trackBarVolume</value>
+  </data>
+  <data name="labelLanguageCurrentVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="labelLanguageFactoryVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;numericVolume.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonApplyAmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 160</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyAmp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBoxVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 80</value>
+  </data>
+  <data name="labelVolumeCurrentVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBarVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAmpFactoryVal.Name" xml:space="preserve">
+    <value>labelAmpFactoryVal</value>
+  </data>
+  <data name="labelSpThCurrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelSpThFactoryVal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelAmpCurrent.Name" xml:space="preserve">
+    <value>labelAmpCurrent</value>
+  </data>
+  <data name="buttonApplyLanguage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelSpThCurrentVal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBoxLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="labelLanguageCurrentVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelLanguageFactoryVal.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="labelAmpFactoryVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonApplyAmp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelLanguageCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelVolumeFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactoryVal.Parent" xml:space="preserve">
+    <value>groupBoxLanguage</value>
+  </data>
+  <data name="labelSpThFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelAmpFactoryVal.Parent" xml:space="preserve">
+    <value>groupBoxAmp</value>
+  </data>
+  <data name="&gt;&gt;labelSpThFactory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeCurrent.Name" xml:space="preserve">
+    <value>labelVolumeCurrent</value>
+  </data>
+  <data name="buttonApplyLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 363</value>
+  </data>
+  <data name="labelSpThCurrentVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="groupBoxAmp.ToolTip" xml:space="preserve">
     <value>This value represents how many readings per second the amplifiers will try to get from the sensors.
@@ -283,311 +733,290 @@ The higher the value, the more stable the readings will be, but at the cost of o
 
 Suggested value is 5-7 for standard HX711, and 20-40 for high quality shielded HX711.</value>
   </data>
-  <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 25</value>
+  <data name="&gt;&gt;labelLanguageCurrentVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;labelVolumeCurrent.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelVolumeCurrent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAmpCurrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelLanguageCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="groupBoxSpineDiff.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSpineDiff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelAmpCurrent.Text" xml:space="preserve">
     <value>Current:</value>
   </data>
-  <data name="labelSpThCurrent.TabIndex" type="System.Int32, mscorlib">
-    <value>52</value>
-  </data>
-  <data name="&gt;&gt;labelSpThFactoryVal.Parent" xml:space="preserve">
-    <value>groupBoxSpineDiff</value>
-  </data>
-  <data name="groupBoxSpineDiff.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="&gt;&gt;labelSpThFactoryVal.Name" xml:space="preserve">
-    <value>labelSpThFactoryVal</value>
-  </data>
-  <data name="labelSpThFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 50</value>
-  </data>
-  <data name="&gt;&gt;labelAmpFactory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelSpThFactory.Text" xml:space="preserve">
-    <value>Factory def.:</value>
-  </data>
-  <data name="labelSpThFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="labelAmpFactory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 50</value>
-  </data>
-  <data name="buttonApplyAmp.Text" xml:space="preserve">
-    <value>Apply to the Device</value>
-  </data>
-  <data name="&gt;&gt;labelAmpCurrentVal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelAmpCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyAmp.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;numericAmp.Name" xml:space="preserve">
-    <value>numericAmp</value>
-  </data>
-  <data name="&gt;&gt;groupBoxAmp.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="labelAmpCurrent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>OtherSettingsForm</value>
   </data>
-  <data name="&gt;&gt;labelAmpFactoryVal.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="labelLanguageCurrentVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;buttonApplySpine.Name" xml:space="preserve">
-    <value>buttonApplySpine</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
-    <value>toolTip1</value>
-  </data>
-  <data name="&gt;&gt;labelAmpCurrentVal.Name" xml:space="preserve">
-    <value>labelAmpCurrentVal</value>
-  </data>
-  <data name="&gt;&gt;labelAmpFactoryVal.Parent" xml:space="preserve">
-    <value>groupBoxAmp</value>
-  </data>
-  <data name="groupBoxSpineDiff.Text" xml:space="preserve">
-    <value>Spine Test Threshold</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySpine.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="numericAmp.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="labelSpThFactoryVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="numericSpine.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="labelAmpCurrent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="labelSpThFactoryVal.TabIndex" type="System.Int32, mscorlib">
-    <value>55</value>
-  </data>
-  <data name="labelAmpFactory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="labelAmpCurrentVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
-  </data>
-  <data name="labelAmpFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelSpThFactoryVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="labelAmpCurrentVal.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="labelAmpFactoryVal.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="groupBoxAmp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 110</value>
-  </data>
-  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
-    <value>buttonClose</value>
-  </data>
-  <data name="labelSpThFactoryVal.Text" xml:space="preserve">
-    <value>----</value>
-  </data>
-  <data name="&gt;&gt;labelAmpFactory.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelSpThCurrentVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
-  </data>
-  <data name="&gt;&gt;labelAmpFactory.Parent" xml:space="preserve">
-    <value>groupBoxAmp</value>
-  </data>
-  <data name="&gt;&gt;labelSpThFactory.Parent" xml:space="preserve">
-    <value>groupBoxSpineDiff</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSpineDiff.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="labelSpThCurrentVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;numericSpine.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelAmpCurrentVal.Parent" xml:space="preserve">
-    <value>groupBoxAmp</value>
-  </data>
-  <data name="labelSpThCurrent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="&gt;&gt;labelSpThCurrent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelAmpCurrentVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;labelSpThFactory.Name" xml:space="preserve">
-    <value>labelSpThFactory</value>
-  </data>
-  <data name="numericAmp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 22</value>
-  </data>
-  <data name="buttonApplyAmp.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="labelSpThCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 25</value>
-  </data>
-  <data name="labelSpThCurrent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="buttonApplySpine.Text" xml:space="preserve">
-    <value>Apply to the Device</value>
-  </data>
-  <data name="buttonApplyAmp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;labelAmpFactory.Name" xml:space="preserve">
-    <value>labelAmpFactory</value>
-  </data>
-  <data name="labelAmpFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 50</value>
-  </data>
-  <data name="&gt;&gt;numericSpine.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelSpThFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelSpThFactory.TabIndex" type="System.Int32, mscorlib">
-    <value>53</value>
-  </data>
-  <data name="labelSpThFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="groupBoxSpineDiff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 80</value>
-  </data>
-  <data name="labelAmpCurrent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="labelSpThCurrentVal.Text" xml:space="preserve">
-    <value>----</value>
-  </data>
-  <data name="labelAmpFactory.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;labelAmpCurrent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelSpThFactory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelSpThCurrentVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSpineDiff.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonApplyAmp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 160</value>
-  </data>
-  <data name="&gt;&gt;numericAmp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericAmp.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="numericAmp.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="labelAmpCurrent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonApplySpine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 62</value>
-  </data>
-  <data name="&gt;&gt;labelSpThFactoryVal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBoxAmp.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyAmp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxAmp.Name" xml:space="preserve">
-    <value>groupBoxAmp</value>
-  </data>
-  <data name="numericSpine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 22</value>
-  </data>
-  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="labelAmpCurrent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="&gt;&gt;numericSpine.Name" xml:space="preserve">
-    <value>numericSpine</value>
-  </data>
-  <data name="groupBoxAmp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 80</value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
+  <data name="labelVolumeCurrent.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;groupBoxSpineDiff.Name" xml:space="preserve">
     <value>groupBoxSpineDiff</value>
   </data>
-  <data name="&gt;&gt;numericAmp.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelAmpCurrent.Name" xml:space="preserve">
-    <value>labelAmpCurrent</value>
-  </data>
-  <data name="numericSpine.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySpine.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;labelSpThCurrentVal.Name" xml:space="preserve">
-    <value>labelSpThCurrentVal</value>
-  </data>
-  <data name="labelAmpCurrentVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelAmpFactory.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="&gt;&gt;labelAmpFactoryVal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSpineDiff.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelSpThFactoryVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="labelSpThCurrentVal.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>488, 347</value>
+  <data name="&gt;&gt;labelLanguageCurrentVal.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="labelSpThFactoryVal.ToolTip" xml:space="preserve">
+  <data name="&gt;&gt;numericVolume.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageCurrent.Parent" xml:space="preserve">
+    <value>groupBoxLanguage</value>
+  </data>
+  <data name="labelAmpFactoryVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="labelAmpCurrentVal.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeFactoryVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeCurrentVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyAmp.Name" xml:space="preserve">
+    <value>buttonApplyAmp</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelSpThFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 50</value>
+  </data>
+  <data name="labelLanguageCurrent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyAmp.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="numericSpine.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="comboBoxLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAmpCurrent.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBoxAmp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelAmpCurrent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelVolumeFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelVolumeFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="comboBoxLanguage.ToolTip" xml:space="preserve">
     <value />
+  </data>
+  <data name="&gt;&gt;numericAmp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAmpCurrent.Parent" xml:space="preserve">
+    <value>groupBoxAmp</value>
+  </data>
+  <data name="labelLanguageFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="groupBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 313</value>
+  </data>
+  <data name="&gt;&gt;labelAmpCurrentVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelAmpFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="labelAmpCurrent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="buttonApplyVolume.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelLanguageCurrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericVolume.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trackBarVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="labelSpThFactory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBoxLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericSpine.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSpThCurrent.Name" xml:space="preserve">
+    <value>labelSpThCurrent</value>
+  </data>
+  <data name="labelVolumeFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="labelSpThFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="labelVolumeFactoryVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelAmpCurrentVal.Parent" xml:space="preserve">
+    <value>groupBoxAmp</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeFactory.Name" xml:space="preserve">
+    <value>labelVolumeFactory</value>
+  </data>
+  <data name="&gt;&gt;groupBoxVolume.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBoxAmp.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyLanguage.Name" xml:space="preserve">
+    <value>buttonApplyLanguage</value>
+  </data>
+  <data name="labelAmpFactoryVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelAmpCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelAmpFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 50</value>
+  </data>
+  <data name="trackBarVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 221</value>
+  </data>
+  <data name="labelLanguageCurrentVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageCurrentVal.Name" xml:space="preserve">
+    <value>labelLanguageCurrentVal</value>
+  </data>
+  <data name="buttonApplySpine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelAmpFactory.Name" xml:space="preserve">
+    <value>labelAmpFactory</value>
+  </data>
+  <data name="labelVolumeFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageCurrent.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelSpThFactoryVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBoxLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 80</value>
+  </data>
+  <data name="labelVolumeCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelSpThCurrentVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelVolumeFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;labelSpThFactory.Name" xml:space="preserve">
+    <value>labelSpThFactory</value>
+  </data>
+  <data name="labelVolumeCurrentVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelLanguageCurrentVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelSpThFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="labelSpThCurrentVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelVolumeFactoryVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="trackBarVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 56</value>
+  </data>
+  <data name="labelSpThCurrent.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="labelAmpCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 25</value>
+  </data>
+  <data name="labelLanguageFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonApplySpine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSpThFactoryVal.Parent" xml:space="preserve">
+    <value>groupBoxSpineDiff</value>
+  </data>
+  <data name="numericAmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="&gt;&gt;trackBarVolume.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelLanguageFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numericAmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 127</value>
+  </data>
+  <data name="labelAmpCurrent.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
   </data>
   <data name="groupBoxSpineDiff.ToolTip" xml:space="preserve">
     <value>This is the threshold for difference (in grains) between two following spine readings to get a stable spine value. 
@@ -599,47 +1028,95 @@ However, if you're having troubles testing your wooden shafts and it takes to lo
 
 Remember: the higher the value, the faster the device will "catch" the spine, but at the cost of precision.</value>
   </data>
-  <data name="&gt;&gt;labelSpThCurrent.Name" xml:space="preserve">
-    <value>labelSpThCurrent</value>
+  <data name="&gt;&gt;buttonApplyLanguage.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="labelAmpCurrentVal.Text" xml:space="preserve">
+  <data name="labelSpThFactoryVal.Text" xml:space="preserve">
     <value>----</value>
   </data>
-  <data name="&gt;&gt;buttonApplyAmp.Name" xml:space="preserve">
-    <value>buttonApplyAmp</value>
+  <data name="numericVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
   </data>
-  <data name="&gt;&gt;groupBoxAmp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;buttonApplySpine.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelVolumeFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 50</value>
   </data>
-  <data name="buttonApplySpine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 25</value>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
   </data>
-  <data name="&gt;&gt;labelSpThCurrentVal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelAmpCurrentVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="labelAmpCurrent.ToolTip" xml:space="preserve">
-    <value />
+  <data name="labelLanguageFactoryVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelVolumeCurrent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelSpThCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 25</value>
+  </data>
+  <data name="buttonApplyLanguage.Text" xml:space="preserve">
+    <value>Apply to the Device</value>
+  </data>
+  <data name="labelAmpFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelVolumeCurrent.Text" xml:space="preserve">
+    <value>Current:</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeCurrentVal.Name" xml:space="preserve">
+    <value>labelVolumeCurrentVal</value>
+  </data>
+  <data name="buttonApplyVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 263</value>
   </data>
   <data name="labelAmpFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 310</value>
+  <data name="labelSpThCurrentVal.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
   </data>
-  <data name="labelAmpCurrent.TabIndex" type="System.Int32, mscorlib">
-    <value>47</value>
+  <data name="labelSpThFactoryVal.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;groupBoxAmp.Parent" xml:space="preserve">
+  <data name="groupBoxLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyLanguage.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="labelSpThFactory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;labelLanguageFactory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonApplySpine.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonApplyVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 25</value>
+  </data>
+  <data name="labelLanguageFactory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelVolumeFactoryVal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericAmp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonApplyLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labelVolumeCurrentVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelLanguageFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;buttonApplySpine.ZOrder" xml:space="preserve">
     <value>9</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
+    <value>buttonClose</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

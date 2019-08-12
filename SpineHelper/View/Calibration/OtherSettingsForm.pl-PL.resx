@@ -120,6 +120,27 @@
   <data name="buttonClose.Text" xml:space="preserve">
     <value>Zamknij</value>
   </data>
+  <data name="buttonClose.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSpThFactoryVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSpThCurrentVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSpThFactory.Text" xml:space="preserve">
+    <value>Fabrycznie:</value>
+  </data>
+  <data name="labelSpThFactory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSpThCurrent.Text" xml:space="preserve">
+    <value>Obecnie:</value>
+  </data>
+  <data name="labelSpThCurrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="groupBoxSpineDiff.Text" xml:space="preserve">
     <value>Próg w teście spinu</value>
   </data>
@@ -133,11 +154,23 @@ Jeżeli jednak masz problemy z badaniem promieni drewnianych i urządzenie dług
 
 Pamietaj: im wyższa wartość, tym szybciej urządzenie zbada spine, jednak kosztem dokładności.</value>
   </data>
-  <data name="labelSpThFactory.Text" xml:space="preserve">
+  <data name="labelAmpFactoryVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAmpCurrentVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAmpFactory.Text" xml:space="preserve">
     <value>Fabrycznie:</value>
   </data>
-  <data name="labelSpThCurrent.Text" xml:space="preserve">
+  <data name="labelAmpFactory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAmpCurrent.Text" xml:space="preserve">
     <value>Obecnie:</value>
+  </data>
+  <data name="labelAmpCurrent.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBoxAmp.Text" xml:space="preserve">
     <value>Częstotliwość odś. wzmacniaczy</value>
@@ -149,19 +182,97 @@ Im wyższa wartość, tym stabilniejszy odczyt, jednka kosztem szybkości dział
 
 Zalecane wartosci to 5-7 dla standardowych układów HX711, oraz 20-40 dla wysokiej klasy ekranowanych układów HX 711 HQ.</value>
   </data>
-  <data name="labelAmpFactory.Text" xml:space="preserve">
-    <value>Fabrycznie:</value>
-  </data>
-  <data name="labelAmpCurrent.Text" xml:space="preserve">
-    <value>Obecnie:</value>
-  </data>
   <data name="buttonApplySpine.Text" xml:space="preserve">
     <value>Zapisz w urządzeniu</value>
+  </data>
+  <data name="buttonApplySpine.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="buttonApplyAmp.Text" xml:space="preserve">
     <value>Zapisz w urządzeniu</value>
   </data>
+  <data name="buttonApplyAmp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericSpine.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericAmp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelVolumeFactoryVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelVolumeCurrentVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelVolumeFactory.Text" xml:space="preserve">
+    <value>Fabrycznie:</value>
+  </data>
+  <data name="labelVolumeFactory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelVolumeCurrent.Text" xml:space="preserve">
+    <value>Obecnie:</value>
+  </data>
+  <data name="labelVolumeCurrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxVolume.Text" xml:space="preserve">
+    <value>Poziom głośności</value>
+  </data>
+  <data name="groupBoxVolume.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelLanguageFactoryVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelLanguageCurrentVal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelLanguageFactory.Text" xml:space="preserve">
+    <value>Fabrycznie:</value>
+  </data>
+  <data name="labelLanguageFactory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelLanguageCurrent.Text" xml:space="preserve">
+    <value>Obecnie:</value>
+  </data>
+  <data name="labelLanguageCurrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxLanguage.Text" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="groupBoxLanguage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonApplyVolume.Text" xml:space="preserve">
+    <value>Zapisz w urządzeniu</value>
+  </data>
+  <data name="buttonApplyVolume.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trackBarVolume.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericVolume.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonApplyLanguage.Text" xml:space="preserve">
+    <value>Zapisz w urządzeniu</value>
+  </data>
+  <data name="buttonApplyLanguage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxLanguage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Pozostałe ustawienia</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>
