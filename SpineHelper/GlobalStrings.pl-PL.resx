@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AMO" xml:space="preserve">
+    <value>AMO</value>
+  </data>
+  <data name="Arrows" xml:space="preserve">
+    <value>Strzały</value>
+  </data>
+  <data name="ASTM" xml:space="preserve">
+    <value>ASTM</value>
+  </data>
+  <data name="CalibrationApplyHeader" xml:space="preserve">
+    <value>Zapisywanie danych w urządzeniu</value>
+  </data>
+  <data name="CalibrationApplySensor" xml:space="preserve">
+    <value>Próbujesz zapisać w urządzeniu nową wartość kalibracyjną dla {0} sensora wagowego.
+
+Zapisywana wartość: {1}
+
+Chcesz kontynuować?</value>
+  </data>
+  <data name="CalibrationApplySpine" xml:space="preserve">
+    <value>Próbujesz zapisać w urządzeniu nowy dystans kalibracyjny spinetestera
+(wartość do kalkulacji spinu).
+
+Poprzednia wartość: {0}
+Nowa wartość: {1}
+
+Chcesz kontynuować?</value>
+  </data>
+  <data name="CalibrationBegin" xml:space="preserve">
+    <value>Rozpocznij kalibrację</value>
+  </data>
+  <data name="CalibrationLeftUpper" xml:space="preserve">
+    <value>LEWEGO</value>
+  </data>
+  <data name="CalibrationResetPopup" xml:space="preserve">
+    <value>Ta opcja przywróci urządzenie do ustawień fabrycznych.
+
+Chcesz kontynuować?</value>
+  </data>
+  <data name="CalibrationResetPopupHeader" xml:space="preserve">
+    <value>Przywracanie ustawień fabrycznych</value>
+  </data>
+  <data name="CalibrationRightUpper" xml:space="preserve">
+    <value>PRAWEGO</value>
+  </data>
+  <data name="CalibrationSensors" xml:space="preserve">
+    <value>Kalibracja sensorów wagowych</value>
+  </data>
+  <data name="CalibrationSpine" xml:space="preserve">
+    <value>Kalibracja spinetestera</value>
+  </data>
+  <data name="CalibrationStop" xml:space="preserve">
+    <value>Zatrzymaj</value>
+  </data>
+  <data name="DebugModeInfo" xml:space="preserve">
+    <value>DEBUGOWANIE: </value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Błąd</value>
+  </data>
+  <data name="ErrorOpeningWebPage" xml:space="preserve">
+    <value>Wystąpił błąd podczas próby otwarcia strony WWW!
+
+Komunikat błędu: </value>
+  </data>
+  <data name="ExportError" xml:space="preserve">
+    <value>Eksportowanie nie powiodło się!
+Błąd z wybranym typem pliku: nieobsługiwany typ.
+FileFilterIndex = {0}
+Komunikat błędu: {1}</value>
+  </data>
+  <data name="GrainsLowcase" xml:space="preserve">
+    <value>grany</value>
+  </data>
+  <data name="GramsLowcase" xml:space="preserve">
+    <value>gramy</value>
+  </data>
+  <data name="HistoryViewColumnAMO1" xml:space="preserve">
+    <value>1. AMO</value>
+  </data>
+  <data name="HistoryViewColumnAMO2" xml:space="preserve">
+    <value>2. AMO</value>
+  </data>
+  <data name="HistoryViewColumnASTM1" xml:space="preserve">
+    <value>1. ASTM</value>
+  </data>
+  <data name="HistoryViewColumnASTM2" xml:space="preserve">
+    <value>2. ASTM</value>
+  </data>
+  <data name="HistoryViewColumnComment" xml:space="preserve">
+    <value>Komentarz</value>
+  </data>
+  <data name="HistoryViewColumnGPI" xml:space="preserve">
+    <value>GPI</value>
+  </data>
+  <data name="HistoryViewColumnGrains" xml:space="preserve">
+    <value>Grany</value>
+  </data>
+  <data name="HistoryViewColumnGrams" xml:space="preserve">
+    <value>Gramy</value>
+  </data>
+  <data name="HistoryViewColumnStraightness" xml:space="preserve">
+    <value>Dokładność</value>
+  </data>
+  <data name="InstallDriversUSB" xml:space="preserve">
+    <value>Program zainstaluje sterowniki USB Spinetestera, konieczne do podłączenia go do komputera.
+
+Chcesz kontynuować?</value>
+  </data>
+  <data name="InstallDriversUSBHeader" xml:space="preserve">
+    <value>Zainstaluj sterowniki USB Spinetestera</value>
+  </data>
+  <data name="NotConnectedPopup" xml:space="preserve">
+    <value>Urządzenie nie jest podłączone!
+
+Upewnij się, że wybrano prawidłowy port COM
+i że połączenie kablowe jest sprawne.
+
+Jeśli do tej pory nie zainstalowano sterowników, zrób to korzystając z menu Sprzęt- &gt; Zainstaluj sterowniki USB.</value>
+  </data>
+  <data name="NotConnectedPopupHeader" xml:space="preserve">
+    <value>Urządzenie nie wykryte</value>
+  </data>
+  <data name="SerializerExportSuccessful" xml:space="preserve">
+    <value>Twoja historia została pomyślnie wyeksportowana.</value>
+  </data>
+  <data name="SerializerExportSuccessfulHeader" xml:space="preserve">
+    <value>Eksportowanie udane</value>
+  </data>
+  <data name="SerializerExportToFile" xml:space="preserve">
+    <value>Eksportuj do pliku</value>
+  </data>
+  <data name="SerializerLoadError" xml:space="preserve">
+    <value>Wczytywanie nie powiodło się!
+
+Komunikat błędu: </value>
+  </data>
+  <data name="SerializerLoadSuccessful" xml:space="preserve">
+    <value>Zapisana historia testów została pomyślnie wczytana.</value>
+  </data>
+  <data name="SerializerLoadSuccessfulHeader" xml:space="preserve">
+    <value>Udane wczytywanie</value>
+  </data>
+  <data name="SerializerLoadWarning" xml:space="preserve">
+    <value>Otwieranie zapisanego pliku z danymi spowoduje wyczyszczenie obecnej historii wyników.
+
+Chcesz kontynuować?</value>
+  </data>
+  <data name="SerializerLoadWarningHeader" xml:space="preserve">
+    <value>Otwieranie zapisanego pliku</value>
+  </data>
+  <data name="SerializerOpenFile" xml:space="preserve">
+    <value>Otwórz zapisany plik z danymi</value>
+  </data>
+  <data name="SerializerSaveError" xml:space="preserve">
+    <value>Zapisywanie się nie powiodło!
+
+Komunikat błędu: </value>
+  </data>
+  <data name="SerializerSaveSuccessful" xml:space="preserve">
+    <value>Historia testów została pomyślnie zapisana.</value>
+  </data>
+  <data name="SerializerSaveSuccessfulHeader" xml:space="preserve">
+    <value>Udany zapis</value>
+  </data>
+  <data name="SerializerSaveToFile" xml:space="preserve">
+    <value>Zapisz dane do pliku</value>
+  </data>
+  <data name="DeviceConnected" xml:space="preserve">
+    <value>Połączono</value>
+  </data>
+  <data name="DeviceConnecting" xml:space="preserve">
+    <value>Łączenie...</value>
+  </data>
+  <data name="DeviceIsReady" xml:space="preserve">
+    <value>Urządzenie gotowe</value>
+  </data>
+  <data name="DeviceNotConnected" xml:space="preserve">
+    <value>Nie połączono</value>
+  </data>
+  <data name="HistoryClear" xml:space="preserve">
+    <value>Chcesz usunąć całą historię pomiarów?</value>
+  </data>
+  <data name="HistoryClearHeader" xml:space="preserve">
+    <value>Wyczyść całą historię</value>
+  </data>
+  <data name="HistoryRemoveEntry" xml:space="preserve">
+    <value>Chcesz usunąć ostatni (najnowszy) wpis z historii?</value>
+  </data>
+  <data name="HistoryRemoveEntryHeader" xml:space="preserve">
+    <value>Usuń wpis</value>
+  </data>
+  <data name="NoDataToExport" xml:space="preserve">
+    <value>Brak danych do wyeksportowania. Historia pomiarów jest pusta.</value>
+  </data>
+  <data name="NoDataToSAve" xml:space="preserve">
+    <value>Brak danych do zapisania. Historia pomiarów jest pusta.</value>
+  </data>
+  <data name="UpdateApplicationError" xml:space="preserve">
+    <value>Ta aplikacja nie może zostać zaktualizowana. Prawdopodobnie nie jest to aplikacja typu ClickOnce.
+
+Błąd: </value>
+  </data>
+  <data name="UpdateApplicationErrorHeader" xml:space="preserve">
+    <value>Błąd aplikacji</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Dostępna jest nowa wersja aplikacji. Chcesz zaktualizować aplikację teraz?</value>
+  </data>
+  <data name="UpdateAvailableHeader" xml:space="preserve">
+    <value>Znaleziono aktualizację</value>
+  </data>
+  <data name="UpdateConnectionError" xml:space="preserve">
+    <value>Nowa wersja aplikacji nie może zostać pobrana w tej chwili.
+Sprawdź swoje połączenie sieciowe lub spróbuj później.
+
+Błąd: </value>
+  </data>
+  <data name="UpdateConnectionErrorHeader" xml:space="preserve">
+    <value>Błąd połączenia</value>
+  </data>
+  <data name="UpdateErrorNet" xml:space="preserve">
+    <value>Nie można zainstalować najnowszej wersji aplikacji. Sprawdź swoje połączenie sieciowe lub spróbuj później.
+
+Błąd:</value>
+  </data>
+  <data name="UpdateFatalError" xml:space="preserve">
+    <value>Coś poszło bardzo nie tak przy próbie wyszukania aktualizacji. Ten komunikat w ogóle nie powinien się wyświetlić.</value>
+  </data>
+  <data name="UpdateForced" xml:space="preserve">
+    <value>Wykryto obowiązkową aktualizację z Twojej obecnej wersjido wersji {0}.
+Aplikacja zainstaluje teraz aktualizacje i uruchomi się ponownie.</value>
+  </data>
+  <data name="UpdateInstallationError" xml:space="preserve">
+    <value>Nie można wyszukać aktualizacji. Pliki ClickOnce są wadliwe.
+
+Błąd: </value>
+  </data>
+  <data name="UpdateInstallationErrorHeader" xml:space="preserve">
+    <value>Błąd instalacji</value>
+  </data>
+  <data name="UpdateInstalled" xml:space="preserve">
+    <value>Aplikacja została zaktualizowana i zostanie teraz uruchomiona ponownie.</value>
+  </data>
+  <data name="UpdateNotDeployed" xml:space="preserve">
+    <value>Nie można wyszukać aktualizacji.</value>
+  </data>
+  <data name="UpdateUpToDate" xml:space="preserve">
+    <value>Posiadasz najnowszą wersję aplikacji.</value>
+  </data>
+  <data name="UpdateUpToDateHeader" xml:space="preserve">
+    <value>Aplikacja jest aktualna</value>
+  </data>
+  <data name="ConnectFound" xml:space="preserve">
+    <value>Znaleziono {0}!</value>
+  </data>
+  <data name="ConnectFoundPort" xml:space="preserve">
+    <value>Znaleziono nowy port COM!</value>
+  </data>
+  <data name="ConnectionUSBName" xml:space="preserve">
+    <value>Spinetester USB na </value>
+  </data>
+  <data name="DeviceCommandAllDone" xml:space="preserve">
+    <value>Zdejmij strzałę...</value>
+  </data>
+  <data name="DeviceCommandReady" xml:space="preserve">
+    <value>Umieść strzałę...</value>
+  </data>
+  <data name="DeviceCommandTestSpine" xml:space="preserve">
+    <value>Dociśnij strzałę...</value>
+  </data>
+  <data name="DeviceCommandTestSpine2" xml:space="preserve">
+    <value>Obróć strzałę i dociśnij...</value>
+  </data>
+  <data name="DeviceCommandWait" xml:space="preserve">
+    <value>Czekaj...</value>
+  </data>
+  <data name="DeviceSpine1Test" xml:space="preserve">
+    <value>Sprawdzanie spinu 1...</value>
+  </data>
+  <data name="DeviceSpine1TestDone" xml:space="preserve">
+    <value>Spin 1 zapisany</value>
+  </data>
+  <data name="DeviceSpine2Test" xml:space="preserve">
+    <value>Sprawdzanie spinu 2...</value>
+  </data>
+  <data name="DeviceSpine2TestDone" xml:space="preserve">
+    <value>Spin 2 zapisany</value>
+  </data>
+  <data name="DeviceStraightness" xml:space="preserve">
+    <value>Wszystkie testy ukończone</value>
+  </data>
+  <data name="DeviceWeightCalibration" xml:space="preserve">
+    <value>Kalibrowanie sensorów...</value>
+  </data>
+  <data name="DeviceWeightTest" xml:space="preserve">
+    <value>Sprawdzanie wagi...</value>
+  </data>
+  <data name="DeviceWeightTestDone" xml:space="preserve">
+    <value>Waga zapisana</value>
+  </data>
+  <data name="HistoryViewRemoveArrow" xml:space="preserve">
+    <value>Usuń zaznaczoną strzałę</value>
+  </data>
+  <data name="HistoryViewRemoveArrows" xml:space="preserve">
+    <value>Usuń zaznaczone strzały</value>
+  </data>
+  <data name="HistoryViewRemoveArrowsConfirmation" xml:space="preserve">
+    <value>Czy naprawdę chcesz usunąć z historii zaznaczone strzały?</value>
+  </data>
+  <data name="CalibrationApplyHX711" xml:space="preserve">
+    <value>Próbujesz zapisać w urządzeniu nową częstotliwość odświeżania dla wzmacniaczy sygnału sensorów.
+
+Poprzednia wartość: {0}
+Nowa wartość: {1}
+
+Chcesz kontynuować?</value>
+  </data>
+  <data name="CalibrationApplySpineDiff" xml:space="preserve">
+    <value>Próbujesz zapisać w urządzeniu nową wartość progu przy badania spinu.
+
+Poprzednia wartość: {0}
+Nowa wartość: {1}
+
+Chcesz kontynuować?</value>
+  </data>
+  <data name="DeviceConnectWith" xml:space="preserve">
+    <value>Połącz z </value>
+  </data>
+  <data name="CalibrationInstructionsSpine" xml:space="preserve">
+    <value>Instrukcje:
+
+1. Wybierz wysokiej jakości promień karbonowy o znanym dokładnie spine'ie - ten promień posłuży do obliczania nowej wartości kalibracyjnej. Im prostszy i dokładniejszy promień, tym dokładniejszy będzie rezultat.
+
+2. Wpisz znany spine promienia w standardzie ASTM (zalecane) albo AMO w odpowiednią rubrykę.
+
+3. Wróć do głównego okna aplikacji i wykonaj pełny test na wybranym promieniu. Nie zamykaj tego okna.
+
+4. Po wykonaniu testu wróć do niniejszego okna, nie zdejmując promienia z urządzenia.
+
+5. Kliknij "Oblicz dystans ugięcia".
+
+6. Nowa wartość kalibracyjna jest gotowa! Możesz kliknąć "Zapisz w urządzeniu" aby ją zastosować - zanim zostanie ona wysłana do urządzenia, pojawi się jeszcze dodatkowe okno w którym musisz potwierdzić chęć zapisania zmian.
+
+UWAGA!
+
+Możesz też ręcznie wpisać wartość kalibracyjną bez wykonywania żadnych testów, ale sposób podany powyżej jest sposobem zalecanym.</value>
+  </data>
+  <data name="CalibrationInstructionsWeight" xml:space="preserve">
+    <value>Instrukcje:
+
+1. Wybierz odważnik o znanej dokładnej wadze. Najlepiej stosować odważniki 25-100 gramów z dokładnością do 0,01 grama.
+
+2. Wpisz wagę odważnika do odpowiedniej rubryki, w gramach (zalecane) lub granach.
+
+3. Wybierz sensor, który chcesz skalibrować - lewy czy prawy.
+
+4. Kliknij "Taruj" aby wyzerować urządzenie przed testem.
+
+5. Umieść odważnik na wybranym sensorze.
+
+6. Kliknij "Rozpocznij kalibrację" i zaczekaj 20-30 sekund aż urządzenie wykona serię testów.
+
+7. Kliknij "Zatrzymaj" gdy będziesz chcieć zakończyć test.
+
+8. Nowa wartość kalibracyjna jest gotowa! Możesz kliknąć "Zapisz w urządzeniu" aby zastosować nową wartość - zanim zostanie ona wysłana do urządzenia, pojawi się jeszcze dodatkowe okno w którym musisz potwierdzić chęć zapisania zmian.</value>
+  </data>
+  <data name="ManualLink" xml:space="preserve">
+    <value>http://daedalus.pl/spinehelper/SpineHelper_Manual_PL.pdf</value>
+  </data>
+</root>

@@ -1,0 +1,33 @@
+wersja 1.2 (18 Lipca 2019)
+- dodano link do instrukcji obs³ugi aplikacji w menu "Pomoc"
+- przet³umaczono resztê panelów kalibracyjnych na jêzyk polski
+- naprawiono b³¹d z dodawaniem komentarzy do wpisów w historii
+- inne drobne poprawki
+
+wersja 1.1 (3 Lipca 2019)
+- dodano instalator oraz automatyczne sprawdzanie aktualizacji (aktualizacje mo¿na wy³¹czyæ w menu Opcje->Ustawienia)
+- dodano opcjê rêcznego sprawdzania aktualizacji
+- dodano wsparcie wielu jêzyków (obecnie polski i angielski)
+- przerobiono interfejs i rozmieszczenie obiektów
+- poprawiono wygl¹d interface'u na ró¿nych rozdzielczoœciach i przy ró¿nych wartoœciach DPI
+- panele testowania wagi i spinu mo¿na klikn¹æ by zmieniæ g³ówny standard, który jest wyœwietlnay (ASTM->AMO, grany->gramy)
+- rozmiar i pozycja okna g³ównego s¹ teraz zapisywane miêdzy sesjami
+- dodano panel Ustawieñ w celu dopasowania aplikacji do w³asnych potrzeb
+- rozbudowano panel kalibracji o nowe opcje
+- dodano instrukcje do kalibracji sensorów wagowych oraz spinetestera
+- dodano mo¿liwoœæ zapisywania i wczytywania historii (zapisywane s¹ wszystkie dane, nie tylko wybrane jak w przypadku eksportu)
+- naprawiono b³¹d ze znikaj¹cymi przyciskami historii
+- naprawiono b³¹d ze scrollowaniem historii
+- wybrane wpisy (strza³y) w historii mog¹ teraz zostaæ usuniête przez klikniêcie prawym klawiszem po lewej stronie danego rzêdu (CTRL + lewy click by zaznaczyæ wiele wpisów) 
+- w opcjach mo¿na teraz wybraæ domyœlnie wyœwietlaj¹ce siê kolumny historii
+- widocznoœæ kolumn w danej sesji mo¿na ustawiaæ klikaj¹c prawym przyciskiem myszy na nag³ówkach kolumn
+- dodano panel z informacjami technicznymi o pod³¹czonym urz¹dzeniu
+- dodano panel z informacjami o oprogramowaniu oraz linkami do kontaktu z autorem
+- panel po³¹czenia automatycznie wykryje teraz port COM, na którym znajduje siê spinetester (zielony komunikat)
+- inne, nieznane porty COM zaznaczone zostan¹ na pomarañczowo
+- sterowniki USB spinetestera s¹ do³¹czone teraz do aplikacji i mo¿na je zainstalowaæ spod menu "Sprzêt"
+- wiele innych poprawek w kodzie aplikacji
+
+
+wersja 1.0 (26 Czerwca 2019):
+ - pierwsze wydanie

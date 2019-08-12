@@ -1,0 +1,16 @@
+.vs/
+*.user
+*.pfx
+
+*.exe
+*.ico
+*.png
+
+[Bb]in/
+[Oo]bj/
+publish/
+
+TODO.txt
+SpineHelper/Data/
+SpineHelper/Device/DeviceCodes.cs
+
