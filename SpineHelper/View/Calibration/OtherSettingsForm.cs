@@ -21,7 +21,8 @@ namespace SpineHelper.View.Calibration
             numericVolume.Value = Spinetester.instance.Settings.SpeakerVolume;
             trackBarVolume.Value = Spinetester.instance.Settings.SpeakerVolume;
 
-            for (int i = 0; i < Spinetester.instance.Factory.Language; i++)
+            int languages = Spinetester.instance.Factory.Language > 0 ? Spinetester.instance.Factory.Language : 1;
+            for (int i = 0; i < languages; i++)
             {
                 comboBoxLanguage.Items.Add(DeviceSettings.GetLanguageName(i));
             }
@@ -41,11 +42,21 @@ namespace SpineHelper.View.Calibration
             labelLanguageCurrentVal.Text = DeviceSettings.GetLanguageName(Spinetester.instance.Settings.Language);
             labelLanguageFactoryVal.Text = DeviceSettings.GetLanguageName(0);
 
-
-            if (Spinetester.instance.Factory.SpeakerVolume == 0)
+            // Disable volume controls for for models 1 and 2 and devices without speaker 
+            if (Spinetester.instance.Model.Version < 3 || Spinetester.instance.Factory.SpeakerVolume == 0)
             {
+                groupBoxVolume.Enabled = false;
                 buttonApplyVolume.Enabled = false;
                 numericVolume.Enabled = false;
+                trackBarVolume.Enabled = false;
+            }
+
+            // Disable language controls for firmware < v1.2
+            if (Spinetester.instance.Model.Firmware < 1.2)
+            {
+                groupBoxLanguage.Enabled = false;
+                buttonApplyLanguage.Enabled = false;
+                comboBoxLanguage.Enabled = false;
             }
 
 
