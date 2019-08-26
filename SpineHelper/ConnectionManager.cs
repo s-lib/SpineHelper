@@ -5,6 +5,7 @@ using System.Linq;
 using System.Windows.Forms;
 using SpineHelper.Device;
 using System.Management;
+using System.Threading;
 
 namespace SpineHelper
 {
@@ -52,7 +53,7 @@ namespace SpineHelper
         public event Action ConnectionRequest;
 
         private SerialPort port;
-        private Timer timer = new Timer();
+        private System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
         private HashSet<string> availablePortNames = new HashSet<string>();
         private HashSet<ConnectionPort> availablePorts = new HashSet<ConnectionPort>();
         private int awaitingDeviceConfirmation = -1;
@@ -102,8 +103,14 @@ namespace SpineHelper
                 SetConnectionState(DeviceState.ConnectionAttempt);
                 USBName = selectedPort.fullName;
             }
-            catch// (Exception ex)
+            catch (Exception ex)
             {
+                MessageBox.Show(
+                    ex.Message,
+                    GlobalStrings.Error,
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+
                 SetConnectionState(DeviceState.NotConnected);
                 USBName = string.Empty;
             }
