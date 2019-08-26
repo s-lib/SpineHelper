@@ -42,7 +42,11 @@ namespace SpineHelper.View.Calibration
             labelLanguageFactoryVal.Text = DeviceSettings.GetLanguageName(0);
 
 
-
+            if (Spinetester.instance.Factory.SpeakerVolume == 0)
+            {
+                buttonApplyVolume.Enabled = false;
+                numericVolume.Enabled = false;
+            }
 
 
             var t = toolTip1.GetToolTip(groupBoxSpineDiff);
