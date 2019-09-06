@@ -111,6 +111,20 @@ namespace SpineHelper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You are trying to set new language for the device.
+        ///
+        ///Previous language: {0}
+        ///New language: {1}
+        ///
+        ///Do you wish to continue?.
+        /// </summary>
+        internal static string CalibrationApplyLanguage {
+            get {
+                return ResourceManager.GetString("CalibrationApplyLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You are trying to set new device scale factor for {0} weighting sensor.
         ///
         ///New value: {1}
@@ -148,6 +162,20 @@ namespace SpineHelper {
         internal static string CalibrationApplySpineDiff {
             get {
                 return ResourceManager.GetString("CalibrationApplySpineDiff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You are trying to set new speaker volume in the device.
+        ///
+        ///Previous value: {0}
+        ///New value: {1}
+        ///
+        ///Do you wish to continue?.
+        /// </summary>
+        internal static string CalibrationApplyVolume {
+            get {
+                return ResourceManager.GetString("CalibrationApplyVolume", resourceCulture);
             }
         }
         
@@ -678,6 +706,15 @@ namespace SpineHelper {
         internal static string InstallDriversUSBHeader {
             get {
                 return ResourceManager.GetString("InstallDriversUSBHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unknown.
+        /// </summary>
+        internal static string LanguageUnknown {
+            get {
+                return ResourceManager.GetString("LanguageUnknown", resourceCulture);
             }
         }
         

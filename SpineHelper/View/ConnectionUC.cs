@@ -147,9 +147,9 @@ namespace SpineHelper.View
         private void OnConnectionRequest()
         {
             if (comboBoxComPort.SelectedIndex < 0) return;
-            
-            ConnectionManager.instance.TryConnect(comboBoxComPort.SelectedIndex);
+
             SetEnabled(buttonConnect, false);
+            ConnectionManager.instance.TryConnect(comboBoxComPort.SelectedIndex);
         }
 
         private void OnAvailablePortsChanged(string[] ports)
@@ -185,6 +185,7 @@ namespace SpineHelper.View
                 labelCOMfound.BackColor = selected >= 0 ? Color.DarkGreen : Color.DarkOrange;
                 SetText(labelCOMfound, selected >= 0 ?
                     string.Format(GlobalStrings.ConnectFound, availablePorts[selected]) : GlobalStrings.ConnectFoundPort);
+
                 SetEnabled(buttonConnect, true);
             }
             else

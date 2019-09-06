@@ -117,37 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelAmpFactoryVal.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
-  </data>
   <data name="&gt;&gt;labelFactorySpineVal.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;labelSpThCurrent.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelVolumeVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;labelCurrentL.Name" xml:space="preserve">
     <value>labelCurrentL</value>
   </data>
+  <data name="labelVolumeFactory.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelThreshold.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
-  </data>
-  <data name="&gt;&gt;labelFirmware.ZOrder" xml:space="preserve">
-    <value>8</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tensionUC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;labelAmpCurrentVal.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="labelLanguageVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="labelHXVal.Text" xml:space="preserve">
-    <value>standard</value>
+  <data name="labelFactoryR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="labelAmpFactory.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
+  <data name="labelFirmware.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
   </data>
   <data name="labelCOMVal.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -158,54 +156,50 @@
   <data name="&gt;&gt;labelFactorySpineVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelLeft.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;labelAmpCurrentVal.Name" xml:space="preserve">
+    <value>labelAmpCurrentVal</value>
   </data>
   <data name="labelHXVal.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 120</value>
   </data>
-  <data name="labelAmplifier.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 25</value>
+  <data name="labelCOM.Text" xml:space="preserve">
+    <value>Connected at:</value>
   </data>
-  <data name="labelAmpCurrentVal.Text" xml:space="preserve">
-    <value>----</value>
+  <data name="labelLanguageFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
   </data>
-  <data name="labelSpThCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="labelAmpCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 45</value>
   </data>
   <data name="&gt;&gt;labelSpThCurrentVal.Name" xml:space="preserve">
     <value>labelSpThCurrentVal</value>
   </data>
-  <data name="&gt;&gt;labelAmpFactoryVal.Name" xml:space="preserve">
-    <value>labelAmpFactoryVal</value>
+  <data name="&gt;&gt;tensionUC.Type" xml:space="preserve">
+    <value>SpineHelper.View.Device.TensionUC, SpineHelper, Version=1.2.7163.21953, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;labelSpThFactoryVal.Parent" xml:space="preserve">
-    <value>groupBoxConfiguration</value>
+  <data name="&gt;&gt;labelSpine.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="labelCOM.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="&gt;&gt;labelBluetooth.Name" xml:space="preserve">
+    <value>labelBluetooth</value>
+  </data>
+  <data name="labelVersion.Text" xml:space="preserve">
+    <value>Mark </value>
+  </data>
+  <data name="labelThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 80</value>
+  </data>
+  <data name="&gt;&gt;labelAmplifier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelSensorScale.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelVolume.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
-  </data>
-  <data name="labelSerialVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 25</value>
-  </data>
-  <data name="labelFactoryL.Text" xml:space="preserve">
-    <value>----</value>
-  </data>
-  <data name="labelCOM.Text" xml:space="preserve">
-    <value>Connected at:</value>
-  </data>
-  <data name="&gt;&gt;labelSpThCurrent.Parent" xml:space="preserve">
-    <value>groupBoxConfiguration</value>
-  </data>
-  <data name="labelAmpFactory.Text" xml:space="preserve">
-    <value>Factory def.:</value>
   </data>
   <data name="labelCurrent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="labelUSBChipVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;labelFactorySpine.Name" xml:space="preserve">
     <value>labelFactorySpine</value>
@@ -216,11 +210,17 @@
   <data name="labelFactory.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
   </data>
+  <data name="labelLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
   <data name="&gt;&gt;labelVersion.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelHX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelCurrent.TabIndex" type="System.Int32, mscorlib">
     <value>50</value>
@@ -231,17 +231,17 @@
   <data name="&gt;&gt;labelFactorySpine.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
   <data name="labelCurrentSpineVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="labelThreshold.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  <data name="labelSpThFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 80</value>
   </data>
-  <data name="labelVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>190, 60</value>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 20</value>
   </data>
   <data name="labelHX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -249,11 +249,11 @@
   <data name="labelRight.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
   </data>
-  <data name="labelSpThFactory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 145</value>
+  <data name="&gt;&gt;labelFactory.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;labelAmplifier.Parent" xml:space="preserve">
-    <value>groupBoxConfiguration</value>
+  <data name="&gt;&gt;labelLanguageFactory.Name" xml:space="preserve">
+    <value>labelLanguageFactory</value>
   </data>
   <data name="&gt;&gt;labelUSBChip.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -263,6 +263,9 @@
   </data>
   <data name="labelName.Location" type="System.Drawing.Point, System.Drawing">
     <value>40, 15</value>
+  </data>
+  <data name="&gt;&gt;labelCOMVal.Parent" xml:space="preserve">
+    <value>groupBoxGeneral</value>
   </data>
   <data name="&gt;&gt;labelHXVal.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
@@ -286,25 +289,31 @@
     <value>v1.0</value>
   </data>
   <data name="&gt;&gt;labelAmpFactoryVal.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;labelSpThFactory.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
   </data>
   <data name="labelLeft.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 45</value>
   </data>
-  <data name="labelCurrentSpine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;labelLanguageVal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelLanguageFactory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
   </data>
   <data name="labelThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;labelUSBChipVal.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Device Information</value>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;labelSerialVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -318,6 +327,9 @@
   <data name="labelFactorySpineVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
+  <data name="&gt;&gt;labelBluetoothVal.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="labelSerial.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
@@ -327,11 +339,8 @@
   <data name="labelFactorySpine.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
   </data>
-  <data name="labelFactoryR.Text" xml:space="preserve">
-    <value>----</value>
-  </data>
-  <data name="labelFirmware.Text" xml:space="preserve">
-    <value>Firmware:</value>
+  <data name="labelThreshold.Text" xml:space="preserve">
+    <value>Spine threash.:</value>
   </data>
   <data name="&gt;&gt;labelCurrentR.Name" xml:space="preserve">
     <value>labelCurrentR</value>
@@ -339,11 +348,11 @@
   <data name="&gt;&gt;labelName.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="labelFirmware.Text" xml:space="preserve">
+    <value>Firmware:</value>
+  </data>
   <data name="&gt;&gt;labelFactory.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelAmpFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
   </data>
   <data name="labelBluetooth.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -354,8 +363,11 @@
   <data name="labelFactorySpineVal.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 170</value>
   </data>
-  <data name="tensionUC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 205</value>
+  <data name="labelSerial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="labelCurrent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 65</value>
   </data>
   <data name="labelAmpCurrentVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -363,17 +375,14 @@
   <data name="labelFactorySpineVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>582, 545</value>
+  <data name="labelVolumeVal.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
   </data>
   <data name="labelSpine.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
   <data name="labelRight.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
-  </data>
-  <data name="labelAmpCurrentVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 25</value>
@@ -387,8 +396,8 @@
   <data name="labelCurrentSpineVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="labelCurrentSpineVal.Text" xml:space="preserve">
-    <value>----</value>
+  <data name="labelFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="labelUSBChipVal.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -396,8 +405,17 @@
   <data name="labelSerial.Text" xml:space="preserve">
     <value>Serial Number:</value>
   </data>
+  <data name="labelCurrentL.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
   <data name="labelFirmware.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;labelLanguage.Name" xml:space="preserve">
+    <value>labelLanguage</value>
+  </data>
+  <data name="labelLanguageFactory.Text" xml:space="preserve">
+    <value>----</value>
   </data>
   <data name="&gt;&gt;labelBluetoothVal.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
@@ -408,17 +426,35 @@
   <data name="&gt;&gt;labelFactoryR.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
   </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
   <data name="labelLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="labelAmpCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;labelCurrentL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelHXVal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="labelBluetoothVal.Text" xml:space="preserve">
     <value>----</value>
   </data>
-  <data name="&gt;&gt;labelAmplifier.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelName.Text" xml:space="preserve">
+    <value>Digital Spinetester Device</value>
+  </data>
+  <data name="labelVolumeVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="labelFirmwareVal.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;labelHX.Name" xml:space="preserve">
     <value>labelHX</value>
@@ -435,11 +471,11 @@
   <data name="labelLeft.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
   </data>
+  <data name="&gt;&gt;labelVolume.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelAmpCurrent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelFirmware.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -447,8 +483,8 @@
   <data name="&gt;&gt;labelSpThFactoryVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelFactoryR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="labelLanguageVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 150</value>
   </data>
   <data name="labelFirmwareVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -456,17 +492,8 @@
   <data name="&gt;&gt;labelCurrentSpine.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
   </data>
-  <data name="&gt;&gt;groupBoxConfiguration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelThreshold.Text" xml:space="preserve">
-    <value>Spine threashold:</value>
-  </data>
   <data name="&gt;&gt;labelSerial.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelThreshold.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 95</value>
   </data>
   <data name="labelUSBChip.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
@@ -477,11 +504,11 @@
   <data name="groupBoxGeneral.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 90</value>
   </data>
-  <data name="&gt;&gt;labelAmpCurrentVal.Parent" xml:space="preserve">
-    <value>groupBoxConfiguration</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 20</value>
   </data>
-  <data name="labelSpThFactory.Text" xml:space="preserve">
-    <value>Factory def.:</value>
+  <data name="labelSensorScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
   </data>
   <data name="labelUSBChip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -492,29 +519,23 @@
   <data name="&gt;&gt;labelFactoryL.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBoxGeneral.Name" xml:space="preserve">
-    <value>groupBoxGeneral</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labelLeft.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelHXVal.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="labelCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="groupBoxConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 175</value>
+    <value>270, 200</value>
   </data>
-  <data name="&gt;&gt;labelAmpFactory.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="labelSerial.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="labelLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 150</value>
   </data>
   <data name="labelFactoryR.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;labelAmpCurrent.Parent" xml:space="preserve">
-    <value>groupBoxConfiguration</value>
-  </data>
-  <data name="labelSpThCurrent.Text" xml:space="preserve">
-    <value>Current:</value>
   </data>
   <data name="&gt;&gt;labelFirmware.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
@@ -525,14 +546,11 @@
   <data name="labelSerialVal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="labelUSBChip.Text" xml:space="preserve">
-    <value>USB chip:</value>
+  <data name="labelFactoryR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBoxConfiguration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 300</value>
+  <data name="labelCurrent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="labelSpine.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 25</value>
@@ -540,7 +558,16 @@
   <data name="labelRight.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 45</value>
   </data>
+  <data name="&gt;&gt;labelLeft.Parent" xml:space="preserve">
+    <value>groupBoxCalibration</value>
+  </data>
   <data name="labelSpThFactoryVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelFactorySpineVal.Text" xml:space="preserve">
     <value>----</value>
   </data>
   <data name="&gt;&gt;labelAmplifier.Name" xml:space="preserve">
@@ -552,11 +579,8 @@
   <data name="&gt;&gt;tensionUC.Name" xml:space="preserve">
     <value>tensionUC</value>
   </data>
-  <data name="labelSpThCurrent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="labelSpThFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;labelThreshold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelFirmwareVal.Name" xml:space="preserve">
     <value>labelFirmwareVal</value>
@@ -567,20 +591,14 @@
   <data name="&gt;&gt;labelBluetoothVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelAmpFactoryVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="labelFirmware.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="labelAmpCurrent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;labelName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelSpThCurrent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="labelThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;groupBoxCalibration.Name" xml:space="preserve">
     <value>groupBoxCalibration</value>
@@ -591,11 +609,20 @@
   <data name="labelUSBChipVal.Text" xml:space="preserve">
     <value>CH340</value>
   </data>
+  <data name="labelSerial.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="&gt;&gt;labelCOM.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="labelCOMVal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
     <value>210, 508</value>
+  </data>
+  <data name="&gt;&gt;labelAmplifier.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
   </data>
   <data name="labelCurrentSpine.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -603,8 +630,11 @@
   <data name="labelCurrentSpine.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
   </data>
-  <data name="&gt;&gt;tensionUC.Type" xml:space="preserve">
-    <value>SpineHelper.View.Device.TensionUC, SpineHelper, Version=1.1.7136.38911, Culture=neutral, PublicKeyToken=null</value>
+  <data name="labelVolumeVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelCurrentL.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
   </data>
   <data name="groupBoxCalibration.Location" type="System.Drawing.Point, System.Drawing">
     <value>300, 90</value>
@@ -612,14 +642,14 @@
   <data name="tensionUC.TabIndex" type="System.Int32, mscorlib">
     <value>57</value>
   </data>
+  <data name="labelLanguageFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 150</value>
+  </data>
   <data name="labelSpThFactoryVal.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
-  <data name="labelAmpFactoryVal.Text" xml:space="preserve">
-    <value>----</value>
-  </data>
-  <data name="labelAmpFactory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 70</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
   </data>
   <data name="labelBluetooth.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
@@ -631,7 +661,7 @@
     <value>2</value>
   </data>
   <data name="labelAmplifier.Text" xml:space="preserve">
-    <value>Amplifier update frequency:</value>
+    <value>Amplifier freq.:</value>
   </data>
   <data name="&gt;&gt;labelSensorScale.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
@@ -642,8 +672,8 @@
   <data name="labelFactorySpineVal.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
   </data>
-  <data name="&gt;&gt;labelSpThFactory.Parent" xml:space="preserve">
-    <value>groupBoxConfiguration</value>
+  <data name="labelAmpFactoryVal.Text" xml:space="preserve">
+    <value>----</value>
   </data>
   <data name="&gt;&gt;labelSpThCurrentVal.Parent" xml:space="preserve">
     <value>groupBoxConfiguration</value>
@@ -654,26 +684,26 @@
   <data name="groupBoxGeneral.Text" xml:space="preserve">
     <value>Hardware</value>
   </data>
+  <data name="&gt;&gt;labelFactoryR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;labelUSBChipVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelSerial.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
   </data>
-  <data name="&gt;&gt;labelRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="labelFactorySpineVal.Text" xml:space="preserve">
+  <data name="labelFactoryR.Text" xml:space="preserve">
     <value>----</value>
   </data>
   <data name="labelFactorySpineVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;labelCurrentSpine.Name" xml:space="preserve">
-    <value>labelCurrentSpine</value>
-  </data>
-  <data name="labelAmpFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;labelVolumeFactory.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
   </data>
   <data name="labelCurrentR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -681,17 +711,14 @@
   <data name="&gt;&gt;labelCurrentL.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="&gt;&gt;labelAmpFactoryVal.Parent" xml:space="preserve">
-    <value>groupBoxConfiguration</value>
-  </data>
   <data name="labelFactoryL.TabIndex" type="System.Int32, mscorlib">
     <value>54</value>
   </data>
   <data name="labelHX.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="labelCurrentL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 65</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Current:</value>
   </data>
   <data name="labelFactorySpine.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -699,38 +726,35 @@
   <data name="labelCOMVal.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 70</value>
   </data>
-  <data name="labelThreshold.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 25</value>
-  </data>
-  <data name="labelFactorySpineVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
+  <data name="&gt;&gt;labelRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelUSBChipVal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="labelSerialVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
   <data name="labelBluetooth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="labelHXVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="&gt;&gt;labelLeft.Name" xml:space="preserve">
+    <value>labelLeft</value>
   </data>
   <data name="labelCOM.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 70</value>
   </data>
-  <data name="labelBluetoothVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="labelVolumeFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;groupBoxConfiguration.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="labelHXVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
   <data name="&gt;&gt;labelHXVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelSpThFactory.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
+  <data name="labelCurrentL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;labelCurrentR.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
@@ -747,62 +771,59 @@
   <data name="&gt;&gt;labelBluetooth.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
   </data>
-  <data name="labelSpThFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="labelCOM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
   </data>
-  <data name="&gt;&gt;labelBluetooth.Name" xml:space="preserve">
-    <value>labelBluetooth</value>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;labelCOMVal.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelUSBChipVal.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
   </data>
   <data name="labelFirmwareVal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;labelCurrentL.Parent" xml:space="preserve">
-    <value>groupBoxCalibration</value>
+  <data name="&gt;&gt;labelSerial.Name" xml:space="preserve">
+    <value>labelSerial</value>
   </data>
   <data name="&gt;&gt;labelUSBChip.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
   </data>
-  <data name="labelSpThCurrent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="&gt;&gt;labelCurrentSpineVal.Name" xml:space="preserve">
     <value>labelCurrentSpineVal</value>
+  </data>
+  <data name="labelCurrentL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 65</value>
   </data>
   <data name="labelCurrentR.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
   </data>
-  <data name="&gt;&gt;labelSpThCurrent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="groupBoxCalibration.Size" type="System.Drawing.Size, System.Drawing">
     <value>270, 200</value>
+  </data>
+  <data name="&gt;&gt;labelCurrent.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="labelFactorySpine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="labelCOM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 25</value>
-  </data>
-  <data name="&gt;&gt;tensionUC.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelAmpCurrent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
   </data>
   <data name="labelAmpCurrentVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
+    <value>50, 25</value>
   </data>
   <data name="groupBoxCalibration.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
+  <data name="labelVolumeVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="labelName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 16.2pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;labelAmplifier.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;labelVolumeFactory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelFirmwareVal.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
@@ -822,23 +843,32 @@
   <data name="labelCurrentSpine.Text" xml:space="preserve">
     <value>Current:</value>
   </data>
-  <data name="&gt;&gt;labelThreshold.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="labelSpThCurrentVal.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
   </data>
-  <data name="labelSpThCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 120</value>
-  </data>
-  <data name="groupBoxGeneral.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;labelFactoryL.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="labelAmpFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="labelSpThCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 80</value>
+  </data>
+  <data name="labelSpThCurrentVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelVolumeVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 115</value>
+  </data>
+  <data name="labelCurrentSpineVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 145</value>
+  </data>
+  <data name="labelSensorScale.Text" xml:space="preserve">
+    <value>Sensors' Calibration:</value>
   </data>
   <data name="labelFactoryL.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="labelRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Factory:</value>
   </data>
   <data name="&gt;&gt;labelUSBChipVal.Name" xml:space="preserve">
     <value>labelUSBChipVal</value>
@@ -855,9 +885,6 @@
   <data name="labelCurrentL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="labelSpThFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
-  </data>
   <data name="&gt;&gt;labelCurrentSpineVal.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
   </data>
@@ -870,14 +897,17 @@
   <data name="&gt;&gt;groupBoxGeneral.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="labelCOMVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="&gt;&gt;labelSensorScale.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="labelCOMVal.Text" xml:space="preserve">
     <value>COM</value>
   </data>
-  <data name="labelCurrent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="labelAmplifier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 25</value>
   </data>
   <data name="labelHX.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 120</value>
@@ -888,14 +918,17 @@
   <data name="labelFactory.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
-  <data name="&gt;&gt;labelAmpCurrentVal.Name" xml:space="preserve">
-    <value>labelAmpCurrentVal</value>
-  </data>
   <data name="labelFirmware.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 45</value>
   </data>
+  <data name="labelSerialVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
   <data name="labelCurrentR.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 65</value>
+  </data>
+  <data name="labelVolume.Text" xml:space="preserve">
+    <value>Speaker volume:</value>
   </data>
   <data name="labelAmplifier.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -909,14 +942,17 @@
   <data name="labelFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="labelVolume.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="labelVolume.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;labelSpThFactoryVal.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>8</value>
   </data>
   <data name="labelLeft.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
-  </data>
-  <data name="labelAmpFactory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
   </data>
   <data name="labelFactoryL.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
@@ -924,17 +960,29 @@
   <data name="labelSpine.Text" xml:space="preserve">
     <value>Spinetester's Calibration:</value>
   </data>
-  <data name="labelAmplifier.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelVersion.Text" xml:space="preserve">
-    <value>Mark </value>
+  <data name="labelFactoryL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 90</value>
+  </data>
+  <data name="labelAmplifier.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 25</value>
+  </data>
+  <data name="labelCurrentSpineVal.Text" xml:space="preserve">
+    <value>----</value>
   </data>
   <data name="&gt;&gt;labelHXVal.Name" xml:space="preserve">
     <value>labelHXVal</value>
   </data>
   <data name="&gt;&gt;labelCurrent.Name" xml:space="preserve">
     <value>labelCurrent</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactory.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
   </data>
   <data name="labelCOM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -945,41 +993,44 @@
   <data name="labelSensorScale.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
   </data>
+  <data name="labelUSBChip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="labelRight.Text" xml:space="preserve">
     <value>Right</value>
   </data>
   <data name="labelAmpFactoryVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;labelCOMVal.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="&gt;&gt;labelSpine.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
+  </data>
+  <data name="labelVolumeFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 115</value>
   </data>
   <data name="&gt;&gt;labelThreshold.Parent" xml:space="preserve">
     <value>groupBoxConfiguration</value>
   </data>
-  <data name="labelCurrent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;labelCOMVal.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;labelLeft.Name" xml:space="preserve">
-    <value>labelLeft</value>
+  <data name="&gt;&gt;labelSerialVal.Parent" xml:space="preserve">
+    <value>groupBoxGeneral</value>
   </data>
-  <data name="labelSpThCurrent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 120</value>
+  <data name="labelSpThFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
   </data>
-  <data name="labelFactoryL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 90</value>
-  </data>
-  <data name="labelBluetooth.Text" xml:space="preserve">
-    <value>Bluetooth:</value>
-  </data>
-  <data name="&gt;&gt;labelSpThFactory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;labelAmpFactoryVal.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
   </data>
   <data name="&gt;&gt;labelSpThFactoryVal.Name" xml:space="preserve">
     <value>labelSpThFactoryVal</value>
+  </data>
+  <data name="labelSerialVal.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 90</value>
   </data>
   <data name="labelFactorySpine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -987,13 +1038,13 @@
   <data name="labelHX.Text" xml:space="preserve">
     <value>Sensor amplifier:</value>
   </data>
-  <data name="labelUSBChip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;labelFirmware.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelCOM.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="labelSpThCurrentVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelUSBChipVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;labelBluetooth.Type" xml:space="preserve">
@@ -1005,26 +1056,26 @@
   <data name="&gt;&gt;labelFactoryR.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="labelAmpCurrentVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 45</value>
+  <data name="&gt;&gt;labelVolume.Name" xml:space="preserve">
+    <value>labelVolume</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVolumeVal.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="labelCurrentR.Text" xml:space="preserve">
     <value>----</value>
   </data>
-  <data name="&gt;&gt;labelAmpCurrent.Name" xml:space="preserve">
-    <value>labelAmpCurrent</value>
-  </data>
-  <data name="labelHXVal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
   </data>
   <data name="labelFirmwareVal.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 25</value>
   </data>
-  <data name="labelAmpCurrent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 45</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>DeviceInfoForm</value>
+  <data name="labelLanguageVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;labelFactory.Name" xml:space="preserve">
     <value>labelFactory</value>
@@ -1038,14 +1089,17 @@
   <data name="&gt;&gt;labelSerialVal.Name" xml:space="preserve">
     <value>labelSerialVal</value>
   </data>
-  <data name="&gt;&gt;labelSerial.Name" xml:space="preserve">
-    <value>labelSerial</value>
+  <data name="labelFactorySpineVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
   </data>
-  <data name="labelSensorScale.Text" xml:space="preserve">
-    <value>Sensors' Calibration:</value>
+  <data name="labelUSBChip.Text" xml:space="preserve">
+    <value>USB chip:</value>
   </data>
   <data name="labelUSBChipVal.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 95</value>
+  </data>
+  <data name="&gt;&gt;labelName.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="labelAmpFactoryVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -1053,11 +1107,11 @@
   <data name="labelVersion.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="labelCurrentL.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="labelHXVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;labelSensorScale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;labelAmplifier.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="buttonClose.Text" xml:space="preserve">
     <value>Close</value>
@@ -1065,20 +1119,20 @@
   <data name="labelAmpCurrentVal.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
   </data>
-  <data name="labelCurrentL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
-  </data>
-  <data name="&gt;&gt;groupBoxGeneral.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="labelSensorScale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="labelSpThFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 145</value>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;labelThreshold.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tensionUC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 205</value>
+  </data>
+  <data name="groupBoxConfiguration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 300</value>
   </data>
   <data name="labelSpine.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 120</value>
@@ -1092,92 +1146,104 @@
   <data name="&gt;&gt;labelCOM.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
   </data>
+  <data name="labelLanguageVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
   <data name="&gt;&gt;labelHX.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
   <data name="labelBluetoothVal.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 25</value>
   </data>
-  <data name="labelAmplifier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;labelVolumeFactory.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="labelCurrent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;labelSensorScale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;groupBoxConfiguration.Name" xml:space="preserve">
     <value>groupBoxConfiguration</value>
   </data>
-  <data name="&gt;&gt;labelAmpCurrent.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="labelBluetoothVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="labelBluetooth.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 145</value>
   </data>
-  <data name="&gt;&gt;labelCOM.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="labelVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
   </data>
   <data name="&gt;&gt;groupBoxCalibration.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="labelSerialVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 20</value>
+  <data name="labelVolumeFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="groupBoxGeneral.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7.8pt</value>
   </data>
-  <data name="labelSerial.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="labelVolumeFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelHXVal.Text" xml:space="preserve">
+    <value>standard</value>
+  </data>
+  <data name="labelVolumeFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
   </data>
   <data name="labelLeft.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
   </data>
-  <data name="&gt;&gt;labelAmpFactory.Parent" xml:space="preserve">
-    <value>groupBoxConfiguration</value>
+  <data name="&gt;&gt;labelLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;labelCOMVal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="labelRight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;labelHXVal.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="labelLanguageFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
   </data>
   <data name="&gt;&gt;labelUSBChip.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="labelFactory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 90</value>
+  <data name="labelUSBChipVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="labelHX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 25</value>
+  <data name="&gt;&gt;labelSpThCurrentVal.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;labelAmpCurrentVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelAmpFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
+  <data name="&gt;&gt;labelLeft.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="labelCurrentL.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
   </data>
-  <data name="&gt;&gt;labelAmpFactory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DeviceInfoForm</value>
   </data>
-  <data name="labelAmpCurrent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="labelLanguageVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="labelVolumeFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
   </data>
   <data name="labelBluetoothVal.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="labelSerial.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 20</value>
+  <data name="&gt;&gt;groupBoxConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelAmplifier.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 20</value>
+    <value>5, 45</value>
   </data>
   <data name="&gt;&gt;tensionUC.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1185,11 +1251,8 @@
   <data name="&gt;&gt;labelFactoryL.Name" xml:space="preserve">
     <value>labelFactoryL</value>
   </data>
-  <data name="labelAmpCurrent.Text" xml:space="preserve">
-    <value>Current:</value>
-  </data>
-  <data name="&gt;&gt;labelHX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;labelThreshold.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;labelVersion.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1200,6 +1263,9 @@
   <data name="labelFactoryR.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 90</value>
   </data>
+  <data name="labelCOMVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
   <data name="labelCurrentSpineVal.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
   </data>
@@ -1209,8 +1275,8 @@
   <data name="labelCurrentSpineVal.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
   </data>
-  <data name="labelSensorScale.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="&gt;&gt;labelCOMVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelFactorySpineVal.Name" xml:space="preserve">
     <value>labelFactorySpineVal</value>
@@ -1218,14 +1284,20 @@
   <data name="&gt;&gt;labelRight.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
   </data>
-  <data name="labelCOMVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="labelAmpFactoryVal.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
   </data>
   <data name="&gt;&gt;labelFirmwareVal.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="labelVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 115</value>
+  </data>
   <data name="groupBoxConfiguration.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
+  </data>
+  <data name="labelLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="labelCurrentR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1236,38 +1308,41 @@
   <data name="&gt;&gt;labelAmpFactoryVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelCurrentSpineVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 145</value>
+  <data name="labelFactoryL.Text" xml:space="preserve">
+    <value>----</value>
   </data>
-  <data name="&gt;&gt;labelBluetoothVal.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;labelAmpCurrentVal.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
   </data>
-  <data name="labelHXVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 25</value>
+  <data name="labelAmplifier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;labelCurrent.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="labelVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 60</value>
   </data>
   <data name="&gt;&gt;labelSensorScale.Name" xml:space="preserve">
     <value>labelSensorScale</value>
   </data>
-  <data name="&gt;&gt;labelCurrentL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelVolumeVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
   </data>
-  <data name="&gt;&gt;labelSpThCurrent.Name" xml:space="preserve">
-    <value>labelSpThCurrent</value>
+  <data name="labelLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 25</value>
   </data>
-  <data name="&gt;&gt;labelLeft.Parent" xml:space="preserve">
+  <data name="labelCurrentL.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelAmpFactoryVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelCurrentL.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
-  </data>
-  <data name="labelCurrentL.TabIndex" type="System.Int32, mscorlib">
-    <value>52</value>
-  </data>
-  <data name="&gt;&gt;labelSpThCurrentVal.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="&gt;&gt;labelSpine.Name" xml:space="preserve">
     <value>labelSpine</value>
+  </data>
+  <data name="labelCOM.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;labelSerial.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -1275,23 +1350,23 @@
   <data name="labelUSBChip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;labelSerialVal.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="labelSerial.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="labelSensorScale.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
   </data>
-  <data name="&gt;&gt;labelFactoryR.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelSerialVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="labelAmpFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 70</value>
+  <data name="&gt;&gt;labelVolumeVal.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
   </data>
-  <data name="labelFactoryR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="labelUSBChipVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;labelAmpFactory.Name" xml:space="preserve">
-    <value>labelAmpFactory</value>
+  <data name="&gt;&gt;labelLanguageVal.Name" xml:space="preserve">
+    <value>labelLanguageVal</value>
   </data>
   <data name="&gt;&gt;labelVersion.Name" xml:space="preserve">
     <value>labelVersion</value>
@@ -1299,50 +1374,50 @@
   <data name="&gt;&gt;labelFactorySpine.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
   </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
+  </data>
   <data name="&gt;&gt;groupBoxGeneral.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelSpThFactoryVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="labelSpThFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="labelLanguage.Text" xml:space="preserve">
+    <value>Language:</value>
   </data>
   <data name="labelSpThCurrentVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;groupBoxCalibration.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelSpThFactory.Name" xml:space="preserve">
-    <value>labelSpThFactory</value>
+  <data name="&gt;&gt;labelName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 20</value>
   </data>
-  <data name="labelSpThCurrentVal.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
+  <data name="&gt;&gt;labelCurrentSpine.Name" xml:space="preserve">
+    <value>labelCurrentSpine</value>
   </data>
-  <data name="labelSpThFactory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="labelSpThCurrentVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelSpThCurrentVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
+    <value>50, 25</value>
   </data>
-  <data name="labelCurrent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 65</value>
+  <data name="&gt;&gt;groupBoxGeneral.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="labelThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;labelSerialVal.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="labelSpThCurrent.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
+  <data name="labelAmpFactoryVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 45</value>
   </data>
-  <data name="labelCOMVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 25</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>582, 545</value>
+  </data>
+  <data name="labelSerialVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 20</value>
   </data>
   <data name="groupBoxConfiguration.Text" xml:space="preserve">
     <value>Configuration Data</value>
@@ -1356,32 +1431,35 @@
   <data name="labelCurrentR.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
+  <data name="labelLanguageFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="labelSensorScale.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 25</value>
   </data>
-  <data name="labelName.Text" xml:space="preserve">
-    <value>Digital Spinetester Device</value>
+  <data name="&gt;&gt;labelSpThFactoryVal.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
   </data>
   <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;labelFactoryL.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="labelLanguageFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
-  <data name="labelSerialVal.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Device Information</value>
   </data>
   <data name="&gt;&gt;labelCurrentSpineVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelAmpCurrent.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
+  <data name="labelLeft.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;labelFactorySpineVal.Parent" xml:space="preserve">
     <value>groupBoxCalibration</value>
   </data>
-  <data name="&gt;&gt;labelName.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="labelVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 25</value>
   </data>
   <data name="&gt;&gt;labelSpine.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1389,8 +1467,11 @@
   <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labelUSBChipVal.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBoxGeneral.Name" xml:space="preserve">
     <value>groupBoxGeneral</value>
+  </data>
+  <data name="&gt;&gt;tensionUC.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="groupBoxCalibration.Text" xml:space="preserve">
     <value>Calibration Data</value>
@@ -1398,8 +1479,14 @@
   <data name="&gt;&gt;labelCurrentR.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;labelVolume.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
+  </data>
   <data name="&gt;&gt;labelCurrent.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAmpCurrentVal.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="labelBluetoothVal.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 145</value>
@@ -1407,11 +1494,11 @@
   <data name="labelAmpCurrentVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="labelCurrentL.Text" xml:space="preserve">
-    <value>----</value>
+  <data name="labelHX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
   </data>
-  <data name="&gt;&gt;labelSpine.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;labelLanguage.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="labelCOM.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1419,14 +1506,20 @@
   <data name="labelFactorySpine.Text" xml:space="preserve">
     <value>Factory def.:</value>
   </data>
+  <data name="&gt;&gt;groupBoxCalibration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="labelUSBChip.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 95</value>
   </data>
-  <data name="&gt;&gt;labelFactory.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="labelFactoryL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="labelAmpCurrentVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="labelLanguageVal.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="labelAmpFactoryVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
   </data>
   <data name="&gt;&gt;groupBoxConfiguration.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1437,11 +1530,14 @@
   <data name="&gt;&gt;labelCurrentSpine.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;labelSerialVal.Parent" xml:space="preserve">
-    <value>groupBoxGeneral</value>
+  <data name="labelBluetooth.Text" xml:space="preserve">
+    <value>Bluetooth:</value>
   </data>
   <data name="&gt;&gt;labelSpThCurrentVal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAmpFactoryVal.Name" xml:space="preserve">
+    <value>labelAmpFactoryVal</value>
   </data>
   <data name="tensionUC.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 296</value>
@@ -1452,17 +1548,44 @@
   <data name="labelSerialVal.Text" xml:space="preserve">
     <value>000</value>
   </data>
+  <data name="&gt;&gt;labelVolumeVal.Name" xml:space="preserve">
+    <value>labelVolumeVal</value>
+  </data>
+  <data name="&gt;&gt;labelVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelLanguageVal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="labelLanguageVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="labelHX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="labelFirmware.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 25</value>
+  <data name="&gt;&gt;labelLanguage.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
   </data>
   <data name="&gt;&gt;labelBluetoothVal.Name" xml:space="preserve">
     <value>labelBluetoothVal</value>
   </data>
+  <data name="labelCurrentSpine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageVal.Parent" xml:space="preserve">
+    <value>groupBoxConfiguration</value>
+  </data>
   <data name="labelFactorySpine.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 170</value>
+  </data>
+  <data name="labelCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageFactory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelThreshold.Name" xml:space="preserve">
     <value>labelThreshold</value>
@@ -1470,14 +1593,29 @@
   <data name="&gt;&gt;labelSerial.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
   </data>
-  <data name="labelCOMVal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="labelLanguage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
-  <data name="labelSensorScale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 20</value>
+  <data name="labelLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
   </data>
-  <data name="labelFirmwareVal.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;labelVolumeFactory.Name" xml:space="preserve">
+    <value>labelVolumeFactory</value>
+  </data>
+  <data name="labelThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFactoryL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelLanguageVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelAmpCurrentVal.Text" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="labelLanguageFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="labelSpine.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>

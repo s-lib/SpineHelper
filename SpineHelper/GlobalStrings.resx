@@ -488,4 +488,23 @@ You can also manually enter the calibration value without doing the tests, but t
   <data name="ManualLink" xml:space="preserve">
     <value>http://daedalus.pl/spinehelper/SpineHelper_Manual_PL.pdf</value>
   </data>
+  <data name="LanguageUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="CalibrationApplyLanguage" xml:space="preserve">
+    <value>You are trying to set new language for the device.
+
+Previous language: {0}
+New language: {1}
+
+Do you wish to continue?</value>
+  </data>
+  <data name="CalibrationApplyVolume" xml:space="preserve">
+    <value>You are trying to set new speaker volume in the device.
+
+Previous value: {0}
+New value: {1}
+
+Do you wish to continue?</value>
+  </data>
 </root>

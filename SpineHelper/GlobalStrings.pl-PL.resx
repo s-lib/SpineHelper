@@ -487,4 +487,23 @@ Możesz też ręcznie wpisać wartość kalibracyjną bez wykonywania żadnych t
   <data name="ManualLink" xml:space="preserve">
     <value>http://daedalus.pl/spinehelper/SpineHelper_Manual_PL.pdf</value>
   </data>
+  <data name="LanguageUnknown" xml:space="preserve">
+    <value>Nieznany</value>
+  </data>
+  <data name="CalibrationApplyLanguage" xml:space="preserve">
+    <value>Próbujesz zmienić język komunikatów w urządzeniu.
+
+Poprzedni język: {0}
+Nowy język: {1}
+
+Chcesz kontynuować?</value>
+  </data>
+  <data name="CalibrationApplyVolume" xml:space="preserve">
+    <value>Próbujesz ustawić w urządzeniu nową wartość głośności.
+
+Poprzednia głośność: {0}
+Nowa głośność: {1}
+
+Chcesz kontynuować?</value>
+  </data>
 </root>

@@ -7,9 +7,14 @@ namespace SpineHelper.Device
         public double ScaleLeft { get; set; } = 1;
         public double ScaleRight { get; set; } = 1;
         public double FixedDeflection { get; set; } = 1;
+
         // Since v1.1 Firmware
         public double SpineDifference { get; private set; } = 6.0;
         public int HX711Frequency { get; private set; } = 6;
+
+        // Since v1.2 Firmware
+        public int SpeakerVolume { get; private set; } = 0;
+        public int Language { get; private set; } = 0;
 
         public DeviceSettings()
         {
@@ -48,7 +53,26 @@ namespace SpineHelper.Device
             {
                 HX711Frequency = Convert.ToInt32(values[index]);
             }
+
+            // Since v1.2 Firmware
+            if (values.Length > ++index)
+            {
+                SpeakerVolume = Convert.ToInt32(values[index]);
+            }
+            if (values.Length > ++index)
+            {
+                Language = Convert.ToInt32(values[index]);
+            }
         }
 
+        public static string GetLanguageName(int value)
+        {
+            if (value >= 0 && value < Enum.GetValues(typeof(DeviceLanguage)).Length)
+            {
+                return ((DeviceLanguage)value).ToString();
+            }
+
+            return GlobalStrings.LanguageUnknown + " (" + value + ")";
+        }
     }
 }
