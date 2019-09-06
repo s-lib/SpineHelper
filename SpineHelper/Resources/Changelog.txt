@@ -1,3 +1,9 @@
+version 1.3 (6 September 2019)
+- added support for device's firmware 1.2 new options
+- fixed rare bug with disabled connection button after failed connection
+- added error messages for failed connection attempts
+- some other smal bugfixes
+
 version 1.2 (18 July 2019)
 - added link to pdf manual under the "Help" menu
 - translated remaining calibration panels to polish
