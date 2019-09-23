@@ -1,4 +1,4 @@
-﻿namespace SpineHelper.View.Device
+﻿namespace SpineHelper.View.Options
 {
     partial class HistoryViewForm
     {
