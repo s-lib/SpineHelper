@@ -507,4 +507,7 @@ New value: {1}
 
 Do you wish to continue?</value>
   </data>
+  <data name="DeviceMultitest" xml:space="preserve">
+    <value>Multiple Spine Test</value>
+  </data>
 </root>

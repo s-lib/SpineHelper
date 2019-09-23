@@ -8,10 +8,8 @@ using SpineHelper.Device;
 
 namespace SpineHelper.View
 {
-    [Serializable]
     public partial class SpineTestUC : TimeUpdatedUC
     {
-        [Category("Data")]
         public bool MultiSpineAllowed { get; set; } = false;
 
         public event Action<double> SpineTestPassed;

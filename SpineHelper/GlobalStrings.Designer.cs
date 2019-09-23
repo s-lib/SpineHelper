@@ -413,6 +413,15 @@ namespace SpineHelper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Multiple Spine Test.
+        /// </summary>
+        internal static string DeviceMultitest {
+            get {
+                return ResourceManager.GetString("DeviceMultitest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Not Connected.
         /// </summary>
         internal static string DeviceNotConnected {

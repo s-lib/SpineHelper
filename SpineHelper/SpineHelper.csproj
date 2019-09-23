@@ -386,6 +386,9 @@
     <EmbeddedResource Include="View\Options\HistoryViewForm.resx">
       <DependentUpon>HistoryViewForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Options\MultiSpineTestForm.pl-PL.resx">
+      <DependentUpon>MultiSpineTestForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Options\MultiSpineTestForm.resx">
       <DependentUpon>MultiSpineTestForm.cs</DependentUpon>
     </EmbeddedResource>
