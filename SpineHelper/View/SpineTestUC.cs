@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using SpineHelper.Data;
 using SpineHelper.Device;
 
 namespace SpineHelper.View
@@ -18,7 +19,7 @@ namespace SpineHelper.View
         private Color defaultPanelColor = Color.Black;
 
         private bool fullTestDone = false;
-        private double previousTension = 0;
+        private double previousSpineTension = 0;
 
         public SpineTestUC()
         {
@@ -69,7 +70,7 @@ namespace SpineHelper.View
                     }
                     // Trigger an event for multi spine test
                     if (MultiSpineAllowed)
-                        SpineTestPassed?.Invoke(arrow.Spine.Get(Settings.SpineAMO, arrow.AllTestsDone? 2 : 1));
+                        SpineTestPassed?.Invoke(arrow.AllTestsDone? arrow.Spine.Value2 : arrow.Spine.Value1);
                     break;
                 case DeviceState.StraightnessTestDone:
                     if (MultiSpineAllowed == false) this.BackColor = Color.DarkSeaGreen;
@@ -78,16 +79,38 @@ namespace SpineHelper.View
                     SetText(labelSecondaryValue, arrow.Spine.Get(!main).ToString());
                     break;
 
+                // Only for Multi Spine Testing
                 case DeviceState.Tension:
                     if (MultiSpineAllowed && fullTestDone)
                     {
-                        ////TODO: spine difff pass
-                        //if (Spinetester.instance.RawSpineDifferencePassed(previousTension))
-                        //{
-                        //    previousTension = Spinetester.instance.Tension.Total;
-                        //    // Trigger an event for multi spine test
-                        //    SpineTestPassed?.Invoke(arrow.Spine.Value);
-                        //}
+                        double rawSpine = 0;
+                        if (Spinetester.instance.Tension.Total > 1500)
+                        {
+                            rawSpine = Spinetester.instance.GetRawSpineFromTension(Spinetester.instance.SpineTension);
+
+                            if (Spinetester.instance.RawSpineDifferencePassed(previousSpineTension))
+                            {
+                                this.BackColor = Color.SkyBlue;
+                                // Trigger an event for multi spine test
+                                SpineTestPassed?.Invoke(rawSpine);
+                                previousSpineTension = 100000;
+                            }
+                            else
+                            {
+                                this.BackColor = defaultPanelColor;
+                                previousSpineTension = Spinetester.instance.SpineTension;
+                            }
+                        }
+
+                        string[] spine = new string[] { Common.NoData, Common.NoData } ;
+                        if (rawSpine > 0)
+                        {
+                            spine[0] = UnitsConverter.ToASTM(rawSpine).ToString();
+                            spine[1] = UnitsConverter.ToAMO(rawSpine).ToString();
+                        }
+
+                        SetText(labelMainValue, spine[Convert.ToInt32(main)]);
+                        SetText(labelSecondaryValue, spine[Convert.ToInt32(!main)]);
                     }
                     break;
                 default:

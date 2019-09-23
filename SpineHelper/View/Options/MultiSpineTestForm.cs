@@ -1,4 +1,5 @@
 ﻿using SpineHelper.Data;
+using SpineHelper.Device;
 using SpineHelper.History;
 using System;
 using System.Collections.Generic;
@@ -13,17 +14,44 @@ namespace SpineHelper.View.Options
         {
             InitializeComponent();
 
+            spineTestUC1.MultiSpineAllowed = true;
+
+            // Register events
             spineTestUC1.SpineTestPassed += OnSpineTestPassed;
-            
+            Spinetester.instance.DataRecieved += OnDeviceDataRecieved;
+
             Reset();
         }
 
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            // Unregister events
+            spineTestUC1.SpineTestPassed -= OnSpineTestPassed;
+            Spinetester.instance.DataRecieved -= OnDeviceDataRecieved;
+        }
 
+
+        private void OnDeviceDataRecieved(DeviceState state, double[] values)
+        {
+            switch (state)
+            {
+                case DeviceState.Reset: Reset(); break;
+                default: break;
+            }
+        }
 
         public void Reset()
         {
-            dataGridView1.Rows.Clear();
-            dataGridView1.Refresh();
+            if (dataGridView1.InvokeRequired)
+            {
+                var d = new Action(Reset);
+                Invoke(d);
+            }
+            else
+            {
+                dataGridView1.Rows.Clear();
+                dataGridView1.Refresh();
+            }
         }
 
         private void OnSpineTestPassed(double rawSpine)
@@ -59,9 +87,6 @@ namespace SpineHelper.View.Options
             public MultiSpineTest(double rawSpine)
             {
                 Value = rawSpine;
-                //Value = Spinetester.GetSpineFromTension(rawSpine)
-                //TODO: calculate spine basing on spinetester data
-                //
             }
         }
     }
