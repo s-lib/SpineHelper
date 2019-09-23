@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SpineHelper.View.Device
+namespace SpineHelper.View.Options
 {
     public partial class PreferencesForm : Form
     {

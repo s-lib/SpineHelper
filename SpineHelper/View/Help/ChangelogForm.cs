@@ -2,7 +2,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace SpineHelper
+namespace SpineHelper.View.Help
 {
     public partial class ChangelogForm : Form
     {

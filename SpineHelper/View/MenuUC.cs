@@ -7,6 +7,7 @@ using System.Diagnostics;
 using SpineHelper.View.Calibration;
 using SpineHelper.View.Device;
 using SpineHelper.View.Options;
+using SpineHelper.View.Help;
 
 namespace SpineHelper.View
 {

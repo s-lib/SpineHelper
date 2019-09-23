@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using SpineHelper.Data;
 
-namespace SpineHelper
+namespace SpineHelper.View.Help
 {
     public partial class AboutForm : Form
     {

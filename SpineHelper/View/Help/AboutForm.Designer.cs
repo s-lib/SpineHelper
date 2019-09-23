@@ -1,4 +1,4 @@
-﻿namespace SpineHelper
+﻿namespace SpineHelper.View.Help
 {
     partial class AboutForm
     {
