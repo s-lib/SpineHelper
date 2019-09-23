@@ -29,16 +29,18 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.spineTestUC1 = new SpineHelper.View.SpineTestUC();
+            this.weightTestUC1 = new SpineHelper.View.WeightTestUC();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AMO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ASTM = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.weightTestUC1 = new SpineHelper.View.WeightTestUC();
-            this.spineTestUC1 = new SpineHelper.View.SpineTestUC();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
@@ -50,6 +52,25 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(426, 300);
             this.dataGridView1.TabIndex = 2;
+            // 
+            // spineTestUC1
+            // 
+            this.spineTestUC1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.spineTestUC1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.spineTestUC1.Location = new System.Drawing.Point(12, 12);
+            this.spineTestUC1.MultiSpineAllowed = true;
+            this.spineTestUC1.Name = "spineTestUC1";
+            this.spineTestUC1.Size = new System.Drawing.Size(210, 120);
+            this.spineTestUC1.TabIndex = 3;
+            // 
+            // weightTestUC1
+            // 
+            this.weightTestUC1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.weightTestUC1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.weightTestUC1.Location = new System.Drawing.Point(228, 12);
+            this.weightTestUC1.Name = "weightTestUC1";
+            this.weightTestUC1.Size = new System.Drawing.Size(210, 120);
+            this.weightTestUC1.TabIndex = 1;
             // 
             // ID
             // 
@@ -63,36 +84,19 @@
             // 
             // AMO
             // 
-            this.AMO.Frozen = true;
             this.AMO.HeaderText = "AMO";
+            this.AMO.MinimumWidth = 150;
             this.AMO.Name = "AMO";
             this.AMO.ReadOnly = true;
+            this.AMO.Width = 150;
             // 
             // ASTM
             // 
-            this.ASTM.Frozen = true;
             this.ASTM.HeaderText = "ASTM";
+            this.ASTM.MinimumWidth = 150;
             this.ASTM.Name = "ASTM";
             this.ASTM.ReadOnly = true;
-            // 
-            // weightTestUC1
-            // 
-            this.weightTestUC1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.weightTestUC1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.weightTestUC1.Location = new System.Drawing.Point(228, 12);
-            this.weightTestUC1.Name = "weightTestUC1";
-            this.weightTestUC1.Size = new System.Drawing.Size(210, 120);
-            this.weightTestUC1.TabIndex = 1;
-            // 
-            // spineTestUC1
-            // 
-            this.spineTestUC1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.spineTestUC1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.spineTestUC1.Location = new System.Drawing.Point(12, 12);
-            this.spineTestUC1.MultiSpineAllowed = true;
-            this.spineTestUC1.Name = "spineTestUC1";
-            this.spineTestUC1.Size = new System.Drawing.Size(210, 120);
-            this.spineTestUC1.TabIndex = 3;
+            this.ASTM.Width = 150;
             // 
             // MultiSpineTestForm
             // 
@@ -111,10 +115,10 @@
 
         #endregion
         private WeightTestUC weightTestUC1;
+        private SpineTestUC spineTestUC1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn AMO;
         private System.Windows.Forms.DataGridViewTextBoxColumn ASTM;
-        private SpineTestUC spineTestUC1;
     }
 }

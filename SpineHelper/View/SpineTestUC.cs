@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
@@ -6,9 +7,18 @@ using SpineHelper.Device;
 
 namespace SpineHelper.View
 {
+    [Serializable]
     public partial class SpineTestUC : TimeUpdatedUC
     {
+        [Category("Data")]
+        public bool MultiSpineAllowed { get; set; } = false;
+
+        public event Action<double> SpineTestPassed;
+
         private Color defaultPanelColor = Color.Black;
+
+        private bool fullTestDone = false;
+        private double previousTension = 0;
 
         public SpineTestUC()
         {
@@ -34,6 +44,7 @@ namespace SpineHelper.View
             {
                 case DeviceState.Reset:
                     this.BackColor = defaultPanelColor;
+                    this.fullTestDone = false;
                     SetText(labelMainValue,
                         arrow.BasicTestDone ? arrow.Spine.Get(main).ToString() : Common.NoData);
                     SetText(labelSecondaryValue,
@@ -56,11 +67,28 @@ namespace SpineHelper.View
                         SetText(labelMainValue, arrow.Spine.Get(main, 1).ToString());
                         SetText(labelSecondaryValue, arrow.Spine.Get(!main, 1).ToString());
                     }
+                    // Trigger an event for multi spine test
+                    if (MultiSpineAllowed)
+                        SpineTestPassed?.Invoke(arrow.Spine.Get(Settings.SpineAMO, arrow.AllTestsDone? 2 : 1));
                     break;
                 case DeviceState.StraightnessTestDone:
-                    this.BackColor = Color.DarkSeaGreen;
+                    if (MultiSpineAllowed == false) this.BackColor = Color.DarkSeaGreen;
+                    this.fullTestDone = true;
                     SetText(labelMainValue, arrow.Spine.Get(main).ToString());
                     SetText(labelSecondaryValue, arrow.Spine.Get(!main).ToString());
+                    break;
+
+                case DeviceState.Tension:
+                    if (MultiSpineAllowed && fullTestDone)
+                    {
+                        ////TODO: spine difff pass
+                        //if (Spinetester.instance.RawSpineDifferencePassed(previousTension))
+                        //{
+                        //    previousTension = Spinetester.instance.Tension.Total;
+                        //    // Trigger an event for multi spine test
+                        //    SpineTestPassed?.Invoke(arrow.Spine.Value);
+                        //}
+                    }
                     break;
                 default:
                     break;

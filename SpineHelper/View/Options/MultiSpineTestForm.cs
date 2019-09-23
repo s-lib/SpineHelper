@@ -12,6 +12,10 @@ namespace SpineHelper.View.Options
         public MultiSpineTestForm()
         {
             InitializeComponent();
+
+            spineTestUC1.SpineTestPassed += OnSpineTestPassed;
+            
+            Reset();
         }
 
 
@@ -19,25 +23,31 @@ namespace SpineHelper.View.Options
         public void Reset()
         {
             dataGridView1.Rows.Clear();
-            dataGridView1.Update();
+            dataGridView1.Refresh();
         }
 
-        private void OnTestFinished(double rawSpine)
+        private void OnSpineTestPassed(double rawSpine)
         {
-            var spine = new MultiSpineTest(rawSpine);
+            AddToView(new MultiSpineTest(rawSpine));
+        }
 
-            dataGridView1.Rows.Add(
-                new object[] {
+        private void AddToView(MultiSpineTest spine)
+        {
+            if (dataGridView1.InvokeRequired)
+            {
+                var d = new Action<MultiSpineTest>(AddToView);
+                Invoke(d, new object[] { spine });
+            }
+            else
+            {
+                dataGridView1.Rows.Add(new object[] {
                     dataGridView1.Rows.Count + 1,
                     spine.AMO,
-                    spine.ASTM
-                    }
-                );
-            dataGridView1.Update();
+                    spine.ASTM }
+                    );
+                dataGridView1.Refresh();
+            }
         }
-
-
-
 
 
         private class MultiSpineTest
@@ -48,6 +58,7 @@ namespace SpineHelper.View.Options
 
             public MultiSpineTest(double rawSpine)
             {
+                Value = rawSpine;
                 //Value = Spinetester.GetSpineFromTension(rawSpine)
                 //TODO: calculate spine basing on spinetester data
                 //
