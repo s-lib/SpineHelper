@@ -6,6 +6,7 @@ using System.IO;
 using System.Diagnostics;
 using SpineHelper.View.Calibration;
 using SpineHelper.View.Device;
+using SpineHelper.View.Options;
 
 namespace SpineHelper.View
 {
@@ -105,6 +106,11 @@ namespace SpineHelper.View
         private void historyViewStripMenuItem_Click(object sender, EventArgs e)
         {
             WindowManager.instance.TryOpen<HistoryViewForm>();
+        }
+
+        private void multipleSpineTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WindowManager.instance.TryOpen<MultiSpineTestForm>();
         }
 
         private void preferencesToolStripMenuItem_Click(object sender, EventArgs e)
