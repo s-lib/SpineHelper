@@ -22,6 +22,9 @@ namespace SpineHelper.View
                 RegisterClickEvent(c);
             }
             GlobalEventManager.instance.WeightUnitsSwitched += OnWeightUnitsSwitched;
+
+            SwitchFOC();
+            Settings.SettingChanged += OnSettingChanged;
         }
 
         protected override void OnUpdateControls(DeviceState state)
@@ -37,6 +40,7 @@ namespace SpineHelper.View
                         arrow.Weight.Total > 0 ? arrow.Weight.GetString(grams) : Common.NoData);
                     SetText(labelSecondaryValue,
                         arrow.Weight.Total > 0 ? arrow.Weight.GetString(!grams) : Common.NoData);
+                    SetText(labelFOCValue, Common.NoData);
                     break;
                 case DeviceState.WeightTest:
                     this.BackColor = defaultPanelColor;
@@ -47,6 +51,7 @@ namespace SpineHelper.View
                     this.BackColor = Color.DarkSeaGreen;
                     SetText(labelMainValue, arrow.Weight.GetString(grams));
                     SetText(labelSecondaryValue, arrow.Weight.GetString(!grams));
+                    SetText(labelFOCValue, arrow.Weight.FOC.ToString("0.0") + "%");
                     break;
                 default:
                     break;
@@ -85,6 +90,27 @@ namespace SpineHelper.View
         {
             SwitchLabels();
             SwitchLabelValues();
+        }
+
+
+        private void OnSettingChanged(Settings.Type type)
+        {
+            if (type == Settings.Type.ShowFOC)
+                SwitchFOC();
+        }
+
+        private void SwitchFOC()
+        {
+            if (Settings.ShowFOC == false)
+            {
+                labelFOC.Visible = false;
+                labelFOCValue.Visible = false;
+            }
+            else
+            {
+                labelFOC.Visible = true;
+                labelFOCValue.Visible = true;
+            }
         }
     }
 }
