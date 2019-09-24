@@ -164,7 +164,7 @@
     <value>Language:</value>
   </data>
   <data name="checkBoxShowFOC.ToolTip" xml:space="preserve">
-    <value>With this option turned on you will see arrow's Forward of Center value in the Weight Panel.
+    <value>With this option turned on you will see arrow's Front-Of-Center value in the Weight Panel.
 
 The value will be accurate only if the device is leveled and the arrow is placed evenly (centered) on the device,
 meaning the same length of the shaft should stick out from each side of the device.
@@ -543,7 +543,7 @@ Requires Internet connection.</value>
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkBoxShowFOC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 21</value>
+    <value>250, 21</value>
   </data>
   <data name="&gt;&gt;groupBoxDiagnostics.Name" xml:space="preserve">
     <value>groupBoxDiagnostics</value>
@@ -672,7 +672,7 @@ Requires Internet connection.</value>
     <value>5</value>
   </data>
   <data name="checkBoxShowFOC.Text" xml:space="preserve">
-    <value>Show Arrow FOC (Forward of Center)</value>
+    <value>Show Arrow FOC (Front-Of-Center)</value>
   </data>
   <data name="comboBoxResultsSize.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
