@@ -190,5 +190,17 @@ namespace SpineHelper.Properties {
                 this["SimplifiedConnectionInfo"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ShowFOC {
+            get {
+                return ((bool)(this["ShowFOC"]));
+            }
+            set {
+                this["ShowFOC"] = value;
+            }
+        }
     }
 }
