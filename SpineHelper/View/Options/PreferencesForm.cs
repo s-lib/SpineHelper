@@ -36,6 +36,7 @@ namespace SpineHelper.View.Options
             checkBoxConfirmHistoryClear.Checked = Settings.HistoryClearConfirmation;
             checkBoxConfirmHistoryRemove.Checked = Settings.HistoryRemoveConfirmation;
             checkBoxSimplifiedConnection.Checked = Settings.SimplifiedConnectionInfo;
+            checkBoxShowFOC.Checked = Settings.ShowFOC;
         }
 
 
@@ -77,6 +78,8 @@ namespace SpineHelper.View.Options
             Settings.HistoryClearConfirmation = checkBoxConfirmHistoryClear.Checked;
             Settings.HistoryRemoveConfirmation = checkBoxConfirmHistoryRemove.Checked;
             Settings.SimplifiedConnectionInfo = checkBoxSimplifiedConnection.Checked;
+
+            Settings.ShowFOC = checkBoxShowFOC.Checked;
 
 
             Settings.Save();

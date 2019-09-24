@@ -128,10 +128,13 @@
     <value>1</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="groupBoxGeneral.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="comboBoxResultsSize.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboBoxColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 65</value>
+  </data>
   <data name="labelRestart.Location" type="System.Drawing.Point, System.Drawing">
     <value>350, 20</value>
   </data>
@@ -160,6 +163,25 @@
   <data name="labelLanguage.Text" xml:space="preserve">
     <value>Language:</value>
   </data>
+  <data name="checkBoxShowFOC.ToolTip" xml:space="preserve">
+    <value>With this option turned on you will see arrow's Forward of Center value in the Weight Panel.
+
+The value will be accurate only if the device is leveled and the arrow is placed evenly (centered) on the device,
+meaning the same length of the shaft should stick out from each side of the device.
+
+Off by default.</value>
+  </data>
+  <data name="checkBoxSimplifiedConnection.ToolTip" xml:space="preserve">
+    <value>With this option turned on you will not see the details on current device status
+like "Testing spine..." or "Weight test done" near the connection panel.
+You will also not see the text tips like "Bend the arrow" or "Remove the arrow" below
+the device status.
+
+Off by default.</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
   <data name="labelResultsSize.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
   </data>
@@ -173,7 +195,7 @@ When disabled, you'll get notifications only when something goes wrong.
 Enabled by default.</value>
   </data>
   <data name="&gt;&gt;groupBoxGeneral.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="groupUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -188,7 +210,7 @@ Enabled by default.</value>
     <value>groupBoxNotifications</value>
   </data>
   <data name="&gt;&gt;groupBoxDiagnostics.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="buttonOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
@@ -229,6 +251,9 @@ Enabled by default.</value>
 When disabled, history will be cleared on main button press without additional confirmation.
 Enabled by default.</value>
   </data>
+  <data name="&gt;&gt;toolTips.Name" xml:space="preserve">
+    <value>toolTips</value>
+  </data>
   <data name="&gt;&gt;labelLanguage.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
   </data>
@@ -238,8 +263,8 @@ Enabled by default.</value>
   <data name="&gt;&gt;comboBoxLanguage.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Preferences</value>
+  <data name="comboBoxLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;labelColorScheme.Name" xml:space="preserve">
     <value>labelColorScheme</value>
@@ -262,8 +287,11 @@ Enabled by default.</value>
   <data name="&gt;&gt;groupBoxConnection.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="checkBoxConfirmHistoryRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 84</value>
+  <data name="labelColorScheme.Text" xml:space="preserve">
+    <value>Color Scheme:</value>
+  </data>
+  <data name="groupBoxGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
   <data name="checkBoxConfirmHistoryRemove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -292,8 +320,8 @@ Requires Internet connection.</value>
   <data name="labelLanguage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopRight</value>
   </data>
-  <data name="groupBoxGeneral.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="&gt;&gt;groupUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonRestart.Name" xml:space="preserve">
     <value>buttonRestart</value>
@@ -313,9 +341,6 @@ Requires Internet connection.</value>
   <data name="labelLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
   </data>
-  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 503</value>
-  </data>
   <data name="comboBoxResultsSize.Location" type="System.Drawing.Point, System.Drawing">
     <value>180, 105</value>
   </data>
@@ -328,8 +353,8 @@ Requires Internet connection.</value>
   <data name="comboBoxResultsSize.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 24</value>
   </data>
-  <data name="&gt;&gt;checkBoxSimplifiedConnection.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;groupBoxNotifications.Name" xml:space="preserve">
+    <value>groupBoxNotifications</value>
   </data>
   <data name="labelLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 30</value>
@@ -338,7 +363,7 @@ Requires Internet connection.</value>
     <value>True</value>
   </data>
   <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="checkBoxConfirmHistoryRemove.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 21</value>
@@ -373,17 +398,20 @@ Requires Internet connection.</value>
   <data name="&gt;&gt;comboBoxLanguage.Name" xml:space="preserve">
     <value>comboBoxLanguage</value>
   </data>
-  <data name="&gt;&gt;toolTips.Name" xml:space="preserve">
-    <value>toolTips</value>
+  <data name="checkBoxDebugMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBoxColorScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="buttonOK.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;labelLanguage.Name" xml:space="preserve">
-    <value>labelLanguage</value>
+  <data name="checkBoxAutoUpdates.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;comboBoxColorScheme.Parent" xml:space="preserve">
+    <value>groupBoxGeneral</value>
   </data>
   <data name="&gt;&gt;groupBoxGeneral.Name" xml:space="preserve">
     <value>groupBoxGeneral</value>
@@ -418,29 +446,32 @@ Requires Internet connection.</value>
   <data name="groupBoxNotifications.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="groupUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 160</value>
-  </data>
   <data name="checkBoxDebugMode.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 21</value>
   </data>
   <data name="buttonRestart.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 25</value>
   </data>
-  <data name="checkBoxSimplifiedConnection.Text" xml:space="preserve">
-    <value>Simplified Connection Info</value>
+  <data name="comboBoxResultsSize.ToolTip" xml:space="preserve">
+    <value>Sets the size of current arrow testing area.</value>
   </data>
   <data name="&gt;&gt;groupBoxNotifications.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="groupBoxNotifications.Size" type="System.Drawing.Size, System.Drawing">
     <value>560, 115</value>
+  </data>
+  <data name="checkBoxNotifySaveLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 21</value>
   </data>
   <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 25</value>
   </data>
   <data name="&gt;&gt;groupBoxGeneral.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBoxGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;labelRestart.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -451,17 +482,14 @@ Requires Internet connection.</value>
   <data name="checkBoxConfirmHistoryClear.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 21</value>
   </data>
-  <data name="&gt;&gt;comboBoxColorScheme.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="groupBoxNotifications.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="checkBoxAutoUpdates.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkBoxShowFOC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 417</value>
   </data>
   <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>416, 503</value>
+    <value>416, 523</value>
   </data>
   <data name="&gt;&gt;checkBoxNotifySaveLoad.Parent" xml:space="preserve">
     <value>groupBoxNotifications</value>
@@ -469,14 +497,20 @@ Requires Internet connection.</value>
   <data name="buttonUpdate.Location" type="System.Drawing.Point, System.Drawing">
     <value>420, 25</value>
   </data>
-  <data name="checkBoxDebugMode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="groupUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 160</value>
   </data>
-  <data name="checkBoxNotifySaveLoad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 21</value>
+  <data name="&gt;&gt;labelLanguage.Name" xml:space="preserve">
+    <value>labelLanguage</value>
   </data>
-  <data name="&gt;&gt;groupBoxNotifications.Name" xml:space="preserve">
-    <value>groupBoxNotifications</value>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 523</value>
+  </data>
+  <data name="checkBoxConfirmHistoryRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 84</value>
+  </data>
+  <data name="checkBoxShowFOC.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;labelRestart.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -505,23 +539,29 @@ Requires Internet connection.</value>
   <data name="&gt;&gt;groupBoxConnection.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="comboBoxLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
   <data name="&gt;&gt;groupUpdate.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxShowFOC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 21</value>
   </data>
   <data name="&gt;&gt;groupBoxDiagnostics.Name" xml:space="preserve">
     <value>groupBoxDiagnostics</value>
   </data>
-  <data name="&gt;&gt;checkBoxConfirmHistoryRemove.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;groupUpdate.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowFOC.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="buttonCancel.ToolTip" xml:space="preserve">
     <value />
+  </data>
+  <data name="checkBoxShowFOC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="comboBoxColorScheme.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -545,7 +585,7 @@ Requires Internet connection.</value>
     <value>True</value>
   </data>
   <data name="&gt;&gt;buttonOK.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="buttonRestart.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -568,8 +608,8 @@ Requires Internet connection.</value>
   <data name="checkBoxConfirmHistoryClear.Text" xml:space="preserve">
     <value>On History Clearing</value>
   </data>
-  <data name="comboBoxResultsSize.ToolTip" xml:space="preserve">
-    <value>Sets the size of current arrow testing area.</value>
+  <data name="&gt;&gt;checkBoxSimplifiedConnection.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;labelResultsSize.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
@@ -580,8 +620,8 @@ Requires Internet connection.</value>
   <data name="&gt;&gt;labelResultsSize.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="comboBoxColorScheme.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 65</value>
+  <data name="buttonRestart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 104</value>
   </data>
   <data name="labelResultsSize.Text" xml:space="preserve">
     <value>Result Area Size:</value>
@@ -591,9 +631,6 @@ Requires Internet connection.</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -607,17 +644,14 @@ Requires Internet connection.</value>
   <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelColorScheme.Text" xml:space="preserve">
-    <value>Color Scheme:</value>
+  <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="buttonRestart.Text" xml:space="preserve">
     <value>Restart Now</value>
   </data>
   <data name="checkBoxSimplifiedConnection.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 21</value>
-  </data>
-  <data name="comboBoxColorScheme.ToolTip" xml:space="preserve">
-    <value>Sets the application's color scheme.</value>
   </data>
   <data name="groupUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>560, 60</value>
@@ -637,8 +671,8 @@ Requires Internet connection.</value>
   <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="buttonRestart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>389, 104</value>
+  <data name="checkBoxShowFOC.Text" xml:space="preserve">
+    <value>Show Arrow FOC (Forward of Center)</value>
   </data>
   <data name="comboBoxResultsSize.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -664,8 +698,8 @@ Requires Internet connection.</value>
   <data name="&gt;&gt;labelResultsSize.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>120, 120</value>
+  <data name="checkBoxSimplifiedConnection.Text" xml:space="preserve">
+    <value>Simplified Connection Info</value>
   </data>
   <data name="checkBoxConfirmHistoryRemove.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -674,7 +708,7 @@ Requires Internet connection.</value>
     <value>2</value>
   </data>
   <data name="&gt;&gt;groupBoxConnection.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="$this.ToolTip" xml:space="preserve">
     <value />
@@ -685,16 +719,8 @@ Requires Internet connection.</value>
   <data name="checkBoxNotifySaveLoad.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 30</value>
   </data>
-  <data name="checkBoxSimplifiedConnection.ToolTip" xml:space="preserve">
-    <value>With this option turned on you will not see the details on current device status
-like "Testing spine..." or "Weight test done" near the connection panel.
-You will also not see the text tips like "Bend the arrow" or "Remove the arrow" below
-the device status.
-
-Off by default.</value>
-  </data>
-  <data name="comboBoxResultsSize.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="comboBoxColorScheme.ToolTip" xml:space="preserve">
+    <value>Sets the application's color scheme.</value>
   </data>
   <data name="&gt;&gt;checkBoxAutoUpdates.Name" xml:space="preserve">
     <value>checkBoxAutoUpdates</value>
@@ -713,26 +739,26 @@ Disabled by default.</value>
   <data name="labelLanguage.ToolTip" xml:space="preserve">
     <value>Sets the application's UI language.</value>
   </data>
-  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="labelColorScheme.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowFOC.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBoxColorScheme.Parent" xml:space="preserve">
-    <value>groupBoxGeneral</value>
-  </data>
   <data name="&gt;&gt;checkBoxAutoUpdates.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Preferences</value>
   </data>
   <data name="labelColorScheme.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>582, 540</value>
+    <value>582, 560</value>
   </data>
   <data name="&gt;&gt;comboBoxColorScheme.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -746,17 +772,23 @@ Disabled by default.</value>
   <data name="&gt;&gt;labelRestart.Parent" xml:space="preserve">
     <value>groupBoxGeneral</value>
   </data>
+  <data name="&gt;&gt;checkBoxConfirmHistoryRemove.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;checkBoxSimplifiedConnection.Parent" xml:space="preserve">
     <value>groupBoxConnection</value>
   </data>
   <data name="&gt;&gt;groupBoxNotifications.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupUpdate.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;checkBoxShowFOC.Name" xml:space="preserve">
+    <value>checkBoxShowFOC</value>
   </data>
   <data name="groupBoxDiagnostics.Text" xml:space="preserve">
     <value>Diagnostics</value>
+  </data>
+  <data name="checkBoxShowFOC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="labelRestart.ToolTip" xml:space="preserve">
     <value />
@@ -809,6 +841,9 @@ Disabled by default.</value>
   <data name="&gt;&gt;checkBoxNotifySaveLoad.Name" xml:space="preserve">
     <value>checkBoxNotifySaveLoad</value>
   </data>
+  <data name="&gt;&gt;checkBoxShowFOC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="groupBoxGeneral.Text" xml:space="preserve">
     <value>General</value>
   </data>
@@ -825,7 +860,7 @@ Enabled by default.</value>
     <value />
   </data>
   <data name="groupBoxDiagnostics.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 435</value>
+    <value>12, 455</value>
   </data>
   <data name="groupBoxNotifications.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
