@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="buttonOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="buttonCancel.Text" xml:space="preserve">
     <value>Anuluj</value>
   </data>
-  <data name="groupUpdate.Text" xml:space="preserve">
-    <value>Aktualizacje</value>
+  <data name="buttonCancel.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="buttonUpdate.Text" xml:space="preserve">
     <value>Sprawdź teraz</value>
@@ -145,8 +148,11 @@ uaktualniać aplikacji lub gdy chcesz uaktualniać wyłącznie samodzielnie.
 
 Domyślnie włączone.</value>
   </data>
-  <data name="groupBoxGeneral.Text" xml:space="preserve">
-    <value>Ogólne</value>
+  <data name="groupUpdate.Text" xml:space="preserve">
+    <value>Aktualizacje</value>
+  </data>
+  <data name="groupUpdate.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="buttonRestart.Text" xml:space="preserve">
     <value>Zrestartuj teraz</value>
@@ -156,6 +162,9 @@ Domyślnie włączone.</value>
   </data>
   <data name="labelRestart.Text" xml:space="preserve">
     <value>Wybrane zmiany zostaną w pełni zastosowane przy następnym uruchomieniu programu</value>
+  </data>
+  <data name="labelRestart.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="labelResultsSize.Text" xml:space="preserve">
     <value> Obszar wyników:</value>
@@ -202,8 +211,11 @@ Pełne zmiany wymagają ponownego uruchomienia aplikacji.</value>
 
 Pełne zmiany wymagają ponownego uruchomienia aplikacji.</value>
   </data>
-  <data name="groupBoxDiagnostics.Text" xml:space="preserve">
-    <value>Diagnostyka</value>
+  <data name="groupBoxGeneral.Text" xml:space="preserve">
+    <value>Ogólne</value>
+  </data>
+  <data name="groupBoxGeneral.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="checkBoxDebugMode.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 21</value>
@@ -216,8 +228,11 @@ Pełne zmiany wymagają ponownego uruchomienia aplikacji.</value>
 
 Raczej zostaw wyłączone, chyba że wiesz co robisz. ( ͡° ͜ʖ ͡°)</value>
   </data>
-  <data name="groupBoxNotifications.Text" xml:space="preserve">
-    <value>Powiadomienia</value>
+  <data name="groupBoxDiagnostics.Text" xml:space="preserve">
+    <value>Diagnostyka</value>
+  </data>
+  <data name="groupBoxDiagnostics.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="checkBoxConfirmHistoryRemove.Size" type="System.Drawing.Size, System.Drawing">
     <value>302, 21</value>
@@ -256,6 +271,12 @@ odczytywanie i eksport pliku zakończą się pomyślnie.
 Gdy jest wyłączona, otrzymasz powiadomienia tylko w przypadku niepowodzenia.
 Domyślnie włączone.</value>
   </data>
+  <data name="groupBoxNotifications.Text" xml:space="preserve">
+    <value>Powiadomienia</value>
+  </data>
+  <data name="groupBoxNotifications.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="checkBoxSimplifiedConnection.Size" type="System.Drawing.Size, System.Drawing">
     <value>266, 21</value>
   </data>
@@ -270,14 +291,31 @@ połączenia.
 
 Domyślnie wyłączone.</value>
   </data>
+  <data name="checkBoxShowFOC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 21</value>
+  </data>
+  <data name="checkBoxShowFOC.Text" xml:space="preserve">
+    <value>Wyświetl FOC (przesunięcie środka ciężkości strzały)</value>
+  </data>
+  <data name="checkBoxShowFOC.ToolTip" xml:space="preserve">
+    <value>Gdy ta opcja jest włączona w Panelu Wagi pojawi się informacja o FOC (przesunięciu środka ciężkości) strzały.
+
+Wartość będzie poprawna tylko wtedy, gdy urządzenie będzie wypoziomowane, a strzała wyśrodkowana na urządzeniu,
+czyli ułożona tak, aby taka sama długość promienia strzały wystawała poza kazdy wspornik (senosor).
+Lub, inaczej mówiąc, by środek długości strzały znajdował się dokładnie pod centralnym stycznikiem urządzenia.
+
+Domyślnie wyłączone.</value>
+  </data>
   <data name="groupBoxConnection.Text" xml:space="preserve">
     <value>Łączność</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="groupBoxConnection.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Ustawienia</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>

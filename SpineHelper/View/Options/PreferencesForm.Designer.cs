@@ -52,6 +52,7 @@
             this.checkBoxNotifySaveLoad = new System.Windows.Forms.CheckBox();
             this.toolTips = new System.Windows.Forms.ToolTip(this.components);
             this.checkBoxSimplifiedConnection = new System.Windows.Forms.CheckBox();
+            this.checkBoxShowFOC = new System.Windows.Forms.CheckBox();
             this.groupBoxConnection = new System.Windows.Forms.GroupBox();
             this.groupUpdate.SuspendLayout();
             this.groupBoxGeneral.SuspendLayout();
@@ -233,6 +234,13 @@
             this.toolTips.SetToolTip(this.checkBoxSimplifiedConnection, resources.GetString("checkBoxSimplifiedConnection.ToolTip"));
             this.checkBoxSimplifiedConnection.UseVisualStyleBackColor = true;
             // 
+            // checkBoxShowFOC
+            // 
+            resources.ApplyResources(this.checkBoxShowFOC, "checkBoxShowFOC");
+            this.checkBoxShowFOC.Name = "checkBoxShowFOC";
+            this.toolTips.SetToolTip(this.checkBoxShowFOC, resources.GetString("checkBoxShowFOC.ToolTip"));
+            this.checkBoxShowFOC.UseVisualStyleBackColor = true;
+            // 
             // groupBoxConnection
             // 
             resources.ApplyResources(this.groupBoxConnection, "groupBoxConnection");
@@ -245,6 +253,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.Controls.Add(this.checkBoxShowFOC);
             this.Controls.Add(this.groupBoxConnection);
             this.Controls.Add(this.groupBoxNotifications);
             this.Controls.Add(this.groupBoxDiagnostics);
@@ -265,6 +274,7 @@
             this.groupBoxConnection.ResumeLayout(false);
             this.groupBoxConnection.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -292,5 +302,6 @@
         private System.Windows.Forms.Button buttonRestart;
         private System.Windows.Forms.GroupBox groupBoxConnection;
         private System.Windows.Forms.CheckBox checkBoxSimplifiedConnection;
+        private System.Windows.Forms.CheckBox checkBoxShowFOC;
     }
 }
