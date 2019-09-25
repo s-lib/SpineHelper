@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace SpineHelper
 {
@@ -21,6 +22,13 @@ namespace SpineHelper
 
             Settings.LoadMainFormState(this);
             FormClosing += MainForm_FormClosing;
+            Shown += MainForm_Shown;
+
+        }
+
+        private void MainForm_Shown(object sender, EventArgs e)
+        {
+            Settings.CheckInstalledVersion();
         }
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)

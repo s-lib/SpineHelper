@@ -13,7 +13,6 @@ namespace SpineHelper
         public static event Action<Type> SettingChanged;
 
 
-
         public static void Save()
         {
             Properties.Settings.Default.Save();
@@ -100,7 +99,15 @@ namespace SpineHelper
         }
 
 
-
+        public static void CheckInstalledVersion()
+        {
+            if (Properties.Settings.Default.LatestVersion < Versioning.ShortVersion)
+            {
+                string message = String.Format(GlobalStrings.NewVersionFeatures, Versioning.ShortVersion);
+                MessageBox.Show(message, GlobalStrings.NewVersionTitle);
+                Properties.Settings.Default.LatestVersion = Versioning.ShortVersion;
+            }
+        }
 
         public static void InitLanuage()
         {

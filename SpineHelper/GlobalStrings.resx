@@ -510,4 +510,20 @@ Do you wish to continue?</value>
   <data name="DeviceMultitest" xml:space="preserve">
     <value>Multiple Spine Test</value>
   </data>
+  <data name="NewVersionFeatures" xml:space="preserve">
+    <value>Version {0} of the application adds two new features:
+
+1. Displaying arrow FOC (Front-Of-Center).
+
+Disabled by default and can be turned on in "Options" -&gt; "Settings".
+For this to display correct values the device needs to be leveled and the arrow needs to be centered on the device.
+
+2. Multiple spine tests on one arrow.
+
+Can be accessed from the "Device" menu.
+</value>
+  </data>
+  <data name="NewVersionTitle" xml:space="preserve">
+    <value>New features</value>
+  </data>
 </root>

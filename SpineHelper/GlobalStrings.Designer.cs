@@ -737,6 +737,34 @@ namespace SpineHelper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Version {0} of the application adds two new features:
+        ///
+        ///1. Displaying arrow FOC (Front-Of-Center).
+        ///
+        ///Disabled by default and can be turned on in &quot;Options&quot; -&gt; &quot;Settings&quot;.
+        ///For this to display correct values the device needs to be leveled and the arrow needs to be centered on the device.
+        ///
+        ///2. Multiple spine tests on one arrow.
+        ///
+        ///Can be accessed from the &quot;Device&quot; menu.
+        ///.
+        /// </summary>
+        internal static string NewVersionFeatures {
+            get {
+                return ResourceManager.GetString("NewVersionFeatures", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New features.
+        /// </summary>
+        internal static string NewVersionTitle {
+            get {
+                return ResourceManager.GetString("NewVersionTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No data to export. History is empty..
         /// </summary>
         internal static string NoDataToExport {

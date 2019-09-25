@@ -509,4 +509,19 @@ Chcesz kontynuować?</value>
   <data name="DeviceMultitest" xml:space="preserve">
     <value>Wielokrotny test spinu</value>
   </data>
+  <data name="NewVersionFeatures" xml:space="preserve">
+    <value>Wersja {0} aplikacji dodaje dwie nowe funkcjonalności:
+
+1. Wyświetlanie wartości FOC (przesunięcie środka ciężkości) strzały.
+
+Domyślnie wyłączona, ale można ją włączyć w menu "Opcje" -&gt; "Ustawienia".
+Aby otrzymać prawidłowe wartości, urzadzenie musi być mniej więcej wypoziomowane, a strzała wycentrowana na urządzeniu, czyli środek jej długości musi znajdować się nad centralnym stycznikiem urządzenia.
+
+2. Wielokrotny test spinu jednej strzały.
+
+Okno do wielokrotnego testowania jednej strzały (np. w celu znalezienia najsztywniejszej ze stron) można znaleźć w menu "Sprzęt".</value>
+  </data>
+  <data name="NewVersionTitle" xml:space="preserve">
+    <value>Dostępne nowe funkcje</value>
+  </data>
 </root>
