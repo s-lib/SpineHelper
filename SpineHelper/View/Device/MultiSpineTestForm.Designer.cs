@@ -52,9 +52,9 @@
             // 
             // dataGridView1
             // 
-            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToOrderColumns = true;
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
@@ -86,17 +86,17 @@
             // 
             // spineTestUC1
             // 
-            resources.ApplyResources(this.spineTestUC1, "spineTestUC1");
             this.spineTestUC1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.spineTestUC1.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.spineTestUC1, "spineTestUC1");
             this.spineTestUC1.MultiSpineAllowed = true;
             this.spineTestUC1.Name = "spineTestUC1";
             // 
             // weightTestUC1
             // 
-            resources.ApplyResources(this.weightTestUC1, "weightTestUC1");
             this.weightTestUC1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.weightTestUC1.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.weightTestUC1, "weightTestUC1");
             this.weightTestUC1.Name = "weightTestUC1";
             // 
             // labelAMO
@@ -162,8 +162,8 @@
             // 
             // MultiSpineTestForm
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.labelLowID);
             this.Controls.Add(this.labelHighID);
             this.Controls.Add(this.labelID);
