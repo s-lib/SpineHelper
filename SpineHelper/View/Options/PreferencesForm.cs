@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SpineHelper.View.Device
+namespace SpineHelper.View.Options
 {
     public partial class PreferencesForm : Form
     {
@@ -36,6 +36,7 @@ namespace SpineHelper.View.Device
             checkBoxConfirmHistoryClear.Checked = Settings.HistoryClearConfirmation;
             checkBoxConfirmHistoryRemove.Checked = Settings.HistoryRemoveConfirmation;
             checkBoxSimplifiedConnection.Checked = Settings.SimplifiedConnectionInfo;
+            checkBoxShowFOC.Checked = Settings.ShowFOC;
         }
 
 
@@ -77,6 +78,8 @@ namespace SpineHelper.View.Device
             Settings.HistoryClearConfirmation = checkBoxConfirmHistoryClear.Checked;
             Settings.HistoryRemoveConfirmation = checkBoxConfirmHistoryRemove.Checked;
             Settings.SimplifiedConnectionInfo = checkBoxSimplifiedConnection.Checked;
+
+            Settings.ShowFOC = checkBoxShowFOC.Checked;
 
 
             Settings.Save();

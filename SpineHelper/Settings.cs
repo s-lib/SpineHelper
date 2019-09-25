@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -7,6 +8,9 @@ namespace SpineHelper
     public static class Settings
     {
         public enum Language { English, Polski }
+        public enum Type { ShowFOC}
+
+        public static event Action<Type> SettingChanged;
 
 
         public static void Save()
@@ -85,8 +89,25 @@ namespace SpineHelper
             set { Properties.Settings.Default.SimplifiedConnectionInfo = value; }
         }
 
+        public static bool ShowFOC
+        {
+            get { return Properties.Settings.Default.ShowFOC; }
+            set {
+                Properties.Settings.Default.ShowFOC = value;
+                SettingChanged?.Invoke(Type.ShowFOC);
+            }
+        }
 
 
+        public static void CheckInstalledVersion()
+        {
+            if (Properties.Settings.Default.LatestVersion < Versioning.ShortVersion)
+            {
+                string message = String.Format(GlobalStrings.NewVersionFeatures, Versioning.ShortVersion);
+                MessageBox.Show(message, GlobalStrings.NewVersionTitle);
+                Properties.Settings.Default.LatestVersion = Versioning.ShortVersion;
+            }
+        }
 
         public static void InitLanuage()
         {

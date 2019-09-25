@@ -41,6 +41,7 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuOptions = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.historyViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.multipleSpineTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
             this.preferencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuHelp = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -206,6 +207,7 @@
             this.connectionToolStripMenuItem,
             this.deviceInfoToolStripMenuItem,
             this.calibrationToolStripMenuItem,
+            this.multipleSpineTestToolStripMenuItem,
             this.toolStripMenuItem3,
             this.installDriversToolStripMenuItem});
             this.contextMenuDevice.Name = "contextMenuDevice";
@@ -248,6 +250,12 @@
             resources.ApplyResources(this.calibrationToolStripMenuItem, "calibrationToolStripMenuItem");
             this.calibrationToolStripMenuItem.Name = "calibrationToolStripMenuItem";
             this.calibrationToolStripMenuItem.Click += new System.EventHandler(this.calibrationToolStripMenuItem_Click);
+            // 
+            // multipleSpineTestToolStripMenuItem
+            // 
+            resources.ApplyResources(this.multipleSpineTestToolStripMenuItem, "multipleSpineTestToolStripMenuItem");
+            this.multipleSpineTestToolStripMenuItem.Name = "multipleSpineTestToolStripMenuItem";
+            this.multipleSpineTestToolStripMenuItem.Click += new System.EventHandler(this.multipleSpineTestToolStripMenuItem_Click);
             // 
             // toolStripMenuItem3
             // 
@@ -307,5 +315,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem tareToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewManualToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem multipleSpineTestToolStripMenuItem;
     }
 }

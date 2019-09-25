@@ -413,6 +413,15 @@ namespace SpineHelper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Multiple Spine Test.
+        /// </summary>
+        internal static string DeviceMultitest {
+            get {
+                return ResourceManager.GetString("DeviceMultitest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Not Connected.
         /// </summary>
         internal static string DeviceNotConnected {
@@ -524,6 +533,15 @@ namespace SpineHelper {
         internal static string ExportError {
             get {
                 return ResourceManager.GetString("ExportError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://www.archerytalk.com/vb/showthread.php?t=5450561.
+        /// </summary>
+        internal static string ForumsURL {
+            get {
+                return ResourceManager.GetString("ForumsURL", resourceCulture);
             }
         }
         
@@ -719,11 +737,39 @@ namespace SpineHelper {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://daedalus.pl/spinehelper/SpineHelper_Manual_PL.pdf.
+        ///   Looks up a localized string similar to http://daedalus.pl/spinehelper/SpineHelper_Manual_EN.pdf.
         /// </summary>
         internal static string ManualLink {
             get {
                 return ResourceManager.GetString("ManualLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Version {0} of the application adds two new features:
+        ///
+        ///1. Displaying arrow FOC (Front-Of-Center).
+        ///
+        ///Disabled by default and can be turned on in &quot;Options&quot; -&gt; &quot;Settings&quot;.
+        ///For this to display correct values the device needs to be leveled and the arrow needs to be centered on the device.
+        ///
+        ///2. Multiple spine tests on one arrow.
+        ///
+        ///Can be accessed from the &quot;Device&quot; menu.
+        ///.
+        /// </summary>
+        internal static string NewVersionFeatures {
+            get {
+                return ResourceManager.GetString("NewVersionFeatures", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New features.
+        /// </summary>
+        internal static string NewVersionTitle {
+            get {
+                return ResourceManager.GetString("NewVersionTitle", resourceCulture);
             }
         }
         

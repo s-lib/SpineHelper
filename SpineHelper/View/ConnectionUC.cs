@@ -7,6 +7,8 @@ namespace SpineHelper.View
 {
     public partial class ConnectionUC : TimeUpdatedUC
     {
+        public bool MultiSpineAllowed { get; set; } = false;
+
         private const int TimerDelay = 15;
         private int COMtimer = 0;
         private string[] availablePorts = new string[0];
@@ -16,6 +18,8 @@ namespace SpineHelper.View
             InitializeComponent();
             ConnectionManager.instance.AvailablePortsChanged += OnAvailablePortsChanged;
             ConnectionManager.instance.ConnectionRequest += OnConnectionRequest;
+
+            SwitchConnectionPanel(ConnectionManager.instance.DeviceConnectionState >= DeviceState.Connected);
             OnUpdateControls(ConnectionManager.instance.DeviceConnectionState);
             buttonConnect.Enabled = false;
         }
@@ -45,9 +49,7 @@ namespace SpineHelper.View
                 case DeviceState.NotConnected:
                     SetText(labelConnect, GlobalStrings.DeviceNotConnected);
                     labelConnect.ForeColor = Color.Red;
-                    SetPanelVisibility(panelConnection, true);
-                    ShowAvaliablePortData(availablePorts, false);
-                    SetText(labelCommand, string.Empty);
+                    SwitchConnectionPanel(false);
                     break;
                 case DeviceState.ConnectionAttempt:
                     SetText(labelConnect, GlobalStrings.DeviceConnecting);
@@ -56,9 +58,7 @@ namespace SpineHelper.View
                 case DeviceState.Connected:
                     SetText(labelConnect, GlobalStrings.DeviceConnected);
                     SetText(labelCommand, GlobalStrings.DeviceCommandWait);
-                    labelConnect.ForeColor = Color.DarkOrange;
-                    SetPanelVisibility(panelConnection, false);
-                    SetButtonImage(buttonDisconnect, Properties.Resources.dot_orange);
+                    SwitchConnectionPanel(true);
                     break;
                 case DeviceState.Ready:
                     labelConnect.ForeColor = Color.Green;
@@ -122,11 +122,33 @@ namespace SpineHelper.View
                     case DeviceState.StraightnessTestDone:
                         SetText(labelConnect, GlobalStrings.DeviceStraightness);
                         SetText(labelCommand, GlobalStrings.DeviceCommandAllDone);
+
+                        if (MultiSpineAllowed)
+                        {
+                            SetText(labelConnect, GlobalStrings.DeviceMultitest);
+                            SetText(labelCommand, GlobalStrings.DeviceCommandTestSpine2);
+                        }
                         break;
                     default:
                         break;
                     }
                 }
+        }
+
+        private void SwitchConnectionPanel(bool connected)
+        {
+            if (connected)
+            {
+                labelConnect.ForeColor = Color.DarkOrange;
+                SetPanelVisibility(panelConnection, false);
+                SetButtonImage(buttonDisconnect, Properties.Resources.dot_orange);
+            }
+            else
+            {
+                SetPanelVisibility(panelConnection, true);
+                ShowAvaliablePortData(availablePorts, false);
+                SetText(labelCommand, string.Empty);
+            }
         }
 
         private void buttonConnect_Click(object sender, EventArgs e)

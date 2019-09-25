@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using SpineHelper.Data;
 
-namespace SpineHelper
+namespace SpineHelper.View.Help
 {
     public partial class AboutForm : Form
     {
@@ -32,7 +32,7 @@ namespace SpineHelper
 
         private void linkLabelForum_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            OpenUrl(URLs.PolishForums);
+            OpenUrl(GlobalStrings.ForumsURL);
         }
 
 

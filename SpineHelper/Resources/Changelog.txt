@@ -1,3 +1,7 @@
+version 1.4 (25 September 2019)
+- arrow FOC value can now be displayed in Weight Panel
+- added special window for multi spine testing of one arrow
+
 version 1.3 (6 September 2019)
 - added support for device's firmware 1.2 new options
 - fixed rare bug with disabled connection button after failed connection

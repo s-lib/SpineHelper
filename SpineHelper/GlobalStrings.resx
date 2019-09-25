@@ -486,7 +486,7 @@ You can also manually enter the calibration value without doing the tests, but t
 8. Your new calibration value is ready. You can click "Apply To Device" to save the new value - a confirmation window will appear before the value will be send to the device.</value>
   </data>
   <data name="ManualLink" xml:space="preserve">
-    <value>http://daedalus.pl/spinehelper/SpineHelper_Manual_PL.pdf</value>
+    <value>http://daedalus.pl/spinehelper/SpineHelper_Manual_EN.pdf</value>
   </data>
   <data name="LanguageUnknown" xml:space="preserve">
     <value>Unknown</value>
@@ -506,5 +506,27 @@ Previous value: {0}
 New value: {1}
 
 Do you wish to continue?</value>
+  </data>
+  <data name="DeviceMultitest" xml:space="preserve">
+    <value>Multiple Spine Test</value>
+  </data>
+  <data name="NewVersionFeatures" xml:space="preserve">
+    <value>Version {0} of the application adds two new features:
+
+1. Displaying arrow FOC (Front-Of-Center).
+
+Disabled by default and can be turned on in "Options" -&gt; "Settings".
+For this to display correct values the device needs to be leveled and the arrow needs to be centered on the device.
+
+2. Multiple spine tests on one arrow.
+
+Can be accessed from the "Device" menu.
+</value>
+  </data>
+  <data name="NewVersionTitle" xml:space="preserve">
+    <value>New features</value>
+  </data>
+  <data name="ForumsURL" xml:space="preserve">
+    <value>https://www.archerytalk.com/vb/showthread.php?t=5450561</value>
   </data>
 </root>

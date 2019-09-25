@@ -34,6 +34,8 @@
             this.labelMain = new System.Windows.Forms.Label();
             this.labelWeight = new System.Windows.Forms.Label();
             this.labelMainValue = new System.Windows.Forms.Label();
+            this.labelFOCValue = new System.Windows.Forms.Label();
+            this.labelFOC = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelSecondaryValue
@@ -62,10 +64,22 @@
             resources.ApplyResources(this.labelMainValue, "labelMainValue");
             this.labelMainValue.Name = "labelMainValue";
             // 
+            // labelFOCValue
+            // 
+            resources.ApplyResources(this.labelFOCValue, "labelFOCValue");
+            this.labelFOCValue.Name = "labelFOCValue";
+            // 
+            // labelFOC
+            // 
+            resources.ApplyResources(this.labelFOC, "labelFOC");
+            this.labelFOC.Name = "labelFOC";
+            // 
             // WeightTestUC
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Controls.Add(this.labelFOC);
+            this.Controls.Add(this.labelFOCValue);
             this.Controls.Add(this.labelSecondaryValue);
             this.Controls.Add(this.labelSecondary);
             this.Controls.Add(this.labelWeight);
@@ -84,5 +98,7 @@
         private System.Windows.Forms.Label labelMain;
         private System.Windows.Forms.Label labelWeight;
         private System.Windows.Forms.Label labelMainValue;
+        private System.Windows.Forms.Label labelFOCValue;
+        private System.Windows.Forms.Label labelFOC;
     }
 }

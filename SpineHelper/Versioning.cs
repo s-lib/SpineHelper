@@ -14,6 +14,14 @@ namespace SpineHelper
             }
         }
 
+        public static double ShortVersion
+        {
+            get
+            {
+                return Math.Round(MajorVersion + (MinorVersion / 10.0), 1);
+            }
+        }
+
         public static int MajorVersion
         {
             get

@@ -17,6 +17,7 @@ namespace SpineHelper.History
         public int Grains { get { return UnitsConverter.ToGrains(Total); } }
         public double Grams { get { return Math.Round(UnitsConverter.GrainsToGrams(Total), 1); } }
 
+        public double FOC { get { return (Left - Right) / Total * 50; } }
 
 
         public Weight()
