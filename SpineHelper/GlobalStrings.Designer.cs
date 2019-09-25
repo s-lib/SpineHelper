@@ -537,6 +537,15 @@ namespace SpineHelper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to https://www.archerytalk.com/vb/showthread.php?t=5450561.
+        /// </summary>
+        internal static string ForumsURL {
+            get {
+                return ResourceManager.GetString("ForumsURL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to grains.
         /// </summary>
         internal static string GrainsLowcase {
@@ -728,7 +737,7 @@ namespace SpineHelper {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://daedalus.pl/spinehelper/SpineHelper_Manual_PL.pdf.
+        ///   Looks up a localized string similar to http://daedalus.pl/spinehelper/SpineHelper_Manual_EN.pdf.
         /// </summary>
         internal static string ManualLink {
             get {

@@ -32,7 +32,7 @@ namespace SpineHelper.View.Help
 
         private void linkLabelForum_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            OpenUrl(URLs.PolishForums);
+            OpenUrl(GlobalStrings.ForumsURL);
         }
 
 

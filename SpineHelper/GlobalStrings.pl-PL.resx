@@ -524,4 +524,7 @@ Okno do wielokrotnego testowania jednej strzały (np. w celu znalezienia najszty
   <data name="NewVersionTitle" xml:space="preserve">
     <value>Dostępne nowe funkcje</value>
   </data>
+  <data name="ForumsURL" xml:space="preserve">
+    <value>http://www.forumlucznicze.pl/index.php?topic=8425.0</value>
+  </data>
 </root>
