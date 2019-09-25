@@ -131,7 +131,6 @@
             this.contextMenuOptions.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuOptions.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.historyViewToolStripMenuItem,
-            this.multipleSpineTestToolStripMenuItem,
             this.toolStripMenuItem2,
             this.preferencesToolStripMenuItem});
             this.contextMenuOptions.Name = "contextMenuOptions";
@@ -141,12 +140,6 @@
             resources.ApplyResources(this.historyViewToolStripMenuItem, "historyViewToolStripMenuItem");
             this.historyViewToolStripMenuItem.Name = "historyViewToolStripMenuItem";
             this.historyViewToolStripMenuItem.Click += new System.EventHandler(this.historyViewStripMenuItem_Click);
-            // 
-            // multipleSpineTestToolStripMenuItem
-            // 
-            resources.ApplyResources(this.multipleSpineTestToolStripMenuItem, "multipleSpineTestToolStripMenuItem");
-            this.multipleSpineTestToolStripMenuItem.Name = "multipleSpineTestToolStripMenuItem";
-            this.multipleSpineTestToolStripMenuItem.Click += new System.EventHandler(this.multipleSpineTestToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -214,6 +207,7 @@
             this.connectionToolStripMenuItem,
             this.deviceInfoToolStripMenuItem,
             this.calibrationToolStripMenuItem,
+            this.multipleSpineTestToolStripMenuItem,
             this.toolStripMenuItem3,
             this.installDriversToolStripMenuItem});
             this.contextMenuDevice.Name = "contextMenuDevice";
@@ -256,6 +250,12 @@
             resources.ApplyResources(this.calibrationToolStripMenuItem, "calibrationToolStripMenuItem");
             this.calibrationToolStripMenuItem.Name = "calibrationToolStripMenuItem";
             this.calibrationToolStripMenuItem.Click += new System.EventHandler(this.calibrationToolStripMenuItem_Click);
+            // 
+            // multipleSpineTestToolStripMenuItem
+            // 
+            resources.ApplyResources(this.multipleSpineTestToolStripMenuItem, "multipleSpineTestToolStripMenuItem");
+            this.multipleSpineTestToolStripMenuItem.Name = "multipleSpineTestToolStripMenuItem";
+            this.multipleSpineTestToolStripMenuItem.Click += new System.EventHandler(this.multipleSpineTestToolStripMenuItem_Click);
             // 
             // toolStripMenuItem3
             // 

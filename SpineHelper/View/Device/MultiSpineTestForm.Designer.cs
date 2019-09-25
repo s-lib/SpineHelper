@@ -1,4 +1,4 @@
-﻿namespace SpineHelper.View.Options
+﻿namespace SpineHelper.View.Device
 {
     partial class MultiSpineTestForm
     {

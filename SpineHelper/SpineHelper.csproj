@@ -149,10 +149,10 @@
     <Compile Include="View\Options\HistoryViewForm.Designer.cs">
       <DependentUpon>HistoryViewForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Options\MultiSpineTestForm.cs">
+    <Compile Include="View\Device\MultiSpineTestForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Options\MultiSpineTestForm.Designer.cs">
+    <Compile Include="View\Device\MultiSpineTestForm.Designer.cs">
       <DependentUpon>MultiSpineTestForm.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Options\PreferencesForm.cs">
@@ -386,10 +386,10 @@
     <EmbeddedResource Include="View\Options\HistoryViewForm.resx">
       <DependentUpon>HistoryViewForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Options\MultiSpineTestForm.pl-PL.resx">
+    <EmbeddedResource Include="View\Device\MultiSpineTestForm.pl-PL.resx">
       <DependentUpon>MultiSpineTestForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Options\MultiSpineTestForm.resx">
+    <EmbeddedResource Include="View\Device\MultiSpineTestForm.resx">
       <DependentUpon>MultiSpineTestForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Options\PreferencesForm.pl-PL.resx">

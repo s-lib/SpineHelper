@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace SpineHelper.View.Options
+namespace SpineHelper.View.Device
 {
     public partial class MultiSpineTestForm : Form
     {
