@@ -1,3 +1,7 @@
+wersja 1.4 (25 wrzeœnia 2019)
+- dodano mo¿liwoœæ wyœwietlania wartosci FOC (przesuniêcie œrodka ciê¿koœci) strza³y
+- dodano mo¿liwoœæ wykonywania wielokrotnych pomiarów spinu na jednej strzale
+
 wersja 1.3 (6 wrzeœnia 2019)
 - dodano wsparcie nowych opcji urz¹dzenia z firmware 1.2
 - poprawiono rzadki b³¹d z blokuj¹cym siê przyciskiem po nieudanym po³¹czeniu
