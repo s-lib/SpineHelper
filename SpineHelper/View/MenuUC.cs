@@ -109,6 +109,11 @@ namespace SpineHelper.View
             WindowManager.instance.TryOpen<HistoryViewForm>();
         }
 
+        private void multipleSpineTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WindowManager.instance.TryOpen<MultiSpineTestForm>();
+        }
+
         private void preferencesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             WindowManager.instance.TryOpen<PreferencesForm>();

@@ -1,4 +1,5 @@
-﻿using SpineHelper.History;
+﻿using SpineHelper.Data;
+using SpineHelper.History;
 using System;
 using System.Globalization;
 
@@ -17,6 +18,8 @@ namespace SpineHelper.Device
 
         public DeviceTension Tension { get; private set; } = new DeviceTension();
         public DeviceTension TensionSaved { get; private set; } = new DeviceTension();
+        public double SpineTension { get { return Tension.Total - CurrentArrow.Weight.Total; } }
+
 
         public ArrowData CurrentArrow { get; private set; } = new ArrowData();
 
@@ -142,6 +145,18 @@ namespace SpineHelper.Device
             return values;
         }
 
+
+
+
+        public double GetRawSpineFromTension(double spineTension)
+        {
+           return SpineCalculator.GetSpineAMO(spineTension, Settings.FixedDeflection);
+        }
+
+        public bool RawSpineDifferencePassed(double previousSpineTension)
+        {
+            return Math.Abs(SpineTension - previousSpineTension) < Factory.SpineDifference;
+        }
 
     }
 }

@@ -506,4 +506,7 @@ Nowa głośność: {1}
 
 Chcesz kontynuować?</value>
   </data>
+  <data name="DeviceMultitest" xml:space="preserve">
+    <value>Wielokrotny test spinu</value>
+  </data>
 </root>

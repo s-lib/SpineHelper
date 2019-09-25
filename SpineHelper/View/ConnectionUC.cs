@@ -7,6 +7,8 @@ namespace SpineHelper.View
 {
     public partial class ConnectionUC : TimeUpdatedUC
     {
+        public bool MultiSpineAllowed { get; set; } = false;
+
         private const int TimerDelay = 15;
         private int COMtimer = 0;
         private string[] availablePorts = new string[0];
@@ -120,6 +122,12 @@ namespace SpineHelper.View
                     case DeviceState.StraightnessTestDone:
                         SetText(labelConnect, GlobalStrings.DeviceStraightness);
                         SetText(labelCommand, GlobalStrings.DeviceCommandAllDone);
+
+                        if (MultiSpineAllowed)
+                        {
+                            SetText(labelConnect, GlobalStrings.DeviceMultitest);
+                            SetText(labelCommand, GlobalStrings.DeviceCommandTestSpine2);
+                        }
                         break;
                     default:
                         break;
