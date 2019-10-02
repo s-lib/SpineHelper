@@ -101,6 +101,12 @@
     <Compile Include="History\Spine.cs" />
     <Compile Include="History\Data.cs" />
     <Compile Include="Data\URLs.cs" />
+    <Compile Include="View\File\PrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\File\PrintForm.Designer.cs">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Help\ChangelogForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -279,6 +285,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Device\TensionUC.pl-PL.resx">
       <DependentUpon>TensionUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\File\PrintForm.resx">
+      <DependentUpon>PrintForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Help\ChangelogForm.pl-PL.resx">
       <DependentUpon>ChangelogForm.cs</DependentUpon>
