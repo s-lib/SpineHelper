@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrintForm));
             this.buttonPrint = new System.Windows.Forms.Button();
             this.buttonPreview = new System.Windows.Forms.Button();
             this.checkBoxLogo = new System.Windows.Forms.CheckBox();
@@ -36,6 +37,8 @@
             this.groupBoxOutput = new System.Windows.Forms.GroupBox();
             this.radioButtonMain = new System.Windows.Forms.RadioButton();
             this.radioButtonFull = new System.Windows.Forms.RadioButton();
+            this.printPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
+            this.printDocument = new System.Drawing.Printing.PrintDocument();
             this.groupBoxOutput.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,6 +125,20 @@
             this.radioButtonFull.Text = "Full details";
             this.radioButtonFull.UseVisualStyleBackColor = true;
             // 
+            // printPreviewDialog
+            // 
+            this.printPreviewDialog.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog.Enabled = true;
+            this.printPreviewDialog.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog.Icon")));
+            this.printPreviewDialog.Name = "printPreviewDialog";
+            this.printPreviewDialog.Visible = false;
+            // 
+            // printDocument
+            // 
+            this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument_PrintPage);
+            // 
             // PrintForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -151,5 +168,7 @@
         private System.Windows.Forms.GroupBox groupBoxOutput;
         private System.Windows.Forms.RadioButton radioButtonFull;
         private System.Windows.Forms.RadioButton radioButtonMain;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog;
+        private System.Drawing.Printing.PrintDocument printDocument;
     }
 }

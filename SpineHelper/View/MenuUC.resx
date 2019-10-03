@@ -191,9 +191,9 @@
   <data name="&gt;&gt;buttonHelp.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <metadata name="contextMenuFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="contextMenuFile.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
+  </data>
   <data name="openFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 24</value>
   </data>
@@ -216,7 +216,7 @@
     <value>210, 24</value>
   </data>
   <data name="printToolStripMenuItem.Text" xml:space="preserve">
-    <value>Print</value>
+    <value>Print...</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 6</value>
@@ -236,9 +236,9 @@
   <data name="&gt;&gt;contextMenuFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="contextMenuOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="contextMenuOptions.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>187, 17</value>
-  </metadata>
+  </data>
   <data name="contextMenuOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 58</value>
   </data>
@@ -269,9 +269,9 @@
   <data name="multipleSpineTestToolStripMenuItem.Text" xml:space="preserve">
     <value>Multiple Spine Test</value>
   </data>
-  <metadata name="contextMenuHelp.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="contextMenuHelp.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>388, 17</value>
-  </metadata>
+  </data>
   <data name="contextMenuHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>202, 106</value>
   </data>
@@ -332,9 +332,9 @@
   <data name="&gt;&gt;buttonDevice.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="contextMenuDevice.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="contextMenuDevice.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>566, 17</value>
-  </metadata>
+  </data>
   <data name="contextMenuDevice.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 130</value>
   </data>
@@ -405,9 +405,9 @@
   <data name="installDriversToolStripMenuItem.Text" xml:space="preserve">
     <value>Install USB Drivers</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>120, 120</value>
   </data>

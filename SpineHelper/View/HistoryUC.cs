@@ -11,7 +11,10 @@ namespace SpineHelper.View
     {
         private SaveFileDialog save = new SaveFileDialog();
         private OpenFileDialog load = new OpenFileDialog();
-        private ArrowSet currentSet = new ArrowSet();
+
+        //private ArrowSet currentSet = new ArrowSet();
+        //TODO: refactor this later
+        private ArrowSet currentSet { get { return HistoryManager.instance.CurrentSet; } }
 
         private DataGridViewColumnSelector columnSelector;
 
@@ -96,8 +99,11 @@ namespace SpineHelper.View
                     ClearHistory();
                     var serializer = new DataSerializer();
                     serializer.LoadFailed += OnFailed;
-                    serializer.LoadSuccessful  += OnLoadSuccessful;
-                    serializer.LoadFromFile(ref currentSet, load.FileName);
+                    serializer.LoadSuccessful  += OnLoadSuccessful;                     
+                    //TODO: refactor this later
+                    var set = new ArrowSet();
+                    serializer.LoadFromFile(ref set, load.FileName);
+                    HistoryManager.instance.LoadSet(set);
 
                     foreach (var arrow in currentSet.Arrows)
                     {

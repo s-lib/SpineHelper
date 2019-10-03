@@ -96,6 +96,8 @@
     <Compile Include="Device\DeviceTension.cs" />
     <Compile Include="Device\DeviceSettings.cs" />
     <Compile Include="Device\Enums.cs" />
+    <Compile Include="History\HistoryManager.cs" />
+    <Compile Include="PrintManager.cs" />
     <Compile Include="History\Straightness.cs" />
     <Compile Include="History\Weight.cs" />
     <Compile Include="History\Spine.cs" />
