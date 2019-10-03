@@ -22,6 +22,7 @@ namespace SpineHelper.View.File
 
         //TODO: max entries on one page
         private const int maxEntriesPerPage = 36;
+        private int currentPage = 0;
 
 
 
@@ -37,6 +38,7 @@ namespace SpineHelper.View.File
 
         private void buttonPreview_Click(object sender, EventArgs e)
         {
+            currentPage = 0;
             printPreviewDialog.Document = printDocument;
             printPreviewDialog.ShowDialog();
         }
@@ -49,7 +51,7 @@ namespace SpineHelper.View.File
 
         private void PrintArrowSetData(PrintPageEventArgs e, ArrowSet set)
         {
-            int x = 100;
+            int x = 150;
             int y = 150;
 
             var font_bold = new Font("Arial", 9, FontStyle.Bold);
@@ -68,11 +70,17 @@ namespace SpineHelper.View.File
             PrintDataRow(e, x, y, font_bold, brush, strings);
             y += 30;
 
-            int i = 0;
-            foreach (var a in set.Arrows)
+            int start = currentPage++ * maxEntriesPerPage;
+
+            for (int i = start; i < set.Arrows.Length; i++)
             {
-                if (++i > 36)
-                    break;
+                if (i >= currentPage * maxEntriesPerPage)
+                {
+                    e.HasMorePages = true;
+                    return;
+                }
+
+                var a = set.Arrows[i];
 
                 strings = new string[] {
                     a.Index.ToString(),
