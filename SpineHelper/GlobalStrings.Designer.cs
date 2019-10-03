@@ -681,6 +681,15 @@ namespace SpineHelper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Str..
+        /// </summary>
+        internal static string HistoryViewColumnStraightnessShort {
+            get {
+                return ResourceManager.GetString("HistoryViewColumnStraightnessShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Remove Selected Arrow.
         /// </summary>
         internal static string HistoryViewRemoveArrow {

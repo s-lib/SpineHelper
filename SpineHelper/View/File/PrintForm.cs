@@ -17,7 +17,6 @@ namespace SpineHelper.View.File
 {
     public partial class PrintForm : Form
     {
-        private const int TableCellSpacingX = 75;
         private const int TableCellSpacingY = 25;
 
         //TODO: max entries on one page
@@ -29,6 +28,7 @@ namespace SpineHelper.View.File
         public PrintForm()
         {
             InitializeComponent();
+            radioButtonMain.Select();
         }
 
         private void buttonPrint_Click(object sender, EventArgs e)
@@ -46,28 +46,27 @@ namespace SpineHelper.View.File
         private void printDocument_PrintPage(object sender, PrintPageEventArgs e)
         {
             PrintAppLogo(e);
-            PrintArrowSetData(e, HistoryManager.instance.CurrentSet);
+            PrintArrowSetData(e, HistoryManager.instance.CurrentSet, radioButtonFull.Checked);
         }
 
-        private void PrintArrowSetData(PrintPageEventArgs e, ArrowSet set)
+        private void PrintArrowSetData(PrintPageEventArgs e, ArrowSet set, bool full)
         {
             int x = 150;
+            int xCellSpacing = 70; 
             int y = 150;
+
+            if (full)
+            {
+                x = 100;
+                xCellSpacing = 60;
+            }
+
 
             var font_bold = new Font("Arial", 9, FontStyle.Bold);
             var font = new Font("Arial", 9, FontStyle.Regular);
             var brush = Brushes.Black;
 
-            //TODO: feed with global strings
-            string[] strings = new string[] {
-                    "ID",
-                    "Grams",
-                    "Grains",
-                    "AMO",
-                    "ASTM",
-                    "Straightness"
-                };
-            PrintDataRow(e, x, y, font_bold, brush, strings);
+            PrintDataRow(e, x, y, xCellSpacing, font_bold, brush, GetHeaders(full));
             y += 30;
 
             int start = currentPage++ * maxEntriesPerPage;
@@ -80,27 +79,63 @@ namespace SpineHelper.View.File
                     return;
                 }
 
-                var a = set.Arrows[i];
-
-                strings = new string[] {
-                    a.Index.ToString(),
-                    a.Weight.Grams.ToString("0.0"),
-                    a.Weight.Grains.ToString(),
-                    a.Spine.AMO.ToString(),
-                    a.Spine.ASTM.ToString(),
-                    a.Straightness.String
-                };
-
-                PrintDataRow(e, x, y, font, brush, strings);
+                PrintDataRow(e, x, y, xCellSpacing, font, brush, GetDataString(set.Arrows[i], full));
                 y += TableCellSpacingY;
             }
         }
 
-        private void PrintDataRow(PrintPageEventArgs e, int x, int y, Font font, Brush brush, string[] strings)
+
+
+        private string[] GetHeaders(bool full = false)
+        {
+            var h = new List<string>();
+            h.Add("ID");
+            h.Add(GlobalStrings.HistoryViewColumnGrams);
+            h.Add(GlobalStrings.HistoryViewColumnGrains);
+            h.Add("AMO");
+            h.Add("ASTM");
+            h.Add(GlobalStrings.HistoryViewColumnStraightness);
+            
+            if (full)
+            {
+                h[h.Count - 1] = GlobalStrings.HistoryViewColumnStraightnessShort;
+                h.Add(GlobalStrings.HistoryViewColumnAMO1);
+                h.Add(GlobalStrings.HistoryViewColumnASTM1);
+                h.Add(GlobalStrings.HistoryViewColumnAMO2);
+                h.Add(GlobalStrings.HistoryViewColumnASTM2);
+            }
+
+            return h.ToArray();
+        }
+
+        private string[] GetDataString(ArrowData a, bool full = false)
+        {
+            var s = new List<string>();
+            s.Add(a.Index.ToString());
+            s.Add(a.Weight.Grams.ToString("0.0"));
+            s.Add(a.Weight.Grains.ToString());
+            s.Add(a.Spine.AMO.ToString());
+            s.Add(a.Spine.ASTM.ToString());
+            s.Add(a.Straightness.String);
+
+            if (full)
+            {
+                s.Add(a.Spine.AMO1.ToString());
+                s.Add(a.Spine.ASTM1.ToString());
+                s.Add(a.Spine.AMO2.ToString());
+                s.Add(a.Spine.ASTM2.ToString());
+            }
+
+            return s.ToArray();
+        }
+
+
+
+        private void PrintDataRow(PrintPageEventArgs e, int x, int y, int xAdd, Font font, Brush brush, string[] strings)
         {
             for (int i = 0; i < strings.Length; i++)
             {
-                e.Graphics.DrawString(strings[i], font, brush, new Point(x + (i * TableCellSpacingX), y));
+                e.Graphics.DrawString(strings[i], font, brush, new Point(x + (i * xAdd), y));
             }
         }
 

@@ -529,4 +529,7 @@ Can be accessed from the "Device" menu.
   <data name="ForumsURL" xml:space="preserve">
     <value>https://www.archerytalk.com/vb/showthread.php?t=5450561</value>
   </data>
+  <data name="HistoryViewColumnStraightnessShort" xml:space="preserve">
+    <value>Str.</value>
+  </data>
 </root>

@@ -33,10 +33,9 @@
             this.buttonPreview = new System.Windows.Forms.Button();
             this.checkBoxLogo = new System.Windows.Forms.CheckBox();
             this.checkBoxSummary = new System.Windows.Forms.CheckBox();
-            this.checkBoxLines = new System.Windows.Forms.CheckBox();
             this.groupBoxOutput = new System.Windows.Forms.GroupBox();
-            this.radioButtonMain = new System.Windows.Forms.RadioButton();
             this.radioButtonFull = new System.Windows.Forms.RadioButton();
+            this.radioButtonMain = new System.Windows.Forms.RadioButton();
             this.printPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
             this.printDocument = new System.Drawing.Printing.PrintDocument();
             this.groupBoxOutput.SuspendLayout();
@@ -82,37 +81,16 @@
             this.checkBoxSummary.Text = "Add Summary";
             this.checkBoxSummary.UseVisualStyleBackColor = true;
             // 
-            // checkBoxLines
-            // 
-            this.checkBoxLines.AutoSize = true;
-            this.checkBoxLines.Location = new System.Drawing.Point(33, 225);
-            this.checkBoxLines.Name = "checkBoxLines";
-            this.checkBoxLines.Size = new System.Drawing.Size(127, 21);
-            this.checkBoxLines.TabIndex = 4;
-            this.checkBoxLines.Text = "Draw Cell Lines";
-            this.checkBoxLines.UseVisualStyleBackColor = true;
-            // 
             // groupBoxOutput
             // 
             this.groupBoxOutput.Controls.Add(this.radioButtonFull);
             this.groupBoxOutput.Controls.Add(this.radioButtonMain);
             this.groupBoxOutput.Location = new System.Drawing.Point(12, 12);
             this.groupBoxOutput.Name = "groupBoxOutput";
-            this.groupBoxOutput.Size = new System.Drawing.Size(237, 142);
+            this.groupBoxOutput.Size = new System.Drawing.Size(237, 99);
             this.groupBoxOutput.TabIndex = 5;
             this.groupBoxOutput.TabStop = false;
-            this.groupBoxOutput.Text = "Data";
-            // 
-            // radioButtonMain
-            // 
-            this.radioButtonMain.AutoSize = true;
-            this.radioButtonMain.Location = new System.Drawing.Point(21, 32);
-            this.radioButtonMain.Name = "radioButtonMain";
-            this.radioButtonMain.Size = new System.Drawing.Size(176, 21);
-            this.radioButtonMain.TabIndex = 0;
-            this.radioButtonMain.TabStop = true;
-            this.radioButtonMain.Text = "Only main info (default)";
-            this.radioButtonMain.UseVisualStyleBackColor = true;
+            this.groupBoxOutput.Text = "Print type";
             // 
             // radioButtonFull
             // 
@@ -124,6 +102,17 @@
             this.radioButtonFull.TabStop = true;
             this.radioButtonFull.Text = "Full details";
             this.radioButtonFull.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonMain
+            // 
+            this.radioButtonMain.AutoSize = true;
+            this.radioButtonMain.Location = new System.Drawing.Point(21, 32);
+            this.radioButtonMain.Name = "radioButtonMain";
+            this.radioButtonMain.Size = new System.Drawing.Size(176, 21);
+            this.radioButtonMain.TabIndex = 0;
+            this.radioButtonMain.TabStop = true;
+            this.radioButtonMain.Text = "Only main info (default)";
+            this.radioButtonMain.UseVisualStyleBackColor = true;
             // 
             // printPreviewDialog
             // 
@@ -144,7 +133,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(498, 340);
             this.Controls.Add(this.groupBoxOutput);
-            this.Controls.Add(this.checkBoxLines);
             this.Controls.Add(this.checkBoxSummary);
             this.Controls.Add(this.checkBoxLogo);
             this.Controls.Add(this.buttonPreview);
@@ -164,7 +152,6 @@
         private System.Windows.Forms.Button buttonPreview;
         private System.Windows.Forms.CheckBox checkBoxLogo;
         private System.Windows.Forms.CheckBox checkBoxSummary;
-        private System.Windows.Forms.CheckBox checkBoxLines;
         private System.Windows.Forms.GroupBox groupBoxOutput;
         private System.Windows.Forms.RadioButton radioButtonFull;
         private System.Windows.Forms.RadioButton radioButtonMain;
