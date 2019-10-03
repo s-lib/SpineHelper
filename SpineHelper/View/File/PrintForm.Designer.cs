@@ -38,7 +38,10 @@
             this.radioButtonMain = new System.Windows.Forms.RadioButton();
             this.printPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
             this.printDocument = new System.Drawing.Printing.PrintDocument();
+            this.buttonSelectLogo = new System.Windows.Forms.Button();
+            this.pictureLogo = new System.Windows.Forms.PictureBox();
             this.groupBoxOutput.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonPrint
@@ -64,7 +67,7 @@
             // checkBoxLogo
             // 
             this.checkBoxLogo.AutoSize = true;
-            this.checkBoxLogo.Location = new System.Drawing.Point(33, 171);
+            this.checkBoxLogo.Location = new System.Drawing.Point(33, 209);
             this.checkBoxLogo.Name = "checkBoxLogo";
             this.checkBoxLogo.Size = new System.Drawing.Size(91, 21);
             this.checkBoxLogo.TabIndex = 2;
@@ -74,7 +77,7 @@
             // checkBoxSummary
             // 
             this.checkBoxSummary.AutoSize = true;
-            this.checkBoxSummary.Location = new System.Drawing.Point(33, 198);
+            this.checkBoxSummary.Location = new System.Drawing.Point(33, 131);
             this.checkBoxSummary.Name = "checkBoxSummary";
             this.checkBoxSummary.Size = new System.Drawing.Size(118, 21);
             this.checkBoxSummary.TabIndex = 3;
@@ -128,19 +131,43 @@
             // 
             this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument_PrintPage);
             // 
+            // buttonSelectLogo
+            // 
+            this.buttonSelectLogo.Location = new System.Drawing.Point(30, 236);
+            this.buttonSelectLogo.Name = "buttonSelectLogo";
+            this.buttonSelectLogo.Size = new System.Drawing.Size(121, 23);
+            this.buttonSelectLogo.TabIndex = 6;
+            this.buttonSelectLogo.Text = "Browse";
+            this.buttonSelectLogo.UseVisualStyleBackColor = true;
+            this.buttonSelectLogo.Click += new System.EventHandler(this.buttonSelectLogo_Click);
+            // 
+            // pictureLogo
+            // 
+            this.pictureLogo.Location = new System.Drawing.Point(33, 265);
+            this.pictureLogo.Name = "pictureLogo";
+            this.pictureLogo.Size = new System.Drawing.Size(450, 150);
+            this.pictureLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureLogo.TabIndex = 7;
+            this.pictureLogo.TabStop = false;
+            // 
             // PrintForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(498, 340);
+            this.ClientSize = new System.Drawing.Size(519, 446);
+            this.Controls.Add(this.pictureLogo);
+            this.Controls.Add(this.buttonSelectLogo);
             this.Controls.Add(this.groupBoxOutput);
             this.Controls.Add(this.checkBoxSummary);
             this.Controls.Add(this.checkBoxLogo);
             this.Controls.Add(this.buttonPreview);
             this.Controls.Add(this.buttonPrint);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "PrintForm";
             this.Text = "PrintForm";
             this.groupBoxOutput.ResumeLayout(false);
             this.groupBoxOutput.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,5 +184,7 @@
         private System.Windows.Forms.RadioButton radioButtonMain;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog;
         private System.Drawing.Printing.PrintDocument printDocument;
+        private System.Windows.Forms.Button buttonSelectLogo;
+        private System.Windows.Forms.PictureBox pictureLogo;
     }
 }
