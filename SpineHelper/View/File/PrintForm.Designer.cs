@@ -36,14 +36,11 @@
             this.groupBoxOutput = new System.Windows.Forms.GroupBox();
             this.radioButtonFull = new System.Windows.Forms.RadioButton();
             this.radioButtonMain = new System.Windows.Forms.RadioButton();
-            this.printPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
-            this.printDocument = new System.Drawing.Printing.PrintDocument();
             this.buttonSelectLogo = new System.Windows.Forms.Button();
             this.pictureLogo = new System.Windows.Forms.PictureBox();
             this.textBoxTitle = new System.Windows.Forms.TextBox();
             this.labelTitle = new System.Windows.Forms.Label();
             this.buttonTitleReset = new System.Windows.Forms.Button();
-            this.printDialog = new System.Windows.Forms.PrintDialog();
             this.groupBoxOutput.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
             this.SuspendLayout();
@@ -99,15 +96,6 @@
             this.radioButtonMain.TabStop = true;
             this.radioButtonMain.UseVisualStyleBackColor = true;
             // 
-            // printPreviewDialog
-            // 
-            resources.ApplyResources(this.printPreviewDialog, "printPreviewDialog");
-            this.printPreviewDialog.Name = "printPreviewDialog";
-            // 
-            // printDocument
-            // 
-            this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument_PrintPage);
-            // 
             // buttonSelectLogo
             // 
             resources.ApplyResources(this.buttonSelectLogo, "buttonSelectLogo");
@@ -137,10 +125,6 @@
             this.buttonTitleReset.Name = "buttonTitleReset";
             this.buttonTitleReset.UseVisualStyleBackColor = true;
             this.buttonTitleReset.Click += new System.EventHandler(this.buttonTitleReset_Click);
-            // 
-            // printDialog
-            // 
-            this.printDialog.UseEXDialog = true;
             // 
             // PrintForm
             // 
@@ -176,13 +160,10 @@
         private System.Windows.Forms.GroupBox groupBoxOutput;
         private System.Windows.Forms.RadioButton radioButtonFull;
         private System.Windows.Forms.RadioButton radioButtonMain;
-        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog;
-        private System.Drawing.Printing.PrintDocument printDocument;
         private System.Windows.Forms.Button buttonSelectLogo;
         private System.Windows.Forms.PictureBox pictureLogo;
         private System.Windows.Forms.TextBox textBoxTitle;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Button buttonTitleReset;
-        private System.Windows.Forms.PrintDialog printDialog;
     }
 }
