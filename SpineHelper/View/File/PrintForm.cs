@@ -25,8 +25,6 @@ namespace SpineHelper.View.File
 
         private Image customLogo;
         private const string AvailableLogoFormats = "Image files (*.bmp,*.png,*.jpg,*.gif)|*.bmp;*.png;*.jpg;*.gif";
-        private const string LogoName = "customLogo.png";
-
 
         public PrintForm()
         {
@@ -36,11 +34,6 @@ namespace SpineHelper.View.File
             checkBoxLogo.Checked = true;
             LoadLogo();
         }
-
-        //private void PrintForm_Closing(object sender, CancelEventArgs e)
-        //{
-        //    System.IO.File.Copy(load.FileName, Path.Combine(Common.MainDirectory, LogoName), true);
-        //}
 
         private void buttonPrint_Click(object sender, EventArgs e)
         {
@@ -232,32 +225,34 @@ namespace SpineHelper.View.File
 
             if (load.ShowDialog() == DialogResult.OK)
             {
-                try
-                {
-                    customLogo = Image.FromFile(load.FileName);
-                    //TODO: gives exception (protected file)
-                    //System.IO.File.Copy(load.FileName, Path.Combine(Common.MainDirectory, LogoName), true);
-                }
-                catch
-                {
-                    MessageBox.Show("File could not be loaded. Image too big or not an image file.");
-                }
-
-                pictureLogo.Image = customLogo;
+                LoadLogo(load.FileName, true);
             }
 
         }
 
 
 
-        private void LoadLogo()
+        private void LoadLogo(string path = null, bool savePath = false)
         {
-            try
+            if (path == null)
+                path = Settings.CustomLogoFilename;
+
+
+            if (System.IO.File.Exists(path))
             {
-                customLogo = Image.FromFile(Path.Combine(Common.MainDirectory, LogoName));
-                pictureLogo.Image = customLogo;
+                try
+                {
+                    customLogo = Image.FromFile(path);
+                    if (savePath)
+                        Settings.CustomLogoFilename = path;
+                }
+                catch
+                {
+                    if (savePath)
+                        MessageBox.Show("File could not be loaded. Image too big or not an image file.");
+                }
             }
-            catch { }
+            pictureLogo.Image = customLogo;
         }
 
         private Point RescaleLogo(Image logo, int maxX, int maxY)
