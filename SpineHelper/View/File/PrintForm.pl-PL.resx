@@ -117,226 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="buttonPrint.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 201</value>
-  </data>
-  <data name="buttonPrint.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonPrint.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="buttonPrint.Text" xml:space="preserve">
-    <value>Print</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.Name" xml:space="preserve">
-    <value>buttonPrint</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="buttonPreview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 143</value>
-  </data>
-  <data name="buttonPreview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <data name="buttonPreview.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>Drukuj...</value>
   </data>
   <data name="buttonPreview.Text" xml:space="preserve">
-    <value>Print Preview</value>
+    <value>Podgląd wydruku</value>
   </data>
-  <data name="&gt;&gt;buttonPreview.Name" xml:space="preserve">
-    <value>buttonPreview</value>
-  </data>
-  <data name="&gt;&gt;buttonPreview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonPreview.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonPreview.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="checkBoxLogo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 216</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="checkBoxLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 21</value>
-  </data>
-  <data name="checkBoxLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>221, 21</value>
   </data>
   <data name="checkBoxLogo.Text" xml:space="preserve">
-    <value>Add Custom Header Logo</value>
-  </data>
-  <data name="&gt;&gt;checkBoxLogo.Name" xml:space="preserve">
-    <value>checkBoxLogo</value>
-  </data>
-  <data name="&gt;&gt;checkBoxLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxLogo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxLogo.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="checkBoxSummary.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxSummary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 145</value>
+    <value>Dodaj własne logo w nagłówku</value>
   </data>
   <data name="checkBoxSummary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 21</value>
-  </data>
-  <data name="checkBoxSummary.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>171, 21</value>
   </data>
   <data name="checkBoxSummary.Text" xml:space="preserve">
-    <value>Add Summary</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSummary.Name" xml:space="preserve">
-    <value>checkBoxSummary</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSummary.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSummary.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSummary.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;radioButtonFull.Name" xml:space="preserve">
-    <value>radioButtonFull</value>
-  </data>
-  <data name="&gt;&gt;radioButtonFull.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonFull.Parent" xml:space="preserve">
-    <value>groupBoxOutput</value>
-  </data>
-  <data name="&gt;&gt;radioButtonFull.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;radioButtonMain.Name" xml:space="preserve">
-    <value>radioButtonMain</value>
-  </data>
-  <data name="&gt;&gt;radioButtonMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonMain.Parent" xml:space="preserve">
-    <value>groupBoxOutput</value>
-  </data>
-  <data name="&gt;&gt;radioButtonMain.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="groupBoxOutput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 49</value>
-  </data>
-  <data name="groupBoxOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 90</value>
-  </data>
-  <data name="groupBoxOutput.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>Dołącz podsumowanie</value>
   </data>
   <data name="groupBoxOutput.Text" xml:space="preserve">
-    <value>Data print type</value>
-  </data>
-  <data name="&gt;&gt;groupBoxOutput.Name" xml:space="preserve">
-    <value>groupBoxOutput</value>
-  </data>
-  <data name="&gt;&gt;groupBoxOutput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxOutput.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBoxOutput.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="radioButtonFull.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonFull.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 59</value>
+    <value>Typ wydrukowanych danych</value>
   </data>
   <data name="radioButtonFull.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 21</value>
-  </data>
-  <data name="radioButtonFull.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>134, 21</value>
   </data>
   <data name="radioButtonFull.Text" xml:space="preserve">
-    <value>Full details</value>
-  </data>
-  <data name="&gt;&gt;radioButtonFull.Name" xml:space="preserve">
-    <value>radioButtonFull</value>
-  </data>
-  <data name="&gt;&gt;radioButtonFull.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonFull.Parent" xml:space="preserve">
-    <value>groupBoxOutput</value>
-  </data>
-  <data name="&gt;&gt;radioButtonFull.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioButtonMain.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 32</value>
+    <value>Pełne informacje</value>
   </data>
   <data name="radioButtonMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 21</value>
-  </data>
-  <data name="radioButtonMain.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>223, 21</value>
   </data>
   <data name="radioButtonMain.Text" xml:space="preserve">
-    <value>Only main info (default)</value>
-  </data>
-  <data name="&gt;&gt;radioButtonMain.Name" xml:space="preserve">
-    <value>radioButtonMain</value>
-  </data>
-  <data name="&gt;&gt;radioButtonMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonMain.Parent" xml:space="preserve">
-    <value>groupBoxOutput</value>
-  </data>
-  <data name="&gt;&gt;radioButtonMain.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="printPreviewDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="printPreviewDialog.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="printPreviewDialog.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="printPreviewDialog.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>400, 300</value>
-  </data>
-  <data name="printPreviewDialog.Enabled" type="System.Boolean, mscorlib">
-    <value>True</value>
+    <value>Tylko najważniejsze informacje</value>
   </data>
   <data name="printPreviewDialog.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -511,167 +324,19 @@
         wf+0BQAAgAUAAIAFAACAAQAAgAHB/4ABAACAAQAAgAEAALwBAAC8AQAAvAHB/4ABbP///5H/
 </value>
   </data>
-  <data name="printPreviewDialog.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;printPreviewDialog.Name" xml:space="preserve">
-    <value>printPreviewDialog</value>
-  </data>
-  <data name="&gt;&gt;printPreviewDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PrintPreviewDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <metadata name="printDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>202, 17</value>
-  </metadata>
-  <data name="buttonSelectLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 243</value>
-  </data>
-  <data name="buttonSelectLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <data name="buttonSelectLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
   <data name="buttonSelectLogo.Text" xml:space="preserve">
-    <value>Browse</value>
-  </data>
-  <data name="&gt;&gt;buttonSelectLogo.Name" xml:space="preserve">
-    <value>buttonSelectLogo</value>
-  </data>
-  <data name="&gt;&gt;buttonSelectLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonSelectLogo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSelectLogo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pictureLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 274</value>
-  </data>
-  <data name="pictureLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 150</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;pictureLogo.Name" xml:space="preserve">
-    <value>pictureLogo</value>
-  </data>
-  <data name="&gt;&gt;pictureLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureLogo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pictureLogo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="textBoxTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 12</value>
-  </data>
-  <data name="textBoxTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="textBoxTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;textBoxTitle.Name" xml:space="preserve">
-    <value>textBoxTitle</value>
-  </data>
-  <data name="&gt;&gt;textBoxTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxTitle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxTitle.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="labelTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 12</value>
-  </data>
-  <data name="labelTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="labelTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>Przeglądaj</value>
   </data>
   <data name="labelTitle.Text" xml:space="preserve">
-    <value>Arrow Set Name:</value>
-  </data>
-  <data name="labelTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.Name" xml:space="preserve">
-    <value>labelTitle</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonTitleReset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 11</value>
-  </data>
-  <data name="buttonTitleReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
-  </data>
-  <data name="buttonTitleReset.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>Nazwa zestawu strzał:</value>
   </data>
   <data name="buttonTitleReset.Text" xml:space="preserve">
-    <value>Reset</value>
+    <value>Zresetuj</value>
   </data>
-  <data name="&gt;&gt;buttonTitleReset.Name" xml:space="preserve">
-    <value>buttonTitleReset</value>
-  </data>
-  <data name="&gt;&gt;buttonTitleReset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonTitleReset.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonTitleReset.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="printDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>362, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>522, 435</value>
+  <data name="buttonSettings.Text" xml:space="preserve">
+    <value>Ustawienia druku</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Print...</value>
-  </data>
-  <data name="&gt;&gt;printDocument.Name" xml:space="preserve">
-    <value>printDocument</value>
-  </data>
-  <data name="&gt;&gt;printDocument.Type" xml:space="preserve">
-    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="&gt;&gt;printDialog.Name" xml:space="preserve">
-    <value>printDialog</value>
-  </data>
-  <data name="&gt;&gt;printDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PrintDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PrintForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>Drukuj...</value>
   </data>
 </root>

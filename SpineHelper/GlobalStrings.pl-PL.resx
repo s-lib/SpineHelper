@@ -530,4 +530,19 @@ Okno do wielokrotnego testowania jednej strzały (np. w celu znalezienia najszty
   <data name="HistoryViewColumnStraightnessShort" xml:space="preserve">
     <value>Dokł.</value>
   </data>
+  <data name="PrintCreatedDate" xml:space="preserve">
+    <value>Data utworzenia </value>
+  </data>
+  <data name="PrintCustomLogoExtensions" xml:space="preserve">
+    <value>Pliki graficzne (*.bmp,*.png,*.jpg,*.gif)|*.bmp;*.png;*.jpg;*.gif</value>
+  </data>
+  <data name="PrintCustomLogoFail" xml:space="preserve">
+    <value>Wczytywanie obrazu nie powiodło się. Obraz zbyt duży lub niewłaściwy typ.</value>
+  </data>
+  <data name="PrintLogoInfo" xml:space="preserve">
+    <value>Aplikacja PC Cyfrowego Spinetestera</value>
+  </data>
+  <data name="PrintSetDefaultName" xml:space="preserve">
+    <value>Przemierzony Zestaw Strzał</value>
+  </data>
 </root>

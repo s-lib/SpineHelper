@@ -24,7 +24,7 @@ namespace SpineHelper.View.File
         private int currentPage = 0;
 
         private Image customLogo;
-        private const string AvailableLogoFormats = "Image files (*.bmp,*.png,*.jpg,*.gif)|*.bmp;*.png;*.jpg;*.gif";
+        //private const string AvailableLogoFormats = "Image files (*.bmp,*.png,*.jpg,*.gif)|*.bmp;*.png;*.jpg;*.gif";
 
         public PrintForm()
         {
@@ -33,11 +33,19 @@ namespace SpineHelper.View.File
             checkBoxSummary.Checked = true;
             checkBoxLogo.Checked = true;
             LoadLogo();
+            GetArrowSetName();
         }
 
         private void buttonPrint_Click(object sender, EventArgs e)
         {
             printDocument.Print();
+        }
+
+        private void buttonSettings_Click(object sender, EventArgs e)
+        {
+            var settings = new PrintDialog();
+            settings.Document = printDocument;
+            settings.ShowDialog();
         }
 
         private void buttonPreview_Click(object sender, EventArgs e)
@@ -50,7 +58,7 @@ namespace SpineHelper.View.File
         private void printDocument_PrintPage(object sender, PrintPageEventArgs e)
         {
             PrintLogos(e);
-            PrintTitle(e, "Tested Arrows");
+            PrintTitle(e, textBoxTitle.Text);
             if (HistoryManager.instance.CurrentSet.ArrowCount > 0)
                 PrintArrowSetData(e, HistoryManager.instance.CurrentSet, radioButtonFull.Checked, checkBoxSummary.Checked);
         }
@@ -63,7 +71,7 @@ namespace SpineHelper.View.File
         private void PrintTitle(PrintPageEventArgs e, string title)
         {
             var font = new Font("Arial", 14, FontStyle.Bold);
-            int fontSize = 12;
+            int fontSize = 11;
             int x = e.PageSettings.PaperSize.Width / 2 - (title.Length / 2 * fontSize);
             int y = 180;
 
@@ -186,7 +194,7 @@ namespace SpineHelper.View.File
 
             int centerX = e.PageSettings.PaperSize.Width / 2;
             int x = centerX - 69;// 345;
-            int y = 40;
+            int y = 50;
             int xAdd = 50;
             int yAdd = 15;
 
@@ -195,7 +203,7 @@ namespace SpineHelper.View.File
             {
                 int size = 100;
                 var p = RescaleLogo(logo, size * 3, size);
-                e.Graphics.DrawImage(logo, centerX - (p.X / 2), 50, p.X, p.Y);
+                e.Graphics.DrawImage(logo, centerX - (p.X / 2), y, p.X, p.Y);
                 y = 1060;
             }
 
@@ -209,9 +217,9 @@ namespace SpineHelper.View.File
 
             //TODO: add black-white small logo img
             e.Graphics.DrawImage(appImage, x, y + yAdd, 44, 44);
-            e.Graphics.DrawString("Created on " + dateString, font, brush, new Point(x, y));
+            e.Graphics.DrawString(GlobalStrings.PrintCreatedDate + dateString, font, brush, new Point(x, y));
             e.Graphics.DrawString("SpineHelper", font_bold, brush, new Point(x + xAdd, y + yAdd));
-            e.Graphics.DrawString("Digital Spinetester PC App", font, brush, new Point(x + xAdd, y + 2 * yAdd));
+            e.Graphics.DrawString(GlobalStrings.PrintLogoInfo, font, brush, new Point(x + xAdd, y + 2 * yAdd));
             e.Graphics.DrawString("daedalus.pl@gmail.com", font, brush, new Point(x + xAdd, y + 3 * yAdd));
         }
 
@@ -221,7 +229,7 @@ namespace SpineHelper.View.File
             var load = new OpenFileDialog();
 
             load.InitialDirectory = Common.MainDirectory;
-            load.Filter = AvailableLogoFormats;
+            load.Filter = GlobalStrings.PrintCustomLogoExtensions;
 
             if (load.ShowDialog() == DialogResult.OK)
             {
@@ -249,7 +257,7 @@ namespace SpineHelper.View.File
                 catch
                 {
                     if (savePath)
-                        MessageBox.Show("File could not be loaded. Image too big or not an image file.");
+                        MessageBox.Show(GlobalStrings.PrintCustomLogoFail);
                 }
             }
             pictureLogo.Image = customLogo;
@@ -270,8 +278,19 @@ namespace SpineHelper.View.File
         private void checkBoxLogo_CheckedChanged(object sender, EventArgs e)
         {
             var checkbox = sender as CheckBox;
-            groupBoxLogo.Enabled = checkbox.Checked;
+            buttonSelectLogo.Enabled = checkbox.Checked;
             pictureLogo.Visible = checkbox.Checked;
         }
+
+        private void buttonTitleReset_Click(object sender, EventArgs e)
+        {
+            GetArrowSetName();
+        }
+
+        private void GetArrowSetName()
+        {
+            textBoxTitle.Text = GlobalStrings.PrintSetDefaultName;
+        }
+
     }
 }

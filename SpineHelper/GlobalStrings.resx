@@ -532,4 +532,19 @@ Can be accessed from the "Device" menu.
   <data name="HistoryViewColumnStraightnessShort" xml:space="preserve">
     <value>Str.</value>
   </data>
+  <data name="PrintCreatedDate" xml:space="preserve">
+    <value>Created on </value>
+  </data>
+  <data name="PrintCustomLogoExtensions" xml:space="preserve">
+    <value>Image files (*.bmp,*.png,*.jpg,*.gif)|*.bmp;*.png;*.jpg;*.gif</value>
+  </data>
+  <data name="PrintCustomLogoFail" xml:space="preserve">
+    <value>File could not be loaded. Image too big or not an image file.</value>
+  </data>
+  <data name="PrintLogoInfo" xml:space="preserve">
+    <value>Digital Spinetester PC App</value>
+  </data>
+  <data name="PrintSetDefaultName" xml:space="preserve">
+    <value>Spine-tested Arrows</value>
+  </data>
 </root>
