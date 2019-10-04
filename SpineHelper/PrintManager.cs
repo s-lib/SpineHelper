@@ -7,19 +7,10 @@ namespace SpineHelper
 {
     public class PrintManager
     {
-        public static readonly PrintManager instance = new PrintManager();
-
-        //public event Action<ArrowSet> PreviewPrint;
-        //public event Action<ArrowSet> PrintHistory;
-
         private readonly PrintDocument doc = new PrintDocument();
         private readonly PrintPreviewDialog preview = new PrintPreviewDialog();
         private readonly PrintDialog print = new PrintDialog();
 
-
-        static PrintManager()
-        {
-        }
 
         private PrintManager()
         {

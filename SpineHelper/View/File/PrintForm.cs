@@ -28,7 +28,6 @@ namespace SpineHelper.View.File
         private const string LogoName = "customLogo.png";
 
 
-
         public PrintForm()
         {
             InitializeComponent();
@@ -37,6 +36,11 @@ namespace SpineHelper.View.File
             checkBoxLogo.Checked = true;
             LoadLogo();
         }
+
+        //private void PrintForm_Closing(object sender, CancelEventArgs e)
+        //{
+        //    System.IO.File.Copy(load.FileName, Path.Combine(Common.MainDirectory, LogoName), true);
+        //}
 
         private void buttonPrint_Click(object sender, EventArgs e)
         {
@@ -53,6 +57,7 @@ namespace SpineHelper.View.File
         private void printDocument_PrintPage(object sender, PrintPageEventArgs e)
         {
             PrintLogos(e);
+            PrintTitle(e, "Tested Arrows");
             if (HistoryManager.instance.CurrentSet.ArrowCount > 0)
                 PrintArrowSetData(e, HistoryManager.instance.CurrentSet, radioButtonFull.Checked, checkBoxSummary.Checked);
         }
@@ -62,11 +67,21 @@ namespace SpineHelper.View.File
             return checkBoxLogo.Checked ? customLogo : null;
         }
 
+        private void PrintTitle(PrintPageEventArgs e, string title)
+        {
+            var font = new Font("Arial", 14, FontStyle.Bold);
+            int fontSize = 12;
+            int x = e.PageSettings.PaperSize.Width / 2 - (title.Length / 2 * fontSize);
+            int y = 180;
+
+            e.Graphics.DrawString(title, font, Brushes.Black, new Point(x, y));
+        }
+
         private void PrintArrowSetData(PrintPageEventArgs e, ArrowSet set, bool full, bool summary)
         {
-            int x = 150;
+            int x = 200;
             int xCellSpacing = 70; 
-            int y = 200;
+            int y = 210;
 
             if (full)
             {
@@ -176,8 +191,8 @@ namespace SpineHelper.View.File
         {
             var logo = checkBoxLogo.Checked ? customLogo : null;
 
-
-            int x = 325;
+            int centerX = e.PageSettings.PaperSize.Width / 2;
+            int x = centerX - 69;// 345;
             int y = 40;
             int xAdd = 50;
             int yAdd = 15;
@@ -187,8 +202,8 @@ namespace SpineHelper.View.File
             {
                 int size = 100;
                 var p = RescaleLogo(logo, size * 3, size);
-                e.Graphics.DrawImage(logo, 400 - p.X / 2, 50, p.X, p.Y);
-                y = 1100;
+                e.Graphics.DrawImage(logo, centerX - (p.X / 2), 50, p.X, p.Y);
+                y = 1060;
             }
 
 
@@ -207,28 +222,6 @@ namespace SpineHelper.View.File
             e.Graphics.DrawString("daedalus.pl@gmail.com", font, brush, new Point(x + xAdd, y + 3 * yAdd));
         }
 
-        private void PrintAppLogo(PrintPageEventArgs e)
-        {
-            var dateString = DateTime.Now.ToString("d", CultureInfo.CurrentCulture);
-
-            var font_bold = new Font("Arial", 7, FontStyle.Bold);
-            var font = new Font("Arial", 7, FontStyle.Regular);
-            var brush = Brushes.Black;
-            var appImage = Resources._128;
-
-            int x = 325;
-            int y = 40;
-            int xAdd = 50;
-            int yAdd = 15;
-
-
-            //TODO: add black-white small logo img
-            e.Graphics.DrawImage(appImage, x, y + yAdd, 44, 44);
-            e.Graphics.DrawString("Created on " + dateString, font, brush, new Point(x, y));
-            e.Graphics.DrawString("SpineHelper", font_bold, brush, new Point(x + xAdd, y + yAdd));
-            e.Graphics.DrawString("Digital Spinetester PC App", font, brush, new Point(x + xAdd, y + 2 * yAdd));
-            e.Graphics.DrawString("daedalus.pl@gmail.com", font, brush, new Point(x + xAdd, y + 3 * yAdd));
-        }
 
         private void buttonSelectLogo_Click(object sender, EventArgs e)
         {
@@ -242,7 +235,8 @@ namespace SpineHelper.View.File
                 try
                 {
                     customLogo = Image.FromFile(load.FileName);
-                    System.IO.File.Copy(load.FileName, Path.Combine(Common.MainDirectory, LogoName), true);
+                    //TODO: gives exception (protected file)
+                    //System.IO.File.Copy(load.FileName, Path.Combine(Common.MainDirectory, LogoName), true);
                 }
                 catch
                 {
@@ -276,6 +270,13 @@ namespace SpineHelper.View.File
             y = Convert.ToInt32(y / scale);
 
             return new Point(x, y);
+        }
+
+        private void checkBoxLogo_CheckedChanged(object sender, EventArgs e)
+        {
+            var checkbox = sender as CheckBox;
+            groupBoxLogo.Enabled = checkbox.Checked;
+            pictureLogo.Visible = checkbox.Checked;
         }
     }
 }
