@@ -531,7 +531,7 @@ Okno do wielokrotnego testowania jednej strzały (np. w celu znalezienia najszty
     <value>Dokł.</value>
   </data>
   <data name="PrintCreatedDate" xml:space="preserve">
-    <value>Data utworzenia </value>
+    <value>Data utworzenia  </value>
   </data>
   <data name="PrintCustomLogoExtensions" xml:space="preserve">
     <value>Pliki graficzne (*.bmp,*.png,*.jpg,*.gif)|*.bmp;*.png;*.jpg;*.gif</value>
@@ -543,6 +543,6 @@ Okno do wielokrotnego testowania jednej strzały (np. w celu znalezienia najszty
     <value>Aplikacja PC Cyfrowego Spinetestera</value>
   </data>
   <data name="PrintSetDefaultName" xml:space="preserve">
-    <value>Przemierzony Zestaw Strzał</value>
+    <value>Zestaw Strzał</value>
   </data>
 </root>

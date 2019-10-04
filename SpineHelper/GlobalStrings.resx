@@ -533,7 +533,7 @@ Can be accessed from the "Device" menu.
     <value>Str.</value>
   </data>
   <data name="PrintCreatedDate" xml:space="preserve">
-    <value>Created on </value>
+    <value>Created on  </value>
   </data>
   <data name="PrintCustomLogoExtensions" xml:space="preserve">
     <value>Image files (*.bmp,*.png,*.jpg,*.gif)|*.bmp;*.png;*.jpg;*.gif</value>

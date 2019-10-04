@@ -82,7 +82,7 @@ namespace SpineHelper.View.File
         {
             int x = 200;
             int xCellSpacing = 70; 
-            int y = 210;
+            int y = 215;
 
             if (full)
             {
@@ -190,7 +190,14 @@ namespace SpineHelper.View.File
 
         private void PrintLogos(PrintPageEventArgs e)
         {
+            // Check if custom logo is selected
             var logo = checkBoxLogo.Checked ? customLogo : null;
+
+            // If no custom logo or logo is invalid, load the default one
+            if (logo == null)
+            {
+                logo = Resources.spinetester;
+            }
 
             int centerX = e.PageSettings.PaperSize.Width / 2;
             int x = centerX - 69;// 345;
@@ -198,7 +205,7 @@ namespace SpineHelper.View.File
             int xAdd = 50;
             int yAdd = 15;
 
-            // Draw custom logo
+            // Draw top logo
             if (logo != null)
             {
                 int size = 100;
@@ -215,7 +222,7 @@ namespace SpineHelper.View.File
             var brush = Brushes.Black;
             var appImage = Resources._128;
 
-            //TODO: add black-white small logo img
+            // Draw lower logo with app info
             e.Graphics.DrawImage(appImage, x, y + yAdd, 44, 44);
             e.Graphics.DrawString(GlobalStrings.PrintCreatedDate + dateString, font, brush, new Point(x, y));
             e.Graphics.DrawString("SpineHelper", font_bold, brush, new Point(x + xAdd, y + yAdd));

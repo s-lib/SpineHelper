@@ -50,6 +50,7 @@
             // 
             // buttonPrint
             // 
+            this.buttonPrint.Image = global::SpineHelper.Properties.Resources.icon_print;
             resources.ApplyResources(this.buttonPrint, "buttonPrint");
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.UseVisualStyleBackColor = true;
@@ -57,6 +58,7 @@
             // 
             // buttonPreview
             // 
+            this.buttonPreview.Image = global::SpineHelper.Properties.Resources.icon_print_preview;
             resources.ApplyResources(this.buttonPreview, "buttonPreview");
             this.buttonPreview.Name = "buttonPreview";
             this.buttonPreview.UseVisualStyleBackColor = true;

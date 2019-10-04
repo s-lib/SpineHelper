@@ -118,11 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonPrint.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
   <data name="buttonPrint.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 201</value>
+    <value>360, 170</value>
   </data>
   <data name="buttonPrint.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
+    <value>125, 75</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonPrint.TabIndex" type="System.Int32, mscorlib">
@@ -130,6 +133,9 @@
   </data>
   <data name="buttonPrint.Text" xml:space="preserve">
     <value>Print</value>
+  </data>
+  <data name="buttonPrint.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
   </data>
   <data name="&gt;&gt;buttonPrint.Name" xml:space="preserve">
     <value>buttonPrint</value>
@@ -143,17 +149,23 @@
   <data name="&gt;&gt;buttonPrint.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="buttonPreview.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
   <data name="buttonPreview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 143</value>
+    <value>360, 80</value>
   </data>
   <data name="buttonPreview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
+    <value>125, 75</value>
   </data>
   <data name="buttonPreview.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="buttonPreview.Text" xml:space="preserve">
     <value>Print Preview</value>
+  </data>
+  <data name="buttonPreview.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
   </data>
   <data name="&gt;&gt;buttonPreview.Name" xml:space="preserve">
     <value>buttonPreview</value>
@@ -174,13 +186,13 @@
     <value>33, 216</value>
   </data>
   <data name="checkBoxLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 21</value>
+    <value>184, 21</value>
   </data>
   <data name="checkBoxLogo.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="checkBoxLogo.Text" xml:space="preserve">
-    <value>Add Custom Header Logo</value>
+    <value>Add custom header logo</value>
   </data>
   <data name="&gt;&gt;checkBoxLogo.Name" xml:space="preserve">
     <value>checkBoxLogo</value>
@@ -198,16 +210,16 @@
     <value>True</value>
   </data>
   <data name="checkBoxSummary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 145</value>
+    <value>33, 162</value>
   </data>
   <data name="checkBoxSummary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 21</value>
+    <value>116, 21</value>
   </data>
   <data name="checkBoxSummary.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="checkBoxSummary.Text" xml:space="preserve">
-    <value>Add Summary</value>
+    <value>Add summary</value>
   </data>
   <data name="&gt;&gt;checkBoxSummary.Name" xml:space="preserve">
     <value>checkBoxSummary</value>
@@ -603,7 +615,7 @@
     <value>10</value>
   </data>
   <data name="labelTitle.Text" xml:space="preserve">
-    <value>Arrow Set Name:</value>
+    <value>Arrow set name:</value>
   </data>
   <data name="labelTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>

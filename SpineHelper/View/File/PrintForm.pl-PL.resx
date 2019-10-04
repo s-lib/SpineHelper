@@ -117,13 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 170</value>
+  </data>
+  <data name="buttonPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 75</value>
+  </data>
   <data name="buttonPrint.Text" xml:space="preserve">
     <value>Drukuj...</value>
+  </data>
+  <data name="buttonPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 80</value>
+  </data>
+  <data name="buttonPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 75</value>
   </data>
   <data name="buttonPreview.Text" xml:space="preserve">
     <value>Podgląd wydruku</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="checkBoxLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 21</value>
   </data>
@@ -332,9 +344,6 @@
   </data>
   <data name="buttonTitleReset.Text" xml:space="preserve">
     <value>Zresetuj</value>
-  </data>
-  <data name="buttonSettings.Text" xml:space="preserve">
-    <value>Ustawienia druku</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Drukuj...</value>

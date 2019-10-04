@@ -288,6 +288,9 @@
     <EmbeddedResource Include="View\Device\TensionUC.pl-PL.resx">
       <DependentUpon>TensionUC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\File\PrintForm.pl-PL.resx">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\File\PrintForm.resx">
       <DependentUpon>PrintForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -484,6 +487,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\icon_print_preview.png" />
+    <None Include="Resources\icon_print.png" />
+    <None Include="Resources\spinetester.png" />
     <Content Include="TODO.txt" />
     <None Include="Resources\128.png" />
     <None Include="Resources\drivers.exe" />

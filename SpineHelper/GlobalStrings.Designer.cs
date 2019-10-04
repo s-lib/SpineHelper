@@ -823,7 +823,7 @@ namespace SpineHelper {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Created on .
+        ///   Looks up a localized string similar to Created on  .
         /// </summary>
         internal static string PrintCreatedDate {
             get {
