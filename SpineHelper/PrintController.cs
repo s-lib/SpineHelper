@@ -42,9 +42,11 @@ namespace SpineHelper
         {
             NewSet(set);
             doc.PrintPage += printDocument_PrintPage;
+            doc.EndPrint += printDocument_EndPrint;
             preview.Document = doc;
             print.Document = doc;
         }
+
 
         public void NewSet(ArrowSet set)
         {
@@ -60,7 +62,10 @@ namespace SpineHelper
         public void Print()
         {
             currentPage = 0;
-            print.ShowDialog();
+            if (print.ShowDialog() == DialogResult.OK)
+            {
+                doc.Print();
+            }
         }
 
 
@@ -70,6 +75,11 @@ namespace SpineHelper
             PrintTitle(e, ArrowSetName);
             if (set.ArrowCount > 0)
                 PrintArrowSetData(e, set, Details, Summary);
+        }
+
+        private void printDocument_EndPrint(object sender, PrintEventArgs e)
+        {
+            currentPage = 0;
         }
 
 
