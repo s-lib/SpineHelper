@@ -98,6 +98,12 @@ namespace SpineHelper
             }
         }
 
+        public static string CustomLogoFilename
+        {
+            get { return Properties.Settings.Default.CustomLogoFilename; }
+            set { Properties.Settings.Default.CustomLogoFilename = value; }
+        }
+
 
         public static void CheckInstalledVersion()
         {

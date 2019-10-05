@@ -253,4 +253,7 @@
   <data name="installDriversToolStripMenuItem.Text" xml:space="preserve">
     <value>Zainstaluj sterowniki USB urządzenia</value>
   </data>
+  <data name="printToolStripMenuItem.Text" xml:space="preserve">
+    <value>Drukuj...</value>
+  </data>
 </root>

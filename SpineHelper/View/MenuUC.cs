@@ -8,6 +8,7 @@ using SpineHelper.View.Calibration;
 using SpineHelper.View.Device;
 using SpineHelper.View.Options;
 using SpineHelper.View.Help;
+using SpineHelper.View.File;
 
 namespace SpineHelper.View
 {
@@ -97,6 +98,11 @@ namespace SpineHelper.View
             GlobalEventManager.instance.OnExportHistory();
         }
 
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WindowManager.instance.TryOpen<PrintForm>();
+        }
+
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             GlobalEventManager.instance.OnExitApplication();
@@ -168,7 +174,7 @@ namespace SpineHelper.View
                 byte[] exeBytes = Properties.Resources.CH340drivers;
                 string exeToRun = Path.Combine(Path.GetTempPath(), "CH340drivers.exe");
 
-                if (!File.Exists(exeToRun))
+                if (!System.IO.File.Exists(exeToRun))
                 {
                     using (FileStream exeFile = new FileStream(exeToRun, FileMode.CreateNew))
                         exeFile.Write(exeBytes, 0, exeBytes.Length);
@@ -267,5 +273,6 @@ namespace SpineHelper.View
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
     }
 }

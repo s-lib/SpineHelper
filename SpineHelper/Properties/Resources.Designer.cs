@@ -81,7 +81,19 @@ namespace SpineHelper.Properties {
         }
         
         /// <summary>
-        /// Just a changelog file
+        ///   Looks up a localized string similar to version 1.4 (25 September 2019)
+        ///- arrow FOC value can now be displayed in Weight Panel
+        ///- added special window for multi spine testing of one arrow
+        ///
+        ///version 1.3 (6 September 2019)
+        ///- added support for device&apos;s firmware 1.2 new options
+        ///- fixed rare bug with disabled connection button after failed connection
+        ///- added error messages for failed connection attempts
+        ///- some other smal bugfixes
+        ///
+        ///version 1.2 (18 July 2019)
+        ///- added link to pdf manual under the &quot;Help&quot; menu
+        ///- translated remaining calibration p [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Changelog {
             get {
@@ -90,7 +102,18 @@ namespace SpineHelper.Properties {
         }
         
         /// <summary>
-        /// Polish version of the changelog
+        ///   Looks up a localized string similar to wersja 1.4 (25 września 2019)
+        ///- dodano możliwość wyświetlania wartosci FOC (przesunięcie środka ciężkości) strzały
+        ///- dodano możliwość wykonywania wielokrotnych pomiarów spinu na jednej strzale
+        ///
+        ///wersja 1.3 (6 września 2019)
+        ///- dodano wsparcie nowych opcji urządzenia z firmware 1.2
+        ///- poprawiono rzadki błąd z blokującym się przyciskiem po nieudanym połączeniu
+        ///- dodano wyświetlanie komunikatu błędu w przypadku nieudanego połączenia
+        ///- inne drobne poprawki
+        ///
+        ///wersja 1.2 (18 Lipca 2019)
+        ///- dodano link do in [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ChangelogPL {
             get {
@@ -144,6 +167,36 @@ namespace SpineHelper.Properties {
         internal static System.Drawing.Bitmap dot_red {
             get {
                 object obj = ResourceManager.GetObject("dot_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_print {
+            get {
+                object obj = ResourceManager.GetObject("icon_print", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_print_preview {
+            get {
+                object obj = ResourceManager.GetObject("icon_print_preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap spinetester {
+            get {
+                object obj = ResourceManager.GetObject("spinetester", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
