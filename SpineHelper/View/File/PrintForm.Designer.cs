@@ -41,6 +41,7 @@
             this.textBoxTitle = new System.Windows.Forms.TextBox();
             this.labelTitle = new System.Windows.Forms.Label();
             this.buttonTitleReset = new System.Windows.Forms.Button();
+            this.buttonResetLogo = new System.Windows.Forms.Button();
             this.groupBoxOutput.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
             this.SuspendLayout();
@@ -126,10 +127,18 @@
             this.buttonTitleReset.UseVisualStyleBackColor = true;
             this.buttonTitleReset.Click += new System.EventHandler(this.buttonTitleReset_Click);
             // 
+            // buttonResetLogo
+            // 
+            resources.ApplyResources(this.buttonResetLogo, "buttonResetLogo");
+            this.buttonResetLogo.Name = "buttonResetLogo";
+            this.buttonResetLogo.UseVisualStyleBackColor = true;
+            this.buttonResetLogo.Click += new System.EventHandler(this.button1_Click);
+            // 
             // PrintForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.buttonResetLogo);
             this.Controls.Add(this.buttonSelectLogo);
             this.Controls.Add(this.pictureLogo);
             this.Controls.Add(this.buttonTitleReset);
@@ -165,5 +174,6 @@
         private System.Windows.Forms.TextBox textBoxTitle;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Button buttonTitleReset;
+        private System.Windows.Forms.Button buttonResetLogo;
     }
 }

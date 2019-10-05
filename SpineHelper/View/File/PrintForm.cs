@@ -58,6 +58,17 @@ namespace SpineHelper.View.File
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ResetLogo();
+        }
+
+        private void ResetLogo()
+        {
+            Settings.CustomLogoFilename = string.Empty;
+            pc.CustomLogo = null;
+            pictureLogo.Image = null;
+        }
 
         private void LoadLogo(string path = null, bool savePath = false)
         {

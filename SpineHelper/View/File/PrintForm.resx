@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonPrint.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="buttonPreview.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -177,7 +177,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonPreview.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="checkBoxLogo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -204,7 +204,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBoxLogo.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="checkBoxSummary.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -231,6 +231,54 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBoxSummary.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;radioButtonFull.Name" xml:space="preserve">
+    <value>radioButtonFull</value>
+  </data>
+  <data name="&gt;&gt;radioButtonFull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonFull.Parent" xml:space="preserve">
+    <value>groupBoxOutput</value>
+  </data>
+  <data name="&gt;&gt;radioButtonFull.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMain.Name" xml:space="preserve">
+    <value>radioButtonMain</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMain.Parent" xml:space="preserve">
+    <value>groupBoxOutput</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBoxOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 49</value>
+  </data>
+  <data name="groupBoxOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 90</value>
+  </data>
+  <data name="groupBoxOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBoxOutput.Text" xml:space="preserve">
+    <value>Data print type</value>
+  </data>
+  <data name="&gt;&gt;groupBoxOutput.Name" xml:space="preserve">
+    <value>groupBoxOutput</value>
+  </data>
+  <data name="&gt;&gt;groupBoxOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxOutput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxOutput.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="radioButtonFull.AutoSize" type="System.Boolean, mscorlib">
@@ -287,35 +335,11 @@
   <data name="&gt;&gt;radioButtonMain.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="groupBoxOutput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 49</value>
-  </data>
-  <data name="groupBoxOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 90</value>
-  </data>
-  <data name="groupBoxOutput.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="groupBoxOutput.Text" xml:space="preserve">
-    <value>Data print type</value>
-  </data>
-  <data name="&gt;&gt;groupBoxOutput.Name" xml:space="preserve">
-    <value>groupBoxOutput</value>
-  </data>
-  <data name="&gt;&gt;groupBoxOutput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxOutput.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBoxOutput.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="buttonSelectLogo.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 243</value>
   </data>
   <data name="buttonSelectLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
+    <value>150, 25</value>
   </data>
   <data name="buttonSelectLogo.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -333,7 +357,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonSelectLogo.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="pictureLogo.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 274</value>
@@ -358,7 +382,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureLogo.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="textBoxTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 12</value>
@@ -379,7 +403,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxTitle.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="labelTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 12</value>
@@ -406,7 +430,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="buttonTitleReset.Location" type="System.Drawing.Point, System.Drawing">
     <value>368, 11</value>
@@ -430,7 +454,34 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonTitleReset.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
+  </data>
+  <data name="buttonResetLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonResetLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 243</value>
+  </data>
+  <data name="buttonResetLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonResetLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="buttonResetLogo.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;buttonResetLogo.Name" xml:space="preserve">
+    <value>buttonResetLogo</value>
+  </data>
+  <data name="&gt;&gt;buttonResetLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonResetLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonResetLogo.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
