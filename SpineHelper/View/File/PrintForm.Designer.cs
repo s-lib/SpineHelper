@@ -42,6 +42,7 @@
             this.labelTitle = new System.Windows.Forms.Label();
             this.buttonTitleReset = new System.Windows.Forms.Button();
             this.buttonResetLogo = new System.Windows.Forms.Button();
+            this.labelNoLogo = new System.Windows.Forms.Label();
             this.groupBoxOutput.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
             this.SuspendLayout();
@@ -134,13 +135,17 @@
             this.buttonResetLogo.UseVisualStyleBackColor = true;
             this.buttonResetLogo.Click += new System.EventHandler(this.button1_Click);
             // 
+            // labelNoLogo
+            // 
+            resources.ApplyResources(this.labelNoLogo, "labelNoLogo");
+            this.labelNoLogo.Name = "labelNoLogo";
+            // 
             // PrintForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
             this.Controls.Add(this.buttonResetLogo);
             this.Controls.Add(this.buttonSelectLogo);
-            this.Controls.Add(this.pictureLogo);
             this.Controls.Add(this.buttonTitleReset);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.textBoxTitle);
@@ -149,6 +154,8 @@
             this.Controls.Add(this.checkBoxLogo);
             this.Controls.Add(this.buttonPreview);
             this.Controls.Add(this.buttonPrint);
+            this.Controls.Add(this.pictureLogo);
+            this.Controls.Add(this.labelNoLogo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "PrintForm";
@@ -175,5 +182,6 @@
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Button buttonTitleReset;
         private System.Windows.Forms.Button buttonResetLogo;
+        private System.Windows.Forms.Label labelNoLogo;
     }
 }

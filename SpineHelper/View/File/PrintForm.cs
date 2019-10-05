@@ -68,6 +68,7 @@ namespace SpineHelper.View.File
             Settings.CustomLogoFilename = string.Empty;
             pc.CustomLogo = null;
             pictureLogo.Image = null;
+            UpdateLogoPreviewVisibility(false);
         }
 
         private void LoadLogo(string path = null, bool savePath = false)
@@ -91,6 +92,7 @@ namespace SpineHelper.View.File
                 }
             }
             pictureLogo.Image = pc.CustomLogo;
+            UpdateLogoPreviewVisibility();
         }
 
 
@@ -98,7 +100,14 @@ namespace SpineHelper.View.File
         {
             var checkbox = sender as CheckBox;
             buttonSelectLogo.Enabled = checkbox.Checked;
-            pictureLogo.Visible = checkbox.Checked;
+            UpdateLogoPreviewVisibility(checkbox.Checked);
+            labelNoLogo.Enabled = checkbox.Checked;
+            buttonResetLogo.Enabled = checkbox.Checked;
+        }
+
+        private void UpdateLogoPreviewVisibility(bool visible = true)
+        {
+            pictureLogo.Visible = pictureLogo.Image != null ? visible : false;
         }
 
         private void buttonTitleReset_Click(object sender, EventArgs e)
