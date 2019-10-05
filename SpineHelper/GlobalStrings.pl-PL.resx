@@ -510,21 +510,34 @@ Chcesz kontynuować?</value>
     <value>Wielokrotny test spinu</value>
   </data>
   <data name="NewVersionFeatures" xml:space="preserve">
-    <value>Wersja {0} aplikacji dodaje dwie nowe funkcjonalności:
+    <value>Wersja {0} aplikacji pozwala drukować rezultaty wprost z poziomu aplikacji, bez potrzeby wyeksportowania pliku.
 
-1. Wyświetlanie wartości FOC (przesunięcie środka ciężkości) strzały.
+Ostateczny wygląd wydrukowanej strony można dostosować do swoich potrzeb, np. poprzez zmianę górnego obrazu na logo i informacje o własnej firmie, zmieniając nazwę testowanego kompletu strzał, wybierając jakie dane mają zostać wydrukowane czy też dodając podsumowanie przetestowanego kompletu.
 
-Domyślnie wyłączona, ale można ją włączyć w menu "Opcje" -&gt; "Ustawienia".
-Aby otrzymać prawidłowe wartości, urzadzenie musi być mniej więcej wypoziomowane, a strzała wycentrowana na urządzeniu, czyli środek jej długości musi znajdować się nad centralnym stycznikiem urządzenia.
-
-2. Wielokrotny test spinu jednej strzały.
-
-Okno do wielokrotnego testowania jednej strzały (np. w celu znalezienia najsztywniejszej ze stron) można znaleźć w menu "Sprzęt".</value>
+Opcja drukowania znajduje się w menu "Plik".</value>
   </data>
   <data name="NewVersionTitle" xml:space="preserve">
     <value>Dostępne nowe funkcje</value>
   </data>
   <data name="ForumsURL" xml:space="preserve">
     <value>http://www.forumlucznicze.pl/index.php?topic=8425.0</value>
+  </data>
+  <data name="HistoryViewColumnStraightnessShort" xml:space="preserve">
+    <value>Dokł.</value>
+  </data>
+  <data name="PrintCreatedDate" xml:space="preserve">
+    <value>Data utworzenia  </value>
+  </data>
+  <data name="PrintCustomLogoExtensions" xml:space="preserve">
+    <value>Pliki graficzne (*.bmp,*.png,*.jpg,*.gif)|*.bmp;*.png;*.jpg;*.gif</value>
+  </data>
+  <data name="PrintCustomLogoFail" xml:space="preserve">
+    <value>Wczytywanie obrazu nie powiodło się. Obraz zbyt duży lub niewłaściwy typ.</value>
+  </data>
+  <data name="PrintLogoInfo" xml:space="preserve">
+    <value>Aplikacja PC Cyfrowego Spinetestera</value>
+  </data>
+  <data name="PrintSetDefaultName" xml:space="preserve">
+    <value>Zestaw Strzał</value>
   </data>
 </root>

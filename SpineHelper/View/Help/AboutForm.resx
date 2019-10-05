@@ -154,7 +154,7 @@
     <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
   </data>
   <data name="labelName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 15</value>
+    <value>150, 15</value>
   </data>
   <data name="labelName.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 30</value>
@@ -184,7 +184,7 @@
     <value>Top</value>
   </data>
   <data name="labelVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 50</value>
+    <value>150, 50</value>
   </data>
   <data name="labelVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 20</value>
@@ -214,7 +214,7 @@
     <value>Top</value>
   </data>
   <data name="labelBuilt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 75</value>
+    <value>150, 75</value>
   </data>
   <data name="labelBuilt.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 20</value>
@@ -370,7 +370,7 @@
     <value>1</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>50, 15</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 84</value>

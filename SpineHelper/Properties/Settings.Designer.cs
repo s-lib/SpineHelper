@@ -214,5 +214,17 @@ namespace SpineHelper.Properties {
                 this["LatestVersion"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string CustomLogoFilename {
+            get {
+                return ((string)(this["CustomLogoFilename"]));
+            }
+            set {
+                this["CustomLogoFilename"] = value;
+            }
+        }
     }
 }

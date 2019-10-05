@@ -117,218 +117,413 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;calibrationToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>About...</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 6</value>
-  </data>
-  <data name="buttonFile.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="preferencesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Preferences</value>
-  </data>
-  <data name="buttonHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 0</value>
-  </data>
-  <data name="&gt;&gt;buttonHelp.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 6</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
-    <value>toolStripMenuItem3</value>
-  </data>
-  <data name="installDriversToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 24</value>
-  </data>
-  <data name="&gt;&gt;multipleSpineTestToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;openFileToolStripMenuItem.Name" xml:space="preserve">
-    <value>openFileToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;connectionToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;disconnectToolStripMenuItem.Name" xml:space="preserve">
-    <value>disconnectToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;buttonDevice.Name" xml:space="preserve">
-    <value>buttonDevice</value>
-  </data>
-  <data name="connectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Connect</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;installDriversToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonDevice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;buttonFile.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="multipleSpineTestToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
-  </data>
-  <data name="&gt;&gt;buttonFile.Name" xml:space="preserve">
-    <value>buttonFile</value>
-  </data>
-  <data name="buttonFile.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="changelogToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 24</value>
-  </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
-    <value>aboutToolStripMenuItem</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="connectionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 24</value>
-  </data>
-  <data name="&gt;&gt;buttonHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="connectionToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;exportHistoryToolStripMenuItem.Name" xml:space="preserve">
-    <value>exportHistoryToolStripMenuItem</value>
-  </data>
-  <data name="buttonDevice.Text" xml:space="preserve">
-    <value>Device</value>
-  </data>
-  <data name="calibrationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 24</value>
-  </data>
-  <data name="saveFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Save File</value>
-  </data>
-  <data name="buttonOptions.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="&gt;&gt;buttonDevice.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 6</value>
-  </data>
-  <data name="changelogToolStripMenuItem.Text" xml:space="preserve">
-    <value>Changelog</value>
-  </data>
-  <data name="&gt;&gt;buttonFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonHelp.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="viewManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>View Manual</value>
-  </data>
-  <data name="&gt;&gt;multipleSpineTestToolStripMenuItem.Name" xml:space="preserve">
-    <value>multipleSpineTestToolStripMenuItem</value>
-  </data>
-  <data name="openFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 24</value>
-  </data>
-  <data name="preferencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
-  </data>
-  <data name="exportHistoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 24</value>
-  </data>
-  <data name="disconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 26</value>
+  <data name="buttonFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
   </data>
   <data name="buttonFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
   </data>
-  <data name="&gt;&gt;viewManualToolStripMenuItem.Type" xml:space="preserve">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonFile.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="buttonFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="&gt;&gt;buttonFile.Name" xml:space="preserve">
+    <value>buttonFile</value>
+  </data>
+  <data name="&gt;&gt;buttonFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonFile.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 0</value>
+  </data>
+  <data name="buttonOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="buttonOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.Name" xml:space="preserve">
+    <value>buttonOptions</value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 0</value>
+  </data>
+  <data name="buttonHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="buttonHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.Name" xml:space="preserve">
+    <value>buttonHelp</value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="contextMenuFile.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="openFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 24</value>
+  </data>
+  <data name="openFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open File</value>
+  </data>
+  <data name="saveFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 24</value>
+  </data>
+  <data name="saveFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save File</value>
+  </data>
+  <data name="exportHistoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 24</value>
+  </data>
+  <data name="exportHistoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export History</value>
+  </data>
+  <data name="printToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 24</value>
+  </data>
+  <data name="printToolStripMenuItem.Text" xml:space="preserve">
+    <value>Print...</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 24</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="contextMenuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 130</value>
+  </data>
+  <data name="&gt;&gt;contextMenuFile.Name" xml:space="preserve">
+    <value>contextMenuFile</value>
+  </data>
+  <data name="&gt;&gt;contextMenuFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextMenuOptions.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>187, 17</value>
+  </data>
+  <data name="contextMenuOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 58</value>
+  </data>
+  <data name="&gt;&gt;contextMenuOptions.Name" xml:space="preserve">
+    <value>contextMenuOptions</value>
+  </data>
+  <data name="&gt;&gt;contextMenuOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="historyViewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 24</value>
+  </data>
+  <data name="historyViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>History View</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 6</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 24</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="multipleSpineTestToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 24</value>
+  </data>
+  <data name="multipleSpineTestToolStripMenuItem.Text" xml:space="preserve">
+    <value>Multiple Spine Test</value>
+  </data>
+  <data name="contextMenuHelp.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>388, 17</value>
+  </data>
+  <data name="contextMenuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 106</value>
+  </data>
+  <data name="&gt;&gt;contextMenuHelp.Name" xml:space="preserve">
+    <value>contextMenuHelp</value>
+  </data>
+  <data name="&gt;&gt;contextMenuHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 24</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check For Updates</value>
+  </data>
+  <data name="viewManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 24</value>
+  </data>
+  <data name="viewManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>View Manual</value>
+  </data>
+  <data name="changelogToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 24</value>
+  </data>
+  <data name="changelogToolStripMenuItem.Text" xml:space="preserve">
+    <value>Changelog</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 24</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="buttonDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 0</value>
+  </data>
+  <data name="buttonDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonDevice.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="buttonDevice.Text" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="&gt;&gt;buttonDevice.Name" xml:space="preserve">
+    <value>buttonDevice</value>
+  </data>
+  <data name="&gt;&gt;buttonDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDevice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonDevice.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="contextMenuDevice.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>566, 17</value>
+  </data>
+  <data name="contextMenuDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 130</value>
+  </data>
+  <data name="&gt;&gt;contextMenuDevice.Name" xml:space="preserve">
+    <value>contextMenuDevice</value>
+  </data>
+  <data name="&gt;&gt;contextMenuDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="connectionToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="connectionToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="connectionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 24</value>
+  </data>
+  <data name="connectionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="connectToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="connectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 26</value>
+  </data>
+  <data name="connectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="tareToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="tareToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 26</value>
+  </data>
+  <data name="tareToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tare</value>
+  </data>
+  <data name="disconnectToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="disconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 26</value>
+  </data>
+  <data name="disconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="deviceInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 24</value>
+  </data>
+  <data name="deviceInfoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Device Information</value>
+  </data>
+  <data name="calibrationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 24</value>
+  </data>
+  <data name="calibrationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Calibration and Settings</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 6</value>
+  </data>
+  <data name="installDriversToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 24</value>
+  </data>
+  <data name="installDriversToolStripMenuItem.Text" xml:space="preserve">
+    <value>Install USB Drivers</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 25</value>
+  </data>
+  <data name="&gt;&gt;openFileToolStripMenuItem.Name" xml:space="preserve">
+    <value>openFileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openFileToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;saveFileToolStripMenuItem.Name" xml:space="preserve">
     <value>saveFileToolStripMenuItem</value>
   </data>
-  <data name="connectToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="&gt;&gt;openFileToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;saveFileToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tareToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 26</value>
+  <data name="&gt;&gt;exportHistoryToolStripMenuItem.Name" xml:space="preserve">
+    <value>exportHistoryToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;connectToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;exportHistoryToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;contextMenuFile.Name" xml:space="preserve">
-    <value>contextMenuFile</value>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
   </data>
   <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="historyViewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;calibrationToolStripMenuItem.Name" xml:space="preserve">
-    <value>calibrationToolStripMenuItem</value>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="connectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 26</value>
+  <data name="&gt;&gt;historyViewToolStripMenuItem.Name" xml:space="preserve">
+    <value>historyViewToolStripMenuItem</value>
   </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 6</value>
+  <data name="&gt;&gt;historyViewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;viewManualToolStripMenuItem.Name" xml:space="preserve">
-    <value>viewManualToolStripMenuItem</value>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
   </data>
-  <data name="&gt;&gt;buttonHelp.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;contextMenuOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;preferencesToolStripMenuItem.Name" xml:space="preserve">
+    <value>preferencesToolStripMenuItem</value>
   </data>
-  <data name="connectionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Connection</value>
+  <data name="&gt;&gt;preferencesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tareToolStripMenuItem.Name" xml:space="preserve">
-    <value>tareToolStripMenuItem</value>
+  <data name="&gt;&gt;multipleSpineTestToolStripMenuItem.Name" xml:space="preserve">
+    <value>multipleSpineTestToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;multipleSpineTestToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkUpdatesToolStripMenuItem.Name" xml:space="preserve">
     <value>checkUpdatesToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;installDriversToolStripMenuItem.Name" xml:space="preserve">
-    <value>installDriversToolStripMenuItem</value>
+  <data name="&gt;&gt;checkUpdatesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;buttonFile.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;viewManualToolStripMenuItem.Name" xml:space="preserve">
+    <value>viewManualToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;viewManualToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;changelogToolStripMenuItem.Name" xml:space="preserve">
+    <value>changelogToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;changelogToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;connectionToolStripMenuItem.Name" xml:space="preserve">
+    <value>connectionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;connectionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;connectToolStripMenuItem.Name" xml:space="preserve">
+    <value>connectToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;connectToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tareToolStripMenuItem.Name" xml:space="preserve">
+    <value>tareToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tareToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disconnectToolStripMenuItem.Name" xml:space="preserve">
+    <value>disconnectToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;disconnectToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;deviceInfoToolStripMenuItem.Name" xml:space="preserve">
     <value>deviceInfoToolStripMenuItem</value>
@@ -336,217 +531,34 @@
   <data name="&gt;&gt;deviceInfoToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;buttonHelp.Name" xml:space="preserve">
-    <value>buttonHelp</value>
+  <data name="&gt;&gt;calibrationToolStripMenuItem.Name" xml:space="preserve">
+    <value>calibrationToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;calibrationToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;contextMenuHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
   </data>
-  <data name="&gt;&gt;buttonOptions.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonOptions.Name" xml:space="preserve">
-    <value>buttonOptions</value>
-  </data>
-  <data name="&gt;&gt;historyViewToolStripMenuItem.Name" xml:space="preserve">
-    <value>historyViewToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="historyViewToolStripMenuItem.Text" xml:space="preserve">
-    <value>History View</value>
+  <data name="&gt;&gt;installDriversToolStripMenuItem.Name" xml:space="preserve">
+    <value>installDriversToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;installDriversToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;historyViewToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;printToolStripMenuItem.Name" xml:space="preserve">
+    <value>printToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;printToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonDevice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
-  </data>
-  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
-    <value>exitToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
-    <value>toolStripMenuItem1</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
-  </data>
-  <data name="tareToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="contextMenuOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 82</value>
-  </data>
-  <data name="&gt;&gt;disconnectToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="saveFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 24</value>
-  </data>
-  <data name="&gt;&gt;checkUpdatesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="contextMenuDevice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>238, 106</value>
-  </data>
-  <data name="&gt;&gt;contextMenuDevice.Name" xml:space="preserve">
-    <value>contextMenuDevice</value>
-  </data>
-  <data name="&gt;&gt;buttonDevice.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;changelogToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="exportHistoryToolStripMenuItem.Text" xml:space="preserve">
-    <value>Export History</value>
-  </data>
-  <data name="&gt;&gt;contextMenuOptions.Name" xml:space="preserve">
-    <value>contextMenuOptions</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
-    <value>toolStripMenuItem4</value>
-  </data>
-  <data name="disconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Disconnect</value>
-  </data>
-  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 25</value>
-  </data>
-  <data name="&gt;&gt;preferencesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="multipleSpineTestToolStripMenuItem.Text" xml:space="preserve">
-    <value>Multiple Spine Test</value>
-  </data>
-  <data name="viewManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 24</value>
-  </data>
-  <data name="&gt;&gt;buttonOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="calibrationToolStripMenuItem.Text" xml:space="preserve">
-    <value>Calibration and Settings</value>
-  </data>
-  <data name="buttonHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
-  </data>
-  <data name="&gt;&gt;exportHistoryToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveFileToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="connectionToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;contextMenuHelp.Name" xml:space="preserve">
-    <value>contextMenuHelp</value>
-  </data>
-  <data name="&gt;&gt;connectionToolStripMenuItem.Name" xml:space="preserve">
-    <value>connectionToolStripMenuItem</value>
-  </data>
-  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 24</value>
-  </data>
-  <data name="openFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Open File</value>
-  </data>
-  <data name="&gt;&gt;contextMenuDevice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="disconnectToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="&gt;&gt;contextMenuFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="contextMenuHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 106</value>
-  </data>
-  <data name="buttonFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 0</value>
-  </data>
-  <data name="deviceInfoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Device Information</value>
-  </data>
-  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Check For Updates</value>
-  </data>
-  <data name="buttonOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 0</value>
-  </data>
-  <data name="deviceInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 24</value>
-  </data>
-  <data name="&gt;&gt;tareToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonOptions.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="installDriversToolStripMenuItem.Text" xml:space="preserve">
-    <value>Install USB Drivers</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 24</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MenuUC</value>
   </data>
-  <data name="buttonDevice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>165, 0</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
-  <data name="contextMenuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 106</value>
-  </data>
-  <data name="&gt;&gt;preferencesToolStripMenuItem.Name" xml:space="preserve">
-    <value>preferencesToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;changelogToolStripMenuItem.Name" xml:space="preserve">
-    <value>changelogToolStripMenuItem</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 24</value>
-  </data>
-  <data name="tareToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tare</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
-    <value>toolStripMenuItem2</value>
-  </data>
-  <data name="buttonDevice.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;connectToolStripMenuItem.Name" xml:space="preserve">
-    <value>connectToolStripMenuItem</value>
-  </data>
-  <metadata name="contextMenuHelp.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>388, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="contextMenuFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="contextMenuOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>187, 17</value>
-  </metadata>
-  <metadata name="contextMenuDevice.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>566, 17</value>
-  </metadata>
 </root>

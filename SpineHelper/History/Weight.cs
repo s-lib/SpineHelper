@@ -17,7 +17,16 @@ namespace SpineHelper.History
         public int Grains { get { return UnitsConverter.ToGrains(Total); } }
         public double Grams { get { return Math.Round(UnitsConverter.GrainsToGrams(Total), 1); } }
 
-        public double FOC { get { return (Left - Right) / Total * 50; } }
+        public double FOC
+        {
+            get
+            {
+                double foc = Total > 10 ? (Left - Right) / Total * 50 : 0;
+                foc = Math.Max(-50, foc);
+                foc = Math.Min(foc, 50);
+                return foc;
+            }
+        }
 
 
         public Weight()

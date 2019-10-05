@@ -681,6 +681,15 @@ namespace SpineHelper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Str..
+        /// </summary>
+        internal static string HistoryViewColumnStraightnessShort {
+            get {
+                return ResourceManager.GetString("HistoryViewColumnStraightnessShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Remove Selected Arrow.
         /// </summary>
         internal static string HistoryViewRemoveArrow {
@@ -746,16 +755,11 @@ namespace SpineHelper {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Version {0} of the application adds two new features:
+        ///   Looks up a localized string similar to Version {0} of the application enables printing results directly from the application.
         ///
-        ///1. Displaying arrow FOC (Front-Of-Center).
+        ///The final look of printed page can be adjusted by replacing the default logo with a custom one, changing arrow set name, type of data which will be printed and by adding the summary.
         ///
-        ///Disabled by default and can be turned on in &quot;Options&quot; -&gt; &quot;Settings&quot;.
-        ///For this to display correct values the device needs to be leveled and the arrow needs to be centered on the device.
-        ///
-        ///2. Multiple spine tests on one arrow.
-        ///
-        ///Can be accessed from the &quot;Device&quot; menu.
+        ///Printing can be accessed from the &quot;File&quot; menu.
         ///.
         /// </summary>
         internal static string NewVersionFeatures {
@@ -810,6 +814,51 @@ namespace SpineHelper {
         internal static string NotConnectedPopupHeader {
             get {
                 return ResourceManager.GetString("NotConnectedPopupHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Created on  .
+        /// </summary>
+        internal static string PrintCreatedDate {
+            get {
+                return ResourceManager.GetString("PrintCreatedDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image files (*.bmp,*.png,*.jpg,*.gif)|*.bmp;*.png;*.jpg;*.gif.
+        /// </summary>
+        internal static string PrintCustomLogoExtensions {
+            get {
+                return ResourceManager.GetString("PrintCustomLogoExtensions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File could not be loaded. Image too big or not an image file..
+        /// </summary>
+        internal static string PrintCustomLogoFail {
+            get {
+                return ResourceManager.GetString("PrintCustomLogoFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Digital Spinetester PC App.
+        /// </summary>
+        internal static string PrintLogoInfo {
+            get {
+                return ResourceManager.GetString("PrintLogoInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spine-tested Arrows.
+        /// </summary>
+        internal static string PrintSetDefaultName {
+            get {
+                return ResourceManager.GetString("PrintSetDefaultName", resourceCulture);
             }
         }
         
