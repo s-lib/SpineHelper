@@ -18,6 +18,7 @@ namespace SpineHelper.View.File
             radioButtonMain.Select();
             checkBoxSummary.Checked = true;
             checkBoxLogo.Checked = true;
+            checkBoxGrayscale.Checked = pc.Grayscale;
             LoadLogo();
             GetArrowSetName();
         }
@@ -26,6 +27,9 @@ namespace SpineHelper.View.File
         {
             UpdatePrintController();
             pc.Print();
+
+            // Update checkbox to check if printing options didn't change
+            checkBoxGrayscale.Checked = pc.Grayscale;
         }
 
 
@@ -41,6 +45,7 @@ namespace SpineHelper.View.File
             pc.Details = radioButtonFull.Checked;
             pc.Summary = checkBoxSummary.Checked;
             pc.AddCustomLogo = checkBoxLogo.Checked;
+            pc.Grayscale = checkBoxGrayscale.Checked;
         }
 
 

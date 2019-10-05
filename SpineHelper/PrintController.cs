@@ -16,6 +16,11 @@ namespace SpineHelper
         public bool Summary { get; set; }
         public bool AddCustomLogo { get; set; }
         public Image CustomLogo { get; set; }
+        public bool Grayscale
+        {
+            get { return !settings.DefaultPageSettings.Color; }
+            set { settings.DefaultPageSettings.Color = !value; }
+        }
 
 
         private const int maxLogoHeight = 100;
@@ -30,6 +35,7 @@ namespace SpineHelper
         private readonly PrintDocument doc = new PrintDocument();
         private readonly PrintPreviewDialog preview = new PrintPreviewDialog();
         private readonly PrintDialog print = new PrintDialog();
+        private readonly PrinterSettings settings = new PrinterSettings();
 
         private readonly Image defaultLogo = Resources.spinetester;
         private readonly Image appLogo = Resources._128;
@@ -43,6 +49,7 @@ namespace SpineHelper
             NewSet(set);
             doc.PrintPage += printDocument_PrintPage;
             doc.EndPrint += printDocument_EndPrint;
+            doc.PrinterSettings = settings;
             preview.Document = doc;
             print.Document = doc;
         }

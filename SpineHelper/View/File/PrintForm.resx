@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="&gt;&gt;labelNoLogo.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="&gt;&gt;buttonSelectLogo.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
@@ -137,11 +137,17 @@
   <data name="&gt;&gt;groupBoxOutput.Name" xml:space="preserve">
     <value>groupBoxOutput</value>
   </data>
+  <data name="&gt;&gt;checkBoxGrayscale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;buttonPreview.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxGrayscale.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="checkBoxLogo.Text" xml:space="preserve">
@@ -150,8 +156,11 @@
   <data name="&gt;&gt;radioButtonFull.Name" xml:space="preserve">
     <value>radioButtonFull</value>
   </data>
+  <data name="&gt;&gt;labelNoLogo.Name" xml:space="preserve">
+    <value>labelNoLogo</value>
+  </data>
   <data name="checkBoxSummary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 162</value>
+    <value>33, 145</value>
   </data>
   <data name="&gt;&gt;buttonTitleReset.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -168,14 +177,23 @@
   <data name="&gt;&gt;pictureLogo.Name" xml:space="preserve">
     <value>pictureLogo</value>
   </data>
+  <data name="&gt;&gt;checkBoxGrayscale.Name" xml:space="preserve">
+    <value>checkBoxGrayscale</value>
+  </data>
   <data name="checkBoxSummary.Text" xml:space="preserve">
     <value>Add summary</value>
+  </data>
+  <data name="checkBoxGrayscale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="buttonTitleReset.Text" xml:space="preserve">
     <value>Reset</value>
   </data>
   <data name="radioButtonFull.Text" xml:space="preserve">
     <value>Full details</value>
+  </data>
+  <data name="radioButtonMain.Text" xml:space="preserve">
+    <value>Only main info (default)</value>
   </data>
   <data name="pictureLogo.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 274</value>
@@ -220,7 +238,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBoxSummary.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;radioButtonFull.Parent" xml:space="preserve">
     <value>groupBoxOutput</value>
@@ -238,7 +256,7 @@
     <value>1</value>
   </data>
   <data name="&gt;&gt;buttonTitleReset.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;labelTitle.Name" xml:space="preserve">
     <value>labelTitle</value>
@@ -256,7 +274,7 @@
     <value>21, 32</value>
   </data>
   <data name="&gt;&gt;checkBoxLogo.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="buttonResetLogo.Text" xml:space="preserve">
     <value>Reset</value>
@@ -264,8 +282,8 @@
   <data name="checkBoxLogo.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;buttonSelectLogo.Name" xml:space="preserve">
-    <value>buttonSelectLogo</value>
+  <data name="checkBoxGrayscale.Text" xml:space="preserve">
+    <value>Only grayscale</value>
   </data>
   <data name="buttonPrint.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -281,6 +299,9 @@
   </data>
   <data name="&gt;&gt;buttonTitleReset.Name" xml:space="preserve">
     <value>buttonTitleReset</value>
+  </data>
+  <data name="checkBoxGrayscale.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="buttonTitleReset.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 25</value>
@@ -300,8 +321,8 @@
   <data name="labelNoLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>500, 30</value>
   </data>
-  <data name="radioButtonMain.Text" xml:space="preserve">
-    <value>Only main info (default)</value>
+  <data name="&gt;&gt;checkBoxGrayscale.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonSelectLogo.Parent" xml:space="preserve">
     <value>$this</value>
@@ -334,13 +355,16 @@
     <value>Data print type</value>
   </data>
   <data name="&gt;&gt;pictureLogo.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="labelNoLogo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
   <data name="pictureLogo.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
+  </data>
+  <data name="checkBoxGrayscale.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="buttonPreview.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -352,7 +376,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonPrint.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;groupBoxOutput.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -364,13 +388,13 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;buttonPrint.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonPreview.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="buttonTitleReset.Location" type="System.Drawing.Point, System.Drawing">
     <value>368, 11</value>
@@ -388,7 +412,7 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBoxTitle.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="buttonPreview.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 75</value>
@@ -418,7 +442,7 @@
     <value>radioButtonMain</value>
   </data>
   <data name="&gt;&gt;buttonResetLogo.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="checkBoxLogo.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 216</value>
@@ -441,14 +465,17 @@
   <data name="textBoxTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 22</value>
   </data>
+  <data name="checkBoxGrayscale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 21</value>
+  </data>
   <data name="&gt;&gt;radioButtonFull.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;checkBoxSummary.Name" xml:space="preserve">
     <value>checkBoxSummary</value>
   </data>
-  <data name="&gt;&gt;groupBoxOutput.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="checkBoxGrayscale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 172</value>
   </data>
   <data name="buttonResetLogo.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -489,8 +516,11 @@
   <data name="&gt;&gt;labelNoLogo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labelNoLogo.Name" xml:space="preserve">
-    <value>labelNoLogo</value>
+  <data name="&gt;&gt;buttonSelectLogo.Name" xml:space="preserve">
+    <value>buttonSelectLogo</value>
+  </data>
+  <data name="&gt;&gt;groupBoxOutput.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="buttonResetLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>

@@ -43,6 +43,7 @@
             this.buttonTitleReset = new System.Windows.Forms.Button();
             this.buttonResetLogo = new System.Windows.Forms.Button();
             this.labelNoLogo = new System.Windows.Forms.Label();
+            this.checkBoxGrayscale = new System.Windows.Forms.CheckBox();
             this.groupBoxOutput.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
             this.SuspendLayout();
@@ -140,10 +141,17 @@
             resources.ApplyResources(this.labelNoLogo, "labelNoLogo");
             this.labelNoLogo.Name = "labelNoLogo";
             // 
+            // checkBoxGrayscale
+            // 
+            resources.ApplyResources(this.checkBoxGrayscale, "checkBoxGrayscale");
+            this.checkBoxGrayscale.Name = "checkBoxGrayscale";
+            this.checkBoxGrayscale.UseVisualStyleBackColor = true;
+            // 
             // PrintForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.Controls.Add(this.checkBoxGrayscale);
             this.Controls.Add(this.buttonResetLogo);
             this.Controls.Add(this.buttonSelectLogo);
             this.Controls.Add(this.buttonTitleReset);
@@ -183,5 +191,6 @@
         private System.Windows.Forms.Button buttonTitleReset;
         private System.Windows.Forms.Button buttonResetLogo;
         private System.Windows.Forms.Label labelNoLogo;
+        private System.Windows.Forms.CheckBox checkBoxGrayscale;
     }
 }

@@ -166,6 +166,12 @@
   <data name="labelNoLogo.Text" xml:space="preserve">
     <value>--- Nie znaleziono pliku ---</value>
   </data>
+  <data name="checkBoxGrayscale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="checkBoxGrayscale.Text" xml:space="preserve">
+    <value>Druk czarno-biały</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Drukuj...</value>
   </data>
