@@ -28,7 +28,7 @@ namespace SpineHelper.View.File
             UpdatePrintController();
             pc.Print();
 
-            // Update checkbox to check if printing options didn't change
+            // Update checkbox to see if printer settings didn't change
             checkBoxGrayscale.Checked = pc.Grayscale;
         }
 
