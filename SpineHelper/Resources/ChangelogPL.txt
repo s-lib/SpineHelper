@@ -1,3 +1,8 @@
+version 1.5 (5 paŸdziernika 2019)
+- dodano opcjê wydruku wprost z aplikacji
+- okno druku mo¿na w³¹czyæ korzystaj¹c z menu "Plik"
+- wygl¹d wydrukowanej strony mo¿na dostosowaæ (w³asne logo, zmiana nazwy kompletu strza³, dodanie podsumowania...)
+
 wersja 1.4 (25 wrzeœnia 2019)
 - dodano mo¿liwoœæ wyœwietlania wartosci FOC (przesuniêcie œrodka ciê¿koœci) strza³y
 - dodano mo¿liwoœæ wykonywania wielokrotnych pomiarów spinu na jednej strzale

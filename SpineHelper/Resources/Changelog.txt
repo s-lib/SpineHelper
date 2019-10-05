@@ -1,3 +1,8 @@
+version 1.5 (5 October 2019)
+- added option to print results directly from the application
+- printing can be accessed through "File" menu
+- printed page look can be modified (custom logo, changing arrow set name, adding summary...)
+
 version 1.4 (25 September 2019)
 - arrow FOC value can now be displayed in Weight Panel
 - added special window for multi spine testing of one arrow

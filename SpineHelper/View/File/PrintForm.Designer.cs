@@ -49,16 +49,16 @@
             // 
             // buttonPrint
             // 
-            this.buttonPrint.Image = global::SpineHelper.Properties.Resources.icon_print;
             resources.ApplyResources(this.buttonPrint, "buttonPrint");
+            this.buttonPrint.Image = global::SpineHelper.Properties.Resources.icon_print;
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.UseVisualStyleBackColor = true;
             this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
             // 
             // buttonPreview
             // 
-            this.buttonPreview.Image = global::SpineHelper.Properties.Resources.icon_print_preview;
             resources.ApplyResources(this.buttonPreview, "buttonPreview");
+            this.buttonPreview.Image = global::SpineHelper.Properties.Resources.icon_print_preview;
             this.buttonPreview.Name = "buttonPreview";
             this.buttonPreview.UseVisualStyleBackColor = true;
             this.buttonPreview.Click += new System.EventHandler(this.buttonPreview_Click);
@@ -78,9 +78,9 @@
             // 
             // groupBoxOutput
             // 
+            resources.ApplyResources(this.groupBoxOutput, "groupBoxOutput");
             this.groupBoxOutput.Controls.Add(this.radioButtonFull);
             this.groupBoxOutput.Controls.Add(this.radioButtonMain);
-            resources.ApplyResources(this.groupBoxOutput, "groupBoxOutput");
             this.groupBoxOutput.Name = "groupBoxOutput";
             this.groupBoxOutput.TabStop = false;
             // 
@@ -142,8 +142,8 @@
             // 
             // PrintForm
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.buttonResetLogo);
             this.Controls.Add(this.buttonSelectLogo);
             this.Controls.Add(this.buttonTitleReset);

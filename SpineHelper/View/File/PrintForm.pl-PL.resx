@@ -160,6 +160,9 @@
   <data name="buttonTitleReset.Text" xml:space="preserve">
     <value>Zresetuj</value>
   </data>
+  <data name="buttonResetLogo.Text" xml:space="preserve">
+    <value>Zresetuj</value>
+  </data>
   <data name="labelNoLogo.Text" xml:space="preserve">
     <value>--- Nie znaleziono pliku ---</value>
   </data>

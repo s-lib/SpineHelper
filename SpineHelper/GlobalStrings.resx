@@ -511,16 +511,11 @@ Do you wish to continue?</value>
     <value>Multiple Spine Test</value>
   </data>
   <data name="NewVersionFeatures" xml:space="preserve">
-    <value>Version {0} of the application adds two new features:
+    <value>Version {0} of the application enables printing results directly from the application.
 
-1. Displaying arrow FOC (Front-Of-Center).
+The final look of printed page can be adjusted by replacing the default logo with a custom one, changing arrow set name, type of data which will be printed and by adding the summary.
 
-Disabled by default and can be turned on in "Options" -&gt; "Settings".
-For this to display correct values the device needs to be leveled and the arrow needs to be centered on the device.
-
-2. Multiple spine tests on one arrow.
-
-Can be accessed from the "Device" menu.
+Printing can be accessed from the "File" menu.
 </value>
   </data>
   <data name="NewVersionTitle" xml:space="preserve">
