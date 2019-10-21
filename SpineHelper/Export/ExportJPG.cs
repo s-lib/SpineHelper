@@ -6,16 +6,20 @@ namespace SpineHelper.Export
     public class ExportJPG : IExportFormat
     {
         //TODO: floating point values aligment (grams)
-        //TODO: set cell width by column header name
+        //TODO: comment collumn auto-size depending on cell value
 
         private int ImageCenter { get { return imageWidth / 2; } }
 
-        //TODO: placeholder values
+        //TODO: placeholder value
         private string HeaderName = GlobalStrings.Arrows;
-        private const int CellSpacingX = 100;
 
-        // Default cell height
+        // Default cell size
         private const int CellSpacingY = 25;
+        private const int DefaultCellWidth = 85;
+
+        // Column width
+        private int totalWidth = 0;
+        private int[] columnWidth;
 
         // Initial size of the image (values are to size obtained from dataTable)
         private int imageWidth = 100;
@@ -24,15 +28,9 @@ namespace SpineHelper.Export
         // Initial Y position
         private int y = 50;
 
-        // Initial X position for printing background colors
+        // Initial X position
         private int x = 0;
 
-        // Initial X position for printing data values
-        private int cellStartX = 0;
-
-
-        // Length of the background fill and separator lines
-        private int lineSize = 0;
 
         public ExportJPG()
         {
@@ -42,15 +40,26 @@ namespace SpineHelper.Export
         {
             try
             {
-                imageWidth +=  dataTable.GetLength(0) * CellSpacingX;
+                // Set width of each column based on column name
+                columnWidth = new int[dataTable.GetLength(0)];
+                for (int i = 0; i < dataTable.GetLength(0); i++)
+                {
+                    columnWidth[i] = GetWidthByColumnName(dataTable[i, 0]);
+                    totalWidth += columnWidth[i];
+                }
+
+                // Initialize the bitmap
+                imageWidth += totalWidth;
                 imageHeight += dataTable.GetLength(1) * CellSpacingY;
 
-                Bitmap bmp = new Bitmap(imageWidth, imageHeight); 
+                Bitmap bmp = new Bitmap(imageWidth, imageHeight);
                 Graphics g = Graphics.FromImage(bmp);
 
-                //TODO: change to white when ready adjusting size
-                g.FillRectangle(Brushes.LightGray, 0, 0, imageWidth, imageHeight);
+                // Change brush to LightGray in case of adjusting aligment
+                g.FillRectangle(Brushes.White, 0, 0, imageWidth, imageHeight);
 
+
+                // Draw the bitmap
                 PrintTitle(g, dataTable, HeaderName);
                 PrintData(g, dataTable);
 
@@ -79,12 +88,10 @@ namespace SpineHelper.Export
             int titleX = ImageCenter - (stringWidth / 2);
 
             // Set some global usefull variables
-            x = ImageCenter - ((dataTable.GetLength(0) * CellSpacingX) / 2);
-            cellStartX = x + CellSpacingX;
-            lineSize = dataTable.GetLength(0) * CellSpacingX;
+            x = ImageCenter - (totalWidth / 2);
 
             // Draw background and the title
-            g.FillRectangle(Brushes.PowderBlue, x, y, lineSize, CellSpacingY);
+            g.FillRectangle(Brushes.PowderBlue, x, y, totalWidth, CellSpacingY);
             PrintString(g, title, font, Brushes.Black, titleX, y);
 
             // Adjust Y position
@@ -96,9 +103,6 @@ namespace SpineHelper.Export
         /// </summary>
         private void PrintData(Graphics g, object[,] dataTable)
         {
-            //TODO: get actual cell sizes depending on the header type
-            int xCellSpacing = CellSpacingX;
-
             //TODO: check if summary exists
             int summaryIndex = dataTable.GetLength(1) - 2;
 
@@ -106,6 +110,7 @@ namespace SpineHelper.Export
             var font_bold = new Font("Arial", 9, FontStyle.Bold);
             var font_normal = new Font("Arial", 9, FontStyle.Regular);
 
+            int currentX = x;
 
             // Print data by rows
             for (int rows = 0; rows < dataTable.GetLength(1); rows++)
@@ -124,17 +129,19 @@ namespace SpineHelper.Export
 
                     // Print background only for last summary line (just for non-empty cells)
                     // Needs to be here, since it's cell-dependant
-                    if (rows > summaryIndex && string.IsNullOrEmpty(row[i]) == false)
+                    if (rows > summaryIndex)
                     {
-                        int cellX = x + (i * xCellSpacing);
-                        g.FillRectangle(Brushes.DarkSeaGreen, cellX, y - 5, xCellSpacing, CellSpacingY);
+                        if (string.IsNullOrEmpty(row[i]) == false)
+                            g.FillRectangle(Brushes.DarkSeaGreen, currentX, y - 5, columnWidth[i], CellSpacingY);
+
+                        currentX += columnWidth[i];
                     }
                 }
 
                 // Print column header background
                 if (rows == 0)
                 {
-                    g.FillRectangle(Brushes.Brown, x, y - 5, lineSize, CellSpacingY);
+                    g.FillRectangle(Brushes.Brown, x, y - 5, totalWidth, CellSpacingY);
                     font = font_bold;
                     brush = Brushes.White;
                     //y += 5;
@@ -143,12 +150,12 @@ namespace SpineHelper.Export
                 // Print first summary row background
                 else if (rows == summaryIndex)
                 {
-                    g.FillRectangle(Brushes.DarkSeaGreen, x, y - 5, lineSize, CellSpacingY);
+                    g.FillRectangle(Brushes.DarkSeaGreen, x, y - 5, totalWidth, CellSpacingY);
                     font = font_bold;
                 }
 
                 // Print row values
-                PrintDataRow(g, cellStartX, y, xCellSpacing, font, brush, row);
+                PrintDataRow(g, x, y, font, brush, row);
 
                 // Adjust Y
                 y += CellSpacingY;
@@ -162,11 +169,14 @@ namespace SpineHelper.Export
         /// <summary>
         /// Prints an array of strings (whole row of data)
         /// </summary>
-        private void PrintDataRow(Graphics g, int x, int y, int xAdd, Font font, Brush brush, string[] strings)
+        private void PrintDataRow(Graphics g, int x, int y, Font font, Brush brush, string[] strings)
         {
+            int currentX = x;
+
             for (int i = 0; i < strings.Length; i++)
             {
-                PrintStringRight(g, strings[i], font, brush, x + (i * xAdd), y);
+                currentX += columnWidth[i];
+                PrintStringRight(g, strings[i], font, brush, currentX, y);
             }
         }
 
@@ -206,6 +216,25 @@ namespace SpineHelper.Export
             g.DrawImage(image, x, y, width, height);
         }
 
+
+        private int GetWidthByColumnName(object value)
+        {
+            string name = value == null ? string.Empty : value.ToString();
+
+            if (string.IsNullOrEmpty(name))
+                return DefaultCellWidth;
+
+            if (name == "ID") return 40;
+            if (name == "ASTM") return 80;
+            if (name == "AMO") return 70;
+            if (name == GlobalStrings.HistoryViewColumnGrains) return 80;
+            if (name == GlobalStrings.HistoryViewColumnGrams) return 85;
+            if (name == GlobalStrings.HistoryViewColumnStraightness) return 110;
+            if (name == GlobalStrings.HistoryViewColumnComment) return 250;
+            if (name == GlobalStrings.HistoryViewColumnGPI) return 70;
+
+            return DefaultCellWidth;
+        }
 
     }
 
