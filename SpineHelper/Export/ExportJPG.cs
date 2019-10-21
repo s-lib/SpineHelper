@@ -5,8 +5,6 @@ namespace SpineHelper.Export
 {
     public class ExportJPG : IExportFormat
     {
-        //TODO: floating point values aligment (grams)
-
         private int ImageCenter { get { return imageWidth / 2; } }
 
         //TODO: placeholder value
@@ -17,8 +15,10 @@ namespace SpineHelper.Export
         private const int DefaultCellWidth = 85;
         private const int CommentWidthMax = 600;
 
-        private const int defaultTitleFontSize = 12;
-        private const int defaultFontSize = 9;
+        private const int DefaultTitleFontSize = 12;
+        private const int DefaultFontSize = 9;
+
+        private const string GramsFormat = "0.0";
 
         // Column width
         private int totalWidth = 0;
@@ -85,7 +85,7 @@ namespace SpineHelper.Export
         private void PrintTitle(Graphics g, object[,] dataTable, string title)
         {
             // Set title font
-            var font = new Font("Arial", defaultTitleFontSize, FontStyle.Bold);
+            var font = new Font("Arial", DefaultTitleFontSize, FontStyle.Bold);
 
             // Set title x position
             var stringSize = g.MeasureString(title, font);
@@ -112,8 +112,8 @@ namespace SpineHelper.Export
             int summaryIndex = dataTable.GetLength(1) - 2;
 
             // Declare basic fonts
-            var font_bold = new Font("Arial", defaultFontSize, FontStyle.Bold);
-            var font_normal = new Font("Arial", defaultFontSize, FontStyle.Regular);
+            var font_bold = new Font("Arial", DefaultFontSize, FontStyle.Bold);
+            var font_normal = new Font("Arial", DefaultFontSize, FontStyle.Regular);
 
             int currentX = x;
 
@@ -130,7 +130,7 @@ namespace SpineHelper.Export
                 for (int i = 0; i < row.Length; i++)
                 {
                     // Copy row values to string array
-                    row[i] = dataTable[i, rows] == null ? string.Empty : dataTable[i, rows].ToString();
+                    row[i] = GetStringFromDataValue(dataTable[i, rows], dataTable[i, 0]);
 
                     // Print background only for last summary line (just for non-empty cells)
                     // Needs to be here, since it's cell-dependant
@@ -253,13 +253,27 @@ namespace SpineHelper.Export
                         for (int r = 0; r < dataTable.GetLength(1); r++)
                         {
                             string comment = dataTable[i, r] == null ? string.Empty : dataTable[i, r].ToString();
-                            int width = Math.Max(comment.Length * (defaultFontSize - 1), commentWidth);
+                            int width = Math.Max(comment.Length * (DefaultFontSize - 1), commentWidth);
                             commentWidth = Math.Min(width, CommentWidthMax);
                         }
                         return;
                     }
                 }
             }
+        }
+
+        private string GetStringFromDataValue(object value, object name)
+        {
+            string result = value == null ? string.Empty : value.ToString();
+
+            // If Grams column, return in proper formatting
+            if (name != null && name.ToString() == GlobalStrings.HistoryViewColumnGrams)
+            {
+                double.TryParse(result.ToString(), out double d);
+                result = d == 0 ? result : d.ToString(GramsFormat);
+            }
+
+            return result;
         }
 
     }
