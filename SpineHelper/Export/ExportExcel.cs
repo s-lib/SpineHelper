@@ -25,7 +25,7 @@ namespace SpineHelper.Export
 
                     // Set default font
                     /*
-                    var allCells = worksheet.Cells[1, 1, worksheet.Dimension.End.Row, worksheet.Dimension.End.Column];
+                    var allCells = ws.Cells[1, 1, ws.Dimension.End.Row, ws.Dimension.End.Column];
                     var cellFont = allCells.Style.Font;
                     cellFont.SetFromFont(new Font("Calibri", 11));
                     */
@@ -43,11 +43,7 @@ namespace SpineHelper.Export
 
                     var firstRow = worksheet.Cells[yOffset, xOffset, yOffset, numColumns - 1 + xOffset];
                     firstRow.Merge = true;
-                    firstRow.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
-                    firstRow.Style.Fill.PatternType = ExcelFillStyle.Solid;
-                    firstRow.Style.Fill.BackgroundColor.SetColor(Color.PowderBlue);  //rgbPowderBlue
-                    firstRow.Style.Font.Bold = true;
-
+                    SetTitleStyle(firstRow.Style);
 
                     worksheet.Cells[yOffset++, xOffset].Value = WorksheetName;
 
@@ -62,14 +58,9 @@ namespace SpineHelper.Export
                     // Format Headers
                     for (int column = 0; column < numColumns; column++)
                     {
-                        worksheet.Column(column + xOffset).Style.Numberformat.Format = GetFormattingByColumnName(dataTable[column, 0]);
-                        worksheet.Column(column + xOffset).Width = GetColumnWidthByColumnName(dataTable[column, 0]);
-
-                        worksheet.Cells[yOffset, column + xOffset].Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
-                        worksheet.Cells[yOffset, column + xOffset].Style.Fill.PatternType = ExcelFillStyle.Solid;
-                        worksheet.Cells[yOffset, column + xOffset].Style.Fill.BackgroundColor.SetColor(Color.FromArgb(154, 34, 34)); //rgbBrown
-                        worksheet.Cells[yOffset, column + xOffset].Style.Font.Color.SetColor(Color.White);
-                        worksheet.Cells[yOffset, column + xOffset].Style.Font.Name = "Arial";
+                        SetHeaderColumn(worksheet.Column(column + xOffset), dataTable[column, 0]);
+                        var style = worksheet.Cells[yOffset, column + xOffset].Style;
+                        SetHeaderStyle(style);
                     }
 
                     // Copy data
@@ -86,11 +77,8 @@ namespace SpineHelper.Export
                             // Summary rows
                             if (row >= numRows - 2 && obj != null)
                             {
-                                worksheet.Cells[row + yOffset, column + xOffset].Style.Fill.PatternType = ExcelFillStyle.Solid;
-                                worksheet.Cells[row + yOffset, column + xOffset].Style.Fill.BackgroundColor.SetColor(Color.FromArgb(215, 228, 188));
-                                worksheet.Cells[row + yOffset, column + xOffset].Style.HorizontalAlignment = ExcelHorizontalAlignment.Right;
-                                if (row < numRows - 1)
-                                    worksheet.Cells[row + yOffset, column + xOffset].Style.Font.Bold = true;
+                                var style = worksheet.Cells[row + yOffset, column + xOffset].Style;
+                                SetSummaryStyle(style, row < numRows - 1);
                             }
                         }
                     }
@@ -140,8 +128,35 @@ namespace SpineHelper.Export
             return 10.6;
         }
 
+        private void SetTitleStyle(ExcelStyle style)
+        {
+            style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
+            style.Fill.PatternType = ExcelFillStyle.Solid;
+            style.Fill.BackgroundColor.SetColor(Color.PowderBlue);  //rgbPowderBlue
+            style.Font.Bold = true;
+        }
 
+        private void SetHeaderColumn(ExcelColumn column, object columnData)
+        {
+            column.Style.Numberformat.Format = GetFormattingByColumnName(columnData);
+            column.Width = GetColumnWidthByColumnName(columnData);
+        }
+        private void SetHeaderStyle(ExcelStyle style)
+        {
+            style.Font.Name = "Arial";
+            style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
+            style.Fill.PatternType = ExcelFillStyle.Solid;
+            style.Fill.BackgroundColor.SetColor(Color.FromArgb(154, 34, 34)); //rgbBrown
+            style.Font.Color.SetColor(Color.White);
+        }
 
+        private void SetSummaryStyle(ExcelStyle style, bool bold)
+        {
+            style.Fill.PatternType = ExcelFillStyle.Solid;
+            style.Fill.BackgroundColor.SetColor(Color.FromArgb(215, 228, 188));
+            style.HorizontalAlignment = ExcelHorizontalAlignment.Right;
+            style.Font.Bold = bold;
+        }
     }
 
 
