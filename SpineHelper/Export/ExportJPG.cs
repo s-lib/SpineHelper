@@ -6,7 +6,6 @@ namespace SpineHelper.Export
     public class ExportJPG : IExportFormat
     {
         //TODO: floating point values aligment (grams)
-        //TODO: comment collumn auto-size depending on cell value
 
         private int ImageCenter { get { return imageWidth / 2; } }
 
@@ -16,10 +15,15 @@ namespace SpineHelper.Export
         // Default cell size
         private const int CellSpacingY = 25;
         private const int DefaultCellWidth = 85;
+        private const int CommentWidthMax = 600;
+
+        private const int defaultTitleFontSize = 12;
+        private const int defaultFontSize = 9;
 
         // Column width
         private int totalWidth = 0;
         private int[] columnWidth;
+        private int commentWidth = 125;
 
         // Initial size of the image (values are to size obtained from dataTable)
         private int imageWidth = 100;
@@ -41,6 +45,7 @@ namespace SpineHelper.Export
             try
             {
                 // Set width of each column based on column name
+                SetCommentColumnWidth(dataTable);
                 columnWidth = new int[dataTable.GetLength(0)];
                 for (int i = 0; i < dataTable.GetLength(0); i++)
                 {
@@ -80,7 +85,7 @@ namespace SpineHelper.Export
         private void PrintTitle(Graphics g, object[,] dataTable, string title)
         {
             // Set title font
-            var font = new Font("Arial", 14, FontStyle.Bold);
+            var font = new Font("Arial", defaultTitleFontSize, FontStyle.Bold);
 
             // Set title x position
             var stringSize = g.MeasureString(title, font);
@@ -91,7 +96,7 @@ namespace SpineHelper.Export
             x = ImageCenter - (totalWidth / 2);
 
             // Draw background and the title
-            g.FillRectangle(Brushes.PowderBlue, x, y, totalWidth, CellSpacingY);
+            g.FillRectangle(Brushes.PowderBlue, x, y - 2, totalWidth, CellSpacingY);
             PrintString(g, title, font, Brushes.Black, titleX, y);
 
             // Adjust Y position
@@ -107,8 +112,8 @@ namespace SpineHelper.Export
             int summaryIndex = dataTable.GetLength(1) - 2;
 
             // Declare basic fonts
-            var font_bold = new Font("Arial", 9, FontStyle.Bold);
-            var font_normal = new Font("Arial", 9, FontStyle.Regular);
+            var font_bold = new Font("Arial", defaultFontSize, FontStyle.Bold);
+            var font_normal = new Font("Arial", defaultFontSize, FontStyle.Regular);
 
             int currentX = x;
 
@@ -230,10 +235,31 @@ namespace SpineHelper.Export
             if (name == GlobalStrings.HistoryViewColumnGrains) return 80;
             if (name == GlobalStrings.HistoryViewColumnGrams) return 85;
             if (name == GlobalStrings.HistoryViewColumnStraightness) return 110;
-            if (name == GlobalStrings.HistoryViewColumnComment) return 250;
+            if (name == GlobalStrings.HistoryViewColumnComment) return commentWidth;
             if (name == GlobalStrings.HistoryViewColumnGPI) return 70;
 
             return DefaultCellWidth;
+        }
+
+        private void SetCommentColumnWidth(object[,] dataTable)
+        {
+            for (int i = 0; i < dataTable.GetLength(0); i++)
+            {
+                if (dataTable[i, 0] != null)
+                {
+                    string name = dataTable[i, 0].ToString();
+                    if (name == GlobalStrings.HistoryViewColumnComment)
+                    {
+                        for (int r = 0; r < dataTable.GetLength(1); r++)
+                        {
+                            string comment = dataTable[i, r] == null ? string.Empty : dataTable[i, r].ToString();
+                            int width = Math.Max(comment.Length * (defaultFontSize - 1), commentWidth);
+                            commentWidth = Math.Min(width, CommentWidthMax);
+                        }
+                        return;
+                    }
+                }
+            }
         }
 
     }
