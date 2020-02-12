@@ -102,6 +102,7 @@
     <Compile Include="Device\DeviceTension.cs" />
     <Compile Include="Device\DeviceSettings.cs" />
     <Compile Include="Device\Enums.cs" />
+    <Compile Include="Export\ExportJPG.cs" />
     <Compile Include="History\HistoryManager.cs" />
     <Compile Include="PrintController.cs" />
     <Compile Include="History\Straightness.cs" />

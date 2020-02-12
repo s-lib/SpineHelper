@@ -5,7 +5,7 @@ namespace SpineHelper.Export
 {
     public class DataExporter
     {
-        public enum ExportType { Undefined, Excel, HTML, OldHTML, CSV, TXT }
+        public enum ExportType { Undefined, Excel, HTML, OldHTML, CSV, TXT, JPG }
 
         private const string ExportDirectoryName = "Export";
         private const string FileFormatSeparator = "|";
@@ -15,7 +15,8 @@ namespace SpineHelper.Export
             + FileFormatSeparator + "HTML file|*.html"
             + FileFormatSeparator + "Old HTML file (for Excel import)|*.html"
             + FileFormatSeparator + "CSV File|*.csv"
-            + FileFormatSeparator + "Plain Text File|*.txt";
+            + FileFormatSeparator + "Plain Text File|*.txt"
+            + FileFormatSeparator + "JPEG Image File|*.jpg";
 
 
         public event Action<string> ExportFailed;
@@ -37,6 +38,7 @@ namespace SpineHelper.Export
                     case ExportType.OldHTML: ex = new ExportOldHTML(); break;
                     case ExportType.CSV: ex = new ExportCSV(); break;
                     case ExportType.TXT: ex = new ExportTXT(); break;
+                    case ExportType.JPG: ex = new ExportJPG(); break;
                     default: break;
                 }
             }
