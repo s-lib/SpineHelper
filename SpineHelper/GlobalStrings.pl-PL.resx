@@ -377,7 +377,7 @@ Błąd: </value>
     <value>Znaleziono nowy port COM!</value>
   </data>
   <data name="ConnectionUSBName" xml:space="preserve">
-    <value>Spinetester USB na </value>
+    <value>Spinetester USB</value>
   </data>
   <data name="DeviceCommandAllDone" xml:space="preserve">
     <value>Zdejmij strzałę...</value>
@@ -539,5 +539,8 @@ Opcja drukowania znajduje się w menu "Plik".</value>
   </data>
   <data name="PrintSetDefaultName" xml:space="preserve">
     <value>Zestaw Strzał</value>
+  </data>
+  <data name="ConnectionUSBNameAt" xml:space="preserve">
+    <value> na </value>
   </data>
 </root>

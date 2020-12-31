@@ -33,7 +33,7 @@ namespace SpineHelper.View.Device
             labelSerialVal.Text = Spinetester.instance.Model.SerialString;
             labelFirmwareVal.Text = Spinetester.instance.Model.FirmwareString;
             labelCOMVal.Text = ConnectionManager.instance.PortName;
-            labelUSBChipVal.Text = ConnectionManager.ChipName;
+            labelUSBChipVal.Text = ConnectionManager.instance.ChipName;
             labelHXVal.Text = Spinetester.instance.Model.Amplifier;
             labelBluetoothVal.Text = Common.NoData;
 

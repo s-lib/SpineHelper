@@ -378,7 +378,7 @@ Error: </value>
     <value>New COM port found!</value>
   </data>
   <data name="ConnectionUSBName" xml:space="preserve">
-    <value>Spinetester USB at </value>
+    <value>Spinetester USB</value>
   </data>
   <data name="DeviceCommandAllDone" xml:space="preserve">
     <value>Remove the Arrow...</value>
@@ -541,5 +541,8 @@ Printing can be accessed from the "File" menu.
   </data>
   <data name="PrintSetDefaultName" xml:space="preserve">
     <value>Spine-tested Arrows</value>
+  </data>
+  <data name="ConnectionUSBNameAt" xml:space="preserve">
+    <value> at </value>
   </data>
 </root>

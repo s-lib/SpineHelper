@@ -34,16 +34,16 @@ namespace SpineHelper
                 return 363513814 + EqualityComparer<string>.Default.GetHashCode(name);
             }
         }
-        //private enum Chip { CH340 }
-        //public static string ChipName { get { return Chip.CH340.ToString(); } } 
 
-        public const string ChipName = "CH340";
+        public static readonly string[] ChipDeviceNames = { "", "/BT" };
+        public static readonly string[] ChipNames = { "CH340", "CP210x" };
         public static string DisplayedUSBName { get { return GlobalStrings.ConnectionUSBName; } }
 
         public static readonly ConnectionManager instance = new ConnectionManager();
 
         public string PortName { get { return port.PortName; } }
         public string USBName { get; private set; }
+        public string ChipName { get; private set; }
 
         public DeviceState DeviceConnectionState { get; private set; }
 
@@ -102,6 +102,8 @@ namespace SpineHelper
                 port.Open();
                 SetConnectionState(DeviceState.ConnectionAttempt);
                 USBName = selectedPort.fullName;
+                ChipName = GetChipNameFromPortName(selectedPort.fullName);
+                Send(DeviceCodes.DEVICE_CODE_HANDSHAKE);
             }
             catch (Exception ex)
             {
@@ -113,6 +115,7 @@ namespace SpineHelper
 
                 SetConnectionState(DeviceState.NotConnected);
                 USBName = string.Empty;
+                ChipName = string.Empty;
             }
         }
 
@@ -120,6 +123,7 @@ namespace SpineHelper
         {
             port.Close();
             USBName = string.Empty;
+            ChipName = string.Empty;
             SetConnectionState(DeviceState.NotConnected);
         }
 
@@ -227,21 +231,48 @@ namespace SpineHelper
                 if (property.GetPropertyValue("Name") != null)
                 {
                     string name = property.GetPropertyValue("Name").ToString();
-                    if (name.Contains(ChipName) && name.Contains("USB"))
+
+                    for (int i = 0; i < ChipNames.Length; i++)
                     {
-                        foreach (var p in portSet)
+                        if (name.Contains(ChipNames[i]) && name.Contains("USB"))
                         {
-                            if (name.Contains(p.name))
+                            foreach (var p in portSet)
                             {
-                                p.fullName = DisplayedUSBName + p.name;
-                                break;
+                                if (name.Contains(p.name))
+                                {
+                                    p.fullName = DisplayedUSBName + ChipDeviceNames[i] 
+                                        + GlobalStrings.ConnectionUSBNameAt + p.name;
+                                    break;
+                                }
                             }
                         }
                     }
+
+                    //if (name.Contains(ChipName) && name.Contains("USB"))
+                    //{
+                    //    foreach (var p in portSet)
+                    //    {
+                    //        if (name.Contains(p.name))
+                    //        {
+                    //            p.fullName = DisplayedUSBName + p.name;
+                    //            break;
+                    //        }
+                    //    }
+                    //}
                 }
 
             }
             return portSet;
+        }
+
+        private string GetChipNameFromPortName(string name)
+        {
+            for (int i = ChipDeviceNames.Length - 1; i >= 0; i--)
+            {
+                if (name.Contains(ChipDeviceNames[i]) && ChipNames.Length > i)
+                    return ChipNames[i];
+            }
+            return "----";
         }
     }
 

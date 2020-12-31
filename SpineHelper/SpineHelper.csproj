@@ -56,10 +56,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>D9CA13A83341DABDFFDA16B94B9095729C10EAD5</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>267F73879660C5AC83210F8B2273E0BDF0C03659</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>SpineHelper_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>SpineHelper_2_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -350,6 +350,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Calibration\CalibrationForm.resx">
       <DependentUpon>CalibrationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Calibration\CalibrationInfoForm.resx">
       <DependentUpon>CalibrationInfoForm.cs</DependentUpon>
@@ -448,6 +449,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SpineHelper_2_TemporaryKey.pfx" />
     <None Include="SpineHelper_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
