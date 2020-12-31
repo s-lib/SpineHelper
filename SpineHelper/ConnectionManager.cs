@@ -49,7 +49,7 @@ namespace SpineHelper
 
         public event Action<DeviceState> DeviceStateChanged;
         public event Action<string> DataRecieved;
-        public event Action<string[]> AvailablePortsChanged;
+        public event Action<string[], int> AvailablePortsChanged;
         public event Action ConnectionRequest;
 
         private SerialPort port;
@@ -169,11 +169,16 @@ namespace SpineHelper
             if (availablePortNames.SetEquals(newPorts))
                 return;
 
+            var changedPorts = newPorts.Except(availablePortNames);
+            string newPortName = string.Empty;
+            if (changedPorts.Count() > 0 && newPorts.Contains(changedPorts.First()))
+                newPortName = changedPorts.First();
+
             availablePortNames = newPorts;
 
             // Do this only when ports change to prevent UI blocking
             availablePorts = GetFullCOMData(availablePortNames);
-            AvailablePortsChanged?.Invoke(AvailablePortNames);
+            AvailablePortsChanged?.Invoke(AvailablePortNames, GetNewPortIndexByPortName(availablePortNames, newPortName));
         }
 
         public string[] AvailablePortNames
@@ -189,6 +194,21 @@ namespace SpineHelper
                 return names;
             }
         }
+
+        private int GetNewPortIndexByPortName(IEnumerable<string> portNames, string name)
+        {
+            if (string.IsNullOrWhiteSpace(name)) return -1;
+
+            int index = 0;
+            foreach (var p in portNames)
+            {
+                if (p.Equals(name))
+                    return index;
+                index++;
+            }
+            return -1;
+        }
+
 
 
         private void OnDataReceived(object sender, SerialDataReceivedEventArgs e)
@@ -210,7 +230,6 @@ namespace SpineHelper
         {
             CheckAvailablePorts(); //TODO: do not use timer, make it on button click
         }
-
 
 
 
@@ -247,18 +266,6 @@ namespace SpineHelper
                             }
                         }
                     }
-
-                    //if (name.Contains(ChipName) && name.Contains("USB"))
-                    //{
-                    //    foreach (var p in portSet)
-                    //    {
-                    //        if (name.Contains(p.name))
-                    //        {
-                    //            p.fullName = DisplayedUSBName + p.name;
-                    //            break;
-                    //        }
-                    //    }
-                    //}
                 }
 
             }

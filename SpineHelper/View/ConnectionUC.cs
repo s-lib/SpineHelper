@@ -174,12 +174,12 @@ namespace SpineHelper.View
             ConnectionManager.instance.TryConnect(comboBoxComPort.SelectedIndex);
         }
 
-        private void OnAvailablePortsChanged(string[] ports)
+        private void OnAvailablePortsChanged(string[] ports, int newPortIndex)
         {
-            ShowAvaliablePortData(ports, true);
+            ShowAvaliablePortData(ports, true, newPortIndex);
         }
 
-        private void ShowAvaliablePortData(string[] ports, bool rescaned)
+        private void ShowAvaliablePortData(string[] ports, bool rescaned, int newPortIndex = -1)
         {
             availablePorts = ports;
             comboBoxComPort.Items.Clear();
@@ -189,13 +189,22 @@ namespace SpineHelper.View
             {
                 COMtimer = TimerDelay;
                 int selected = -1;
-                for (int i = 0; i < availablePorts.Length; i++)
+                if (newPortIndex >= 0 && newPortIndex < availablePorts.Length
+                    && availablePorts[newPortIndex].Contains(ConnectionManager.DisplayedUSBName))
                 {
-                    if (availablePorts[i].Contains(ConnectionManager.DisplayedUSBName))
+                    selected = newPortIndex;
+                    COMtimer *= 2;
+                }
+                else
+                {
+                    for (int i = 0; i < availablePorts.Length; i++)
                     {
-                        selected = i;
-                        COMtimer *= 2;
-                        break;
+                        if (availablePorts[i].Contains(ConnectionManager.DisplayedUSBName))
+                        {
+                            selected = i;
+                            COMtimer *= 2;
+                            break;
+                        }
                     }
                 }
 

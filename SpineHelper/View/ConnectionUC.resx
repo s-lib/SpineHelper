@@ -559,6 +559,6 @@
     <value>ConnectionUC</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>SpineHelper.View.TimeUpdatedUC, SpineHelper, Version=1.0.7123.26370, Culture=neutral, PublicKeyToken=null</value>
+    <value>SpineHelper.View.TimeUpdatedUC, SpineHelper, Version=1.5.7670.24735, Culture=neutral, PublicKeyToken=null</value>
   </data>
 </root>
