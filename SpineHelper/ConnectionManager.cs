@@ -55,7 +55,7 @@ namespace SpineHelper
         private SerialPort port;
         private System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
         private HashSet<string> availablePortNames = new HashSet<string>();
-        private HashSet<ConnectionPort> availablePorts = new HashSet<ConnectionPort>();
+        private List<ConnectionPort> availablePorts = new List<ConnectionPort>();
         private int awaitingDeviceConfirmation = -1;
 
 
@@ -233,12 +233,12 @@ namespace SpineHelper
 
 
 
-        private HashSet<ConnectionPort> GetFullCOMData(HashSet<string> ports)
+        private List<ConnectionPort> GetFullCOMData(HashSet<string> ports)
         {
             ManagementClass processClass = new ManagementClass("Win32_PnPEntity");
             ManagementObjectCollection Ports = processClass.GetInstances();
 
-            var portSet = new HashSet<ConnectionPort>();
+            var portSet = new List<ConnectionPort>();
             int index = 0;
             foreach (var port in ports)
             {
@@ -255,11 +255,12 @@ namespace SpineHelper
                     {
                         if (name.Contains(ChipNames[i]) && name.Contains("USB"))
                         {
-                            foreach (var p in portSet)
+                            for (int j = portSet.Count - 1; j >= 0; j--)
                             {
+                                var p = portSet[j];
                                 if (name.Contains(p.name))
                                 {
-                                    p.fullName = DisplayedUSBName + ChipDeviceNames[i] 
+                                    p.fullName = DisplayedUSBName + ChipDeviceNames[i]
                                         + GlobalStrings.ConnectionUSBNameAt + p.name;
                                     break;
                                 }
